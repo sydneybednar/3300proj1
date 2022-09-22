@@ -1,0 +1,8 @@
+Ideas: Sydney
+
+1. https://www.kaggle.com/datasets/zynicide/wine-reviews
+    - wine reviews; vineyards, ratings, price, region
+2. https://datahub.io/core/house-prices-us
+    - house prices; by state
+3. https://docs.google.com/spreadsheets/d/1kdEOmMxo-Shy2gGlUpPe_Low3s27ZXIw15hybMmtMDU/edit?hl=en_GB&hl=en_GB#gid=0
+    - meanings of colors around the world
