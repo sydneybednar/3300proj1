@@ -1,0 +1,918 @@
+,CBSACode,CBSATitle,geo_licode_n,geo_text,metro,mainmatch,matchtype,CSA,CSATitle,cbsa_nearest,cbsa_nearest_name,cbsa_nearest_distance
+0,11260,"Anchorage, AK","Anchorage, Alaska Area","Anchorage, Alaska Area",1,1,Main Match,,,,,
+1,21820,"Fairbanks, AK","Anchorage, Alaska Area","Anchorage, Alaska Area",1,0,Driving Distance,,,11260.0,"Anchorage, AK",201.42722
+2,27940,"Juneau, AK","Anchorage, Alaska Area","Anchorage, Alaska Area",0,0,Driving Distance,,,11260.0,"Anchorage, AK",585.2838
+3,13820,"Birmingham-Hoover, AL","Birmingham, Alabama Area","Birmingham, Alabama Area",1,1,Main Match,142.0,"Birmingham-Hoover-Talladega, AL",,,
+4,18980,"Cullman, AL","Birmingham, Alabama Area","Birmingham, Alabama Area",0,0,CSA Match,142.0,"Birmingham-Hoover-Talladega, AL",,,
+5,45180,"Talladega-Sylacauga, AL","Birmingham, Alabama Area","Birmingham, Alabama Area",0,0,CSA Match,142.0,"Birmingham-Hoover-Talladega, AL",,,
+6,19460,"Decatur, AL","Decatur, Alabama Area","Decatur, Alabama Area",1,1,Main Match,290.0,"Huntsville-Decatur-Albertville, AL",,,
+7,20020,"Dothan, AL","Dothan, Alabama Area","Dothan, Alabama Area",1,1,Main Match,222.0,"Dothan-Enterprise-Ozark, AL",,,
+8,21460,"Enterprise, AL","Dothan, Alabama Area","Dothan, Alabama Area",0,0,CSA Match,222.0,"Dothan-Enterprise-Ozark, AL",,,
+9,37120,"Ozark, AL","Dothan, Alabama Area","Dothan, Alabama Area",0,0,CSA Match,222.0,"Dothan-Enterprise-Ozark, AL",,,
+10,45980,"Troy, AL","Dothan, Alabama Area","Dothan, Alabama Area",0,0,Driving Distance,,,20020.0,"Dothan, AL",50.539227
+11,22520,"Florence-Muscle Shoals, AL","Florence, Alabama Area","Florence, Alabama Area",1,1,Main Match,,,,,
+12,18420,"Corinth, MS","Florence, Alabama Area","Florence, Alabama Area",0,0,Driving Distance,,,22520.0,"Florence-Muscle Shoals, AL",60.527145
+13,46180,"Tupelo, MS","Florence, Alabama Area","Florence, Alabama Area",0,0,Driving Distance,,,22520.0,"Florence-Muscle Shoals, AL",84.575455
+14,23460,"Gadsden, AL","Gadsden, Alabama Area","Gadsden, Alabama Area",1,1,Main Match,,,,,
+15,40660,"Rome, GA","Gadsden, Alabama Area","Gadsden, Alabama Area",1,0,Driving Distance,470.0,"Rome-Summerville, GA",23460.0,"Gadsden, AL",58.545593
+16,26620,"Huntsville, AL","Huntsville, Alabama Area","Huntsville, Alabama Area",1,1,Main Match,290.0,"Huntsville-Decatur-Albertville, AL",,,
+17,10700,"Albertville, AL","Huntsville, Alabama Area","Huntsville, Alabama Area",0,0,Largest MSA within CSA,290.0,"Huntsville-Decatur-Albertville, AL",,,
+18,46100,"Tullahoma-Manchester, TN","Huntsville, Alabama Area","Huntsville, Alabama Area",0,0,Driving Distance,,,26620.0,"Huntsville, AL",67.138535
+19,11500,"Anniston-Oxford-Jacksonville, AL","Anniston, Alabama Area","Anniston, Alabama Area",1,1,Main Match,,,,,
+20,33660,"Mobile, AL","Mobile, Alabama Area","Mobile, Alabama Area",1,1,Main Match,380.0,"Mobile-Daphne-Fairhope, AL",,,
+21,19300,"Daphne-Fairhope-Foley, AL","Mobile, Alabama Area","Mobile, Alabama Area",1,0,CSA Match,380.0,"Mobile-Daphne-Fairhope, AL",,,
+22,33860,"Montgomery, AL","Montgomery, Alabama Area","Montgomery, Alabama Area",1,1,Main Match,,,,,
+23,42820,"Selma, AL","Montgomery, Alabama Area","Montgomery, Alabama Area",0,0,Driving Distance,,,33860.0,"Montgomery, AL",60.97329
+24,12220,"Auburn-Opelika, AL","Auburn, Alabama Area","Auburn, Alabama Area",1,1,Main Match,194.0,"Columbus-Auburn-Opelika, GA-AL",,,
+25,46220,"Tuscaloosa, AL","Tuscaloosa, Alabama Area","Tuscaloosa, Alabama Area",1,1,Main Match,,,,,
+26,18060,"Columbus, MS","Tuscaloosa, Alabama Area","Tuscaloosa, Alabama Area",0,0,Driving Distance,,,46220.0,"Tuscaloosa, AL",59.64915
+27,32940,"Meridian, MS","Tuscaloosa, Alabama Area","Tuscaloosa, Alabama Area",0,0,Driving Distance,,,46220.0,"Tuscaloosa, AL",90.29393
+28,44260,"Starkville, MS","Tuscaloosa, Alabama Area","Tuscaloosa, Alabama Area",0,0,Driving Distance,,,46220.0,"Tuscaloosa, AL",88.399376
+29,22220,"Fayetteville-Springdale-Rogers, AR-MO","Fayetteville, Arkansas Area","Fayetteville, Arkansas Area",1,1,Main Match,,,,,
+30,25460,"Harrison, AR","Fayetteville, Arkansas Area","Fayetteville, Arkansas Area",0,0,Driving Distance,,,22220.0,"Fayetteville-Springdale-Rogers, AR-MO",82.26333
+31,34260,"Mountain Home, AR","Fayetteville, Arkansas Area","Fayetteville, Arkansas Area",0,0,Driving Distance,,,22220.0,"Fayetteville-Springdale-Rogers, AR-MO",124.1481
+32,22900,"Fort Smith, AR-OK","Fort Smith, Arkansas Area","Fort Smith, Arkansas Area",1,1,Main Match,,,,,
+33,32540,"McAlester, OK","Fort Smith, Arkansas Area","Fort Smith, Arkansas Area",0,0,Driving Distance,,,22900.0,"Fort Smith, AR-OK",87.390884
+34,27860,"Jonesboro, AR","Jonesboro, Arkansas Area","Jonesboro, Arkansas Area",1,1,Main Match,308.0,"Jonesboro-Paragould, AR",,,
+35,37500,"Paragould, AR","Jonesboro, Arkansas Area","Jonesboro, Arkansas Area",0,0,CSA Match,308.0,"Jonesboro-Paragould, AR",,,
+36,12900,"Batesville, AR","Jonesboro, Arkansas Area","Jonesboro, Arkansas Area",0,0,Driving Distance,,,27860.0,"Jonesboro, AR",69.696724
+37,14180,"Blytheville, AR","Jonesboro, Arkansas Area","Jonesboro, Arkansas Area",0,0,Driving Distance,,,27860.0,"Jonesboro, AR",63.52029
+38,28380,"Kennett, MO","Jonesboro, Arkansas Area","Jonesboro, Arkansas Area",0,0,Driving Distance,,,27860.0,"Jonesboro, AR",68.00473
+39,38740,"Poplar Bluff, MO","Jonesboro, Arkansas Area","Jonesboro, Arkansas Area",0,0,Driving Distance,,,27860.0,"Jonesboro, AR",89.84468
+40,30780,"Little Rock-North Little Rock-Conway, AR","Little Rock, Arkansas Area","Little Rock, Arkansas Area",1,1,Main Match,340.0,"Little Rock-North Little Rock, AR",,,
+41,42620,"Searcy, AR","Little Rock, Arkansas Area","Little Rock, Arkansas Area",0,0,Largest MSA within CSA,340.0,"Little Rock-North Little Rock, AR",,,
+42,26300,"Hot Springs, AR","Little Rock, Arkansas Area","Little Rock, Arkansas Area",1,0,Driving Distance,284.0,"Hot Springs-Malvern, AR",30780.0,"Little Rock-North Little Rock-Conway, AR",59.89832
+43,11660,"Arkadelphia, AR","Little Rock, Arkansas Area","Little Rock, Arkansas Area",0,0,Driving Distance,,,30780.0,"Little Rock-North Little Rock-Conway, AR",72.269196
+44,31680,"Malvern, AR","Little Rock, Arkansas Area","Little Rock, Arkansas Area",0,0,Driving Distance,284.0,"Hot Springs-Malvern, AR",30780.0,"Little Rock-North Little Rock-Conway, AR",47.816376
+45,40780,"Russellville, AR","Little Rock, Arkansas Area","Little Rock, Arkansas Area",0,0,Driving Distance,,,30780.0,"Little Rock-North Little Rock-Conway, AR",79.64239
+46,38220,"Pine Bluff, AR","Pine Bluff, Arkansas Area","Pine Bluff, Arkansas Area",1,1,Main Match,340.0,"Little Rock-North Little Rock, AR",,,
+47,15780,"Camden, AR","Pine Bluff, Arkansas Area","Pine Bluff, Arkansas Area",0,0,Driving Distance,,,38220.0,"Pine Bluff, AR",71.763405
+48,22380,"Flagstaff, AZ","Flagstaff, Arizona Area","Flagstaff, Arizona Area",1,1,Main Match,,,,,
+49,43320,"Show Low, AZ","Flagstaff, Arizona Area","Flagstaff, Arizona Area",0,0,Driving Distance,,,22380.0,"Flagstaff, AZ",154.76741
+50,38060,"Phoenix-Mesa-Scottsdale, AZ","Phoenix, Arizona Area","Phoenix, Arizona Area",1,1,Main Match,,,,,
+51,39140,"Prescott, AZ","Phoenix, Arizona Area","Phoenix, Arizona Area",1,0,Driving Distance,,,38060.0,"Phoenix-Mesa-Scottsdale, AZ",132.62608
+52,37740,"Payson, AZ","Phoenix, Arizona Area","Phoenix, Arizona Area",0,0,Driving Distance,,,38060.0,"Phoenix-Mesa-Scottsdale, AZ",129.80382
+53,40940,"Safford, AZ","Phoenix, Arizona Area","Phoenix, Arizona Area",0,0,Driving Distance,,,38060.0,"Phoenix-Mesa-Scottsdale, AZ",157.92708
+54,46060,"Tucson, AZ","Tucson, Arizona Area","Tucson, Arizona Area",1,1,Main Match,536.0,"Tucson-Nogales, AZ",,,
+55,35700,"Nogales, AZ","Tucson, Arizona Area","Tucson, Arizona Area",0,0,CSA Match,536.0,"Tucson-Nogales, AZ",,,
+56,43420,"Sierra Vista-Douglas, AZ","Tucson, Arizona Area","Tucson, Arizona Area",1,0,Driving Distance,,,46060.0,"Tucson, AZ",149.32047
+57,49740,"Yuma, AZ","Yuma, Arizona Area","Yuma, Arizona Area",1,1,Main Match,,,,,
+58,17020,"Chico, CA","Chico, California Area","Chico, California Area",1,1,Main Match,,,,,
+59,23420,"Fresno, CA","Fresno, California Area","Fresno, California Area",1,1,Main Match,260.0,"Fresno-Madera, CA",,,
+60,31460,"Madera, CA","Fresno, California Area","Fresno, California Area",1,0,CSA Match,260.0,"Fresno-Madera, CA",,,
+61,32900,"Merced, CA","Merced, California Area","Merced, California Area",1,1,Main Match,382.0,"Modesto-Merced, CA",,,
+62,33700,"Modesto, CA","Modesto, California Area","Modesto, California Area",1,1,Main Match,382.0,"Modesto-Merced, CA",,,
+63,43760,"Sonora, CA","Modesto, California Area","Modesto, California Area",0,0,Driving Distance,,,33700.0,"Modesto, CA",94.46333
+64,39820,"Redding, CA","Redding, California Area","Redding, California Area",1,1,Main Match,454.0,"Redding-Red Bluff, CA",,,
+65,39780,"Red Bluff, CA","Redding, California Area","Redding, California Area",0,0,CSA Match,454.0,"Redding-Red Bluff, CA",,,
+66,21700,"Eureka-Arcata-Fortuna, CA","Redding, California Area","Redding, California Area",0,0,Driving Distance,,,39820.0,"Redding, CA",185.40971
+67,12540,"Bakersfield, CA","Bakersfield, California Area","Bakersfield, California Area",1,1,Main Match,,,,,
+68,41500,"Salinas, CA","Salinas, California Area","Salinas, California Area",1,1,Main Match,,,,,
+69,41740,"San Diego-Carlsbad, CA",Greater San Diego Area,Greater San Diego Area,1,1,Main Match,,,,,
+70,20940,"El Centro, CA",Greater San Diego Area,Greater San Diego Area,1,0,Driving Distance,,,41740.0,"San Diego-Carlsbad, CA",102.81829
+71,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA","San Luis Obispo, California Area","San Luis Obispo, California Area",1,1,Main Match,,,,,
+72,42200,"Santa Maria-Santa Barbara, CA","Santa Barbara, California Area","Santa Barbara, California Area",1,1,Main Match,,,,,
+73,44700,"Stockton-Lodi, CA","Stockton, California Area","Stockton, California Area",1,1,Main Match,488.0,"San Jose-San Francisco-Oakland, CA",,,
+74,40900,"Sacramento--Roseville--Arden-Arcade, CA","Sacramento, California Area","Sacramento, California Area",1,1,Main Match,472.0,"Sacramento-Roseville, CA",,,
+75,46020,"Truckee-Grass Valley, CA","Sacramento, California Area","Sacramento, California Area",0,0,Largest MSA within CSA,472.0,"Sacramento-Roseville, CA",,,
+76,41860,"San Francisco-Oakland-Hayward, CA",San Francisco Bay Area,San Francisco Bay Area,1,1,Main Match,488.0,"San Jose-San Francisco-Oakland, CA",,,
+77,34900,"Napa, CA",San Francisco Bay Area,San Francisco Bay Area,1,0,Largest MSA within CSA,488.0,"San Jose-San Francisco-Oakland, CA",,,
+78,41940,"San Jose-Sunnyvale-Santa Clara, CA",San Francisco Bay Area,San Francisco Bay Area,1,0,Largest MSA within CSA,488.0,"San Jose-San Francisco-Oakland, CA",,,
+79,42100,"Santa Cruz-Watsonville, CA",San Francisco Bay Area,San Francisco Bay Area,1,0,Largest MSA within CSA,488.0,"San Jose-San Francisco-Oakland, CA",,,
+80,42220,"Santa Rosa, CA",San Francisco Bay Area,San Francisco Bay Area,1,0,Largest MSA within CSA,488.0,"San Jose-San Francisco-Oakland, CA",,,
+81,46700,"Vallejo-Fairfield, CA",San Francisco Bay Area,San Francisco Bay Area,1,0,Largest MSA within CSA,488.0,"San Jose-San Francisco-Oakland, CA",,,
+82,47300,"Visalia-Porterville, CA","Visalia, California Area","Visalia, California Area",1,1,Main Match,546.0,"Visalia-Porterville-Hanford, CA",,,
+83,25260,"Hanford-Corcoran, CA","Visalia, California Area","Visalia, California Area",1,0,CSA Match,546.0,"Visalia-Porterville-Hanford, CA",,,
+84,49700,"Yuba City, CA","Yuba City, California Area","Yuba City, California Area",1,1,Main Match,472.0,"Sacramento-Roseville, CA",,,
+85,17340,"Clearlake, CA","Yuba City, California Area","Yuba City, California Area",0,0,Driving Distance,,,49700.0,"Yuba City, CA",94.250824
+86,46380,"Ukiah, CA","Yuba City, California Area","Yuba City, California Area",0,0,Driving Distance,,,49700.0,"Yuba City, CA",142.42883
+87,31080,"Los Angeles-Long Beach-Anaheim, CA","Los Angeles/Orange County Combined, California Area","Los Angeles/Orange County Combined, California Area",1,1,Main Match,348.0,"Los Angeles-Long Beach, CA",,,
+88,37100,"Oxnard-Thousand Oaks-Ventura, CA","Los Angeles/Orange County Combined, California Area","Los Angeles/Orange County Combined, California Area",1,0,CSA Match,348.0,"Los Angeles-Long Beach, CA",,,
+89,40140,"Riverside-San Bernardino-Ontario, CA","Los Angeles/Orange County Combined, California Area","Los Angeles/Orange County Combined, California Area",1,0,CSA Match,348.0,"Los Angeles-Long Beach, CA",,,
+90,17820,"Colorado Springs, CO","Colorado Springs, Colorado Area","Colorado Springs, Colorado Area",1,1,Main Match,,,,,
+91,22660,"Fort Collins, CO","Fort Collins, Colorado Area","Fort Collins, Colorado Area",1,1,Main Match,,,,,
+92,44460,"Steamboat Springs, CO","Fort Collins, Colorado Area","Fort Collins, Colorado Area",0,0,Driving Distance,525.0,"Steamboat Springs-Craig, CO",22660.0,"Fort Collins, CO",133.42517
+93,24300,"Grand Junction, CO","Grand Junction, Colorado Area","Grand Junction, Colorado Area",1,1,Main Match,,,,,
+94,18780,"Craig, CO","Grand Junction, Colorado Area","Grand Junction, Colorado Area",0,0,Driving Distance,525.0,"Steamboat Springs-Craig, CO",24300.0,"Grand Junction, CO",181.54726
+95,20420,"Durango, CO","Grand Junction, Colorado Area","Grand Junction, Colorado Area",0,0,Driving Distance,,,24300.0,"Grand Junction, CO",164.11345
+96,24060,"Glenwood Springs, CO","Grand Junction, Colorado Area","Grand Junction, Colorado Area",0,0,Driving Distance,233.0,"Edwards-Glenwood Springs, CO",24300.0,"Grand Junction, CO",71.49932
+97,33940,"Montrose, CO","Grand Junction, Colorado Area","Grand Junction, Colorado Area",0,0,Driving Distance,,,24300.0,"Grand Junction, CO",73.45602
+98,46860,"Vernal, UT","Grand Junction, Colorado Area","Grand Junction, Colorado Area",0,0,Driving Distance,,,24300.0,"Grand Junction, CO",170.51979
+99,19740,"Denver-Aurora-Lakewood, CO",Greater Denver Area,Greater Denver Area,1,1,Main Match,216.0,"Denver-Aurora, CO",,,
+100,14500,"Boulder, CO",Greater Denver Area,Greater Denver Area,1,0,CSA Match,216.0,"Denver-Aurora, CO",,,
+101,24540,"Greeley, CO",Greater Denver Area,Greater Denver Area,1,0,CSA Match,216.0,"Denver-Aurora, CO",,,
+102,14720,"Breckenridge, CO",Greater Denver Area,Greater Denver Area,0,0,Driving Distance,,,19740.0,"Denver-Aurora-Lakewood, CO",86.88385
+103,20780,"Edwards, CO",Greater Denver Area,Greater Denver Area,0,0,Driving Distance,233.0,"Edwards-Glenwood Springs, CO",19740.0,"Denver-Aurora-Lakewood, CO",138.07054
+104,22820,"Fort Morgan, CO",Greater Denver Area,Greater Denver Area,0,0,Driving Distance,,,19740.0,"Denver-Aurora-Lakewood, CO",107.179695
+105,39380,"Pueblo, CO","Pueblo, Colorado Area","Pueblo, Colorado Area",1,1,Main Match,444.0,"Pueblo-Cañon City, CO",,,
+106,15860,"Cañon City, CO","Pueblo, Colorado Area","Pueblo, Colorado Area",0,0,CSA Match,444.0,"Pueblo-Cañon City, CO",,,
+107,23780,"Garden City, KS","Pueblo, Colorado Area","Pueblo, Colorado Area",0,0,Driving Distance,,,39380.0,"Pueblo, CO",210.39194
+108,25540,"Hartford-West Hartford-East Hartford, CT","Hartford, Connecticut Area","Hartford, Connecticut Area",1,1,Main Match,278.0,"Hartford-West Hartford, CT",,,
+109,35980,"Norwich-New London, CT","New London/Norwich, Connecticut Area","New London/Norwich, Connecticut Area",1,1,Main Match,278.0,"Hartford-West Hartford, CT",,,
+110,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",Washington D.C. Metro Area,Washington D.C. Metro Area,1,1,Main Match,548.0,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",,,
+111,15680,"California-Lexington Park, MD",Washington D.C. Metro Area,Washington D.C. Metro Area,1,0,Largest MSA within CSA,548.0,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",,,
+112,16540,"Chambersburg-Waynesboro, PA",Washington D.C. Metro Area,Washington D.C. Metro Area,1,0,Largest MSA within CSA,548.0,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",,,
+113,25180,"Hagerstown-Martinsburg, MD-WV",Washington D.C. Metro Area,Washington D.C. Metro Area,1,0,Largest MSA within CSA,548.0,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",,,
+114,49020,"Winchester, VA-WV",Washington D.C. Metro Area,Washington D.C. Metro Area,1,0,Largest MSA within CSA,548.0,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",,,
+115,15700,"Cambridge, MD",Washington D.C. Metro Area,Washington D.C. Metro Area,0,0,Largest MSA within CSA,548.0,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",,,
+116,20660,"Easton, MD",Washington D.C. Metro Area,Washington D.C. Metro Area,0,0,Largest MSA within CSA,548.0,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",,,
+117,20100,"Dover, DE","Dover, Delaware Area","Dover, Delaware Area",1,1,Main Match,428.0,"Philadelphia-Reading-Camden, PA-NJ-DE-MD",,,
+118,41540,"Salisbury, MD-DE","Dover, Delaware Area","Dover, Delaware Area",1,0,Driving Distance,,,20100.0,"Dover, DE",57.427746
+119,19660,"Deltona-Daytona Beach-Ormond Beach, FL","Daytona Beach, Florida Area","Daytona Beach, Florida Area",1,1,Main Match,422.0,"Orlando-Deltona-Daytona Beach, FL",,,
+120,15980,"Cape Coral-Fort Myers, FL","Fort Myers, Florida Area","Fort Myers, Florida Area",1,1,Main Match,162.0,"Cape Coral-Fort Myers-Naples, FL",,,
+121,38940,"Port St. Lucie, FL","Fort Pierce, Florida Area","Fort Pierce, Florida Area",1,1,Main Match,370.0,"Miami-Fort Lauderdale-Port St. Lucie, FL",,,
+122,18880,"Crestview-Fort Walton Beach-Destin, FL","Destin/Fort Walton Beach, Florida Area","Destin/Fort Walton Beach, Florida Area",1,1,Main Match,,,,,
+123,23540,"Gainesville, FL","Gainesville, Florida Area","Gainesville, Florida Area",1,1,Main Match,264.0,"Gainesville-Lake City, FL",,,
+124,29380,"Lake City, FL","Gainesville, Florida Area","Gainesville, Florida Area",0,0,CSA Match,264.0,"Gainesville-Lake City, FL",,,
+125,27260,"Jacksonville, FL","Jacksonville, Florida Area","Jacksonville, Florida Area",1,1,Main Match,300.0,"Jacksonville-St. Marys-Palatka, FL-GA",,,
+126,37260,"Palatka, FL","Jacksonville, Florida Area","Jacksonville, Florida Area",0,0,CSA Match,300.0,"Jacksonville-St. Marys-Palatka, FL-GA",,,
+127,41220,"St. Marys, GA","Jacksonville, Florida Area","Jacksonville, Florida Area",0,0,CSA Match,300.0,"Jacksonville-St. Marys-Palatka, FL-GA",,,
+128,48180,"Waycross, GA","Jacksonville, Florida Area","Jacksonville, Florida Area",0,0,Driving Distance,,,27260.0,"Jacksonville, FL",80.7969
+129,29460,"Lakeland-Winter Haven, FL","Lakeland, Florida Area","Lakeland, Florida Area",1,1,Main Match,,,,,
+130,42700,"Sebring, FL","Lakeland, Florida Area","Lakeland, Florida Area",1,0,Driving Distance,,,29460.0,"Lakeland-Winter Haven, FL",58.308853
+131,48100,"Wauchula, FL","Lakeland, Florida Area","Lakeland, Florida Area",0,0,Driving Distance,,,29460.0,"Lakeland-Winter Haven, FL",43.945236
+132,37340,"Palm Bay-Melbourne-Titusville, FL","Melbourne, Florida Area","Melbourne, Florida Area",1,1,Main Match,,,,,
+133,34940,"Naples-Immokalee-Marco Island, FL","Naples, Florida Area","Naples, Florida Area",1,1,Main Match,162.0,"Cape Coral-Fort Myers-Naples, FL",,,
+134,17500,"Clewiston, FL","Naples, Florida Area","Naples, Florida Area",0,0,Driving Distance,,,34940.0,"Naples-Immokalee-Marco Island, FL",46.645714
+135,28580,"Key West, FL","Naples, Florida Area","Naples, Florida Area",0,0,Driving Distance,,,34940.0,"Naples-Immokalee-Marco Island, FL",73.46618
+136,36100,"Ocala, FL","Ocala, Florida Area","Ocala, Florida Area",1,1,Main Match,,,,,
+137,26140,"Homosassa Springs, FL","Ocala, Florida Area","Ocala, Florida Area",1,0,Driving Distance,,,36100.0,"Ocala, FL",45.631016
+138,36740,"Orlando-Kissimmee-Sanford, FL","Orlando, Florida Area","Orlando, Florida Area",1,1,Main Match,422.0,"Orlando-Deltona-Daytona Beach, FL",,,
+139,45540,"The Villages, FL","Orlando, Florida Area","Orlando, Florida Area",1,0,Largest MSA within CSA,422.0,"Orlando-Deltona-Daytona Beach, FL",,,
+140,37460,"Panama City, FL","Panama City, Florida Area","Panama City, Florida Area",1,1,Main Match,,,,,
+141,37860,"Pensacola-Ferry Pass-Brent, FL","Pensacola, Florida Area","Pensacola, Florida Area",1,1,Main Match,,,,,
+142,39460,"Punta Gorda, FL","Punta Gorda, Florida Area","Punta Gorda, Florida Area",1,1,Main Match,412.0,"North Port-Sarasota, FL",,,
+143,35840,"North Port-Sarasota-Bradenton, FL","Sarasota, Florida Area","Sarasota, Florida Area",1,1,Main Match,412.0,"North Port-Sarasota, FL",,,
+144,11580,"Arcadia, FL","Sarasota, Florida Area","Sarasota, Florida Area",0,0,Largest MSA within CSA,412.0,"North Port-Sarasota, FL",,,
+145,45220,"Tallahassee, FL","Tallahassee, Florida Area","Tallahassee, Florida Area",1,1,Main Match,533.0,"Tallahassee-Bainbridge, FL-GA",,,
+146,12460,"Bainbridge, GA","Tallahassee, Florida Area","Tallahassee, Florida Area",0,0,CSA Match,533.0,"Tallahassee-Bainbridge, FL-GA",,,
+147,46660,"Valdosta, GA","Tallahassee, Florida Area","Tallahassee, Florida Area",1,0,Driving Distance,,,45220.0,"Tallahassee, FL",79.59703
+148,45620,"Thomasville, GA","Tallahassee, Florida Area","Tallahassee, Florida Area",0,0,Driving Distance,,,45220.0,"Tallahassee, FL",43.012558
+149,45300,"Tampa-St. Petersburg-Clearwater, FL","Tampa/St. Petersburg, Florida Area","Tampa/St. Petersburg, Florida Area",1,1,Main Match,,,,,
+150,33100,"Miami-Fort Lauderdale-West Palm Beach, FL","Miami/Fort Lauderdale/West Palm Beach Combined, Florida Area","Miami/Fort Lauderdale/West Palm Beach Combined, Florida Area",1,1,Main Match,370.0,"Miami-Fort Lauderdale-Port St. Lucie, FL",,,
+151,42680,"Sebastian-Vero Beach, FL","Miami/Fort Lauderdale/West Palm Beach Combined, Florida Area","Miami/Fort Lauderdale/West Palm Beach Combined, Florida Area",1,0,Largest MSA within CSA,370.0,"Miami-Fort Lauderdale-Port St. Lucie, FL",,,
+152,36380,"Okeechobee, FL","Miami/Fort Lauderdale/West Palm Beach Combined, Florida Area","Miami/Fort Lauderdale/West Palm Beach Combined, Florida Area",0,0,Largest MSA within CSA,370.0,"Miami-Fort Lauderdale-Port St. Lucie, FL",,,
+153,10500,"Albany, GA","Albany, Georgia Area","Albany, Georgia Area",1,1,Main Match,,,,,
+154,11140,"Americus, GA","Albany, Georgia Area","Albany, Georgia Area",0,0,Driving Distance,,,10500.0,"Albany, GA",38.417515
+155,18380,"Cordele, GA","Albany, Georgia Area","Albany, Georgia Area",0,0,Driving Distance,,,10500.0,"Albany, GA",39.12526
+156,20060,"Douglas, GA","Albany, Georgia Area","Albany, Georgia Area",0,0,Driving Distance,,,10500.0,"Albany, GA",92.27797
+157,22340,"Fitzgerald, GA","Albany, Georgia Area","Albany, Georgia Area",0,0,Driving Distance,,,10500.0,"Albany, GA",67.11927
+158,34220,"Moultrie, GA","Albany, Georgia Area","Albany, Georgia Area",0,0,Driving Distance,,,10500.0,"Albany, GA",41.374
+159,45700,"Tifton, GA","Albany, Georgia Area","Albany, Georgia Area",0,0,Driving Distance,,,10500.0,"Albany, GA",42.881447
+160,17980,"Columbus, GA-AL","Columbus, Georgia Area","Columbus, Georgia Area",1,1,Main Match,194.0,"Columbus-Auburn-Opelika, GA-AL",,,
+161,46740,"Valley, AL","Columbus, Georgia Area","Columbus, Georgia Area",0,0,Largest MSA within CSA,194.0,"Columbus-Auburn-Opelika, GA-AL",,,
+162,31420,"Macon, GA","Macon, Georgia Area","Macon, Georgia Area",1,1,Main Match,356.0,"Macon-Warner Robins, GA",,,
+163,47580,"Warner Robins, GA","Macon, Georgia Area","Macon, Georgia Area",1,0,CSA Match,356.0,"Macon-Warner Robins, GA",,,
+164,20140,"Dublin, GA","Macon, Georgia Area","Macon, Georgia Area",0,0,Driving Distance,,,31420.0,"Macon, GA",67.92892
+165,33300,"Milledgeville, GA","Macon, Georgia Area","Macon, Georgia Area",0,0,Driving Distance,,,31420.0,"Macon, GA",50.455963
+166,12020,"Athens-Clarke County, GA","Athens, Georgia Area","Athens, Georgia Area",1,1,Main Match,122.0,"Atlanta--Athens-Clarke County--Sandy Springs, GA",,,
+167,18460,"Cornelia, GA","Athens, Georgia Area","Athens, Georgia Area",0,0,Driving Distance,,,12020.0,"Athens-Clarke County, GA",61.201954
+168,45740,"Toccoa, GA","Athens, Georgia Area","Athens, Georgia Area",0,0,Driving Distance,,,12020.0,"Athens-Clarke County, GA",54.558254
+169,12060,"Atlanta-Sandy Springs-Roswell, GA",Greater Atlanta Area,Greater Atlanta Area,1,1,Main Match,122.0,"Atlanta--Athens-Clarke County--Sandy Springs, GA",,,
+170,23580,"Gainesville, GA",Greater Atlanta Area,Greater Atlanta Area,1,0,Largest MSA within CSA,122.0,"Atlanta--Athens-Clarke County--Sandy Springs, GA",,,
+171,15660,"Calhoun, GA",Greater Atlanta Area,Greater Atlanta Area,0,0,Largest MSA within CSA,122.0,"Atlanta--Athens-Clarke County--Sandy Springs, GA",,,
+172,16340,"Cedartown, GA",Greater Atlanta Area,Greater Atlanta Area,0,0,Largest MSA within CSA,122.0,"Atlanta--Athens-Clarke County--Sandy Springs, GA",,,
+173,27600,"Jefferson, GA",Greater Atlanta Area,Greater Atlanta Area,0,0,Largest MSA within CSA,122.0,"Atlanta--Athens-Clarke County--Sandy Springs, GA",,,
+174,29300,"LaGrange, GA",Greater Atlanta Area,Greater Atlanta Area,0,0,Largest MSA within CSA,122.0,"Atlanta--Athens-Clarke County--Sandy Springs, GA",,,
+175,45580,"Thomaston, GA",Greater Atlanta Area,Greater Atlanta Area,0,0,Largest MSA within CSA,122.0,"Atlanta--Athens-Clarke County--Sandy Springs, GA",,,
+176,12260,"Augusta-Richmond County, GA-SC","Augusta, Georgia Area","Augusta, Georgia Area",1,1,Main Match,,,,,
+177,42340,"Savannah, GA","Savannah, Georgia Area","Savannah, Georgia Area",1,1,Main Match,496.0,"Savannah-Hinesville-Statesboro, GA",,,
+178,25980,"Hinesville, GA","Savannah, Georgia Area","Savannah, Georgia Area",1,0,CSA Match,496.0,"Savannah-Hinesville-Statesboro, GA",,,
+179,44340,"Statesboro, GA","Savannah, Georgia Area","Savannah, Georgia Area",0,0,CSA Match,496.0,"Savannah-Hinesville-Statesboro, GA",,,
+180,15260,"Brunswick, GA","Savannah, Georgia Area","Savannah, Georgia Area",1,0,Driving Distance,,,42340.0,"Savannah, GA",71.89451
+181,25940,"Hilton Head Island-Bluffton-Beaufort, SC","Savannah, Georgia Area","Savannah, Georgia Area",1,0,Driving Distance,,,42340.0,"Savannah, GA",36.23526
+182,27700,"Jesup, GA","Savannah, Georgia Area","Savannah, Georgia Area",0,0,Driving Distance,,,42340.0,"Savannah, GA",73.007385
+183,47080,"Vidalia, GA","Savannah, Georgia Area","Savannah, Georgia Area",0,0,Driving Distance,,,42340.0,"Savannah, GA",83.66017
+184,46520,"Urban Honolulu, HI",Hawaiian Islands,Hawaiian Islands,1,1,Main Match,,,,,
+185,27980,"Kahului-Wailuku-Lahaina, HI",Hawaiian Islands,Hawaiian Islands,1,0,Driving Distance,,,46520.0,"Urban Honolulu, HI",554.92676
+186,25900,"Hilo, HI",Hawaiian Islands,Hawaiian Islands,0,0,Driving Distance,,,46520.0,"Urban Honolulu, HI",656.54364
+187,28180,"Kapaa, HI",Hawaiian Islands,Hawaiian Islands,0,0,Driving Distance,,,46520.0,"Urban Honolulu, HI",341.64288
+188,16300,"Cedar Rapids, IA","Cedar Rapids, Iowa Area","Cedar Rapids, Iowa Area",1,1,Main Match,168.0,"Cedar Rapids-Iowa City, IA",,,
+189,19340,"Davenport-Moline-Rock Island, IA-IL","Davenport, Iowa Area","Davenport, Iowa Area",1,1,Main Match,209.0,"Davenport-Moline, IA-IL",,,
+190,17540,"Clinton, IA","Davenport, Iowa Area","Davenport, Iowa Area",0,0,CSA Match,209.0,"Davenport-Moline, IA-IL",,,
+191,34700,"Muscatine, IA","Davenport, Iowa Area","Davenport, Iowa Area",0,0,CSA Match,209.0,"Davenport-Moline, IA-IL",,,
+192,15460,"Burlington, IA-IL","Davenport, Iowa Area","Davenport, Iowa Area",0,0,Driving Distance,,,19340.0,"Davenport-Moline-Rock Island, IA-IL",77.850975
+193,23660,"Galesburg, IL","Davenport, Iowa Area","Davenport, Iowa Area",0,0,Driving Distance,,,19340.0,"Davenport-Moline-Rock Island, IA-IL",48.30167
+194,31380,"Macomb, IL","Davenport, Iowa Area","Davenport, Iowa Area",0,0,Driving Distance,,,19340.0,"Davenport-Moline-Rock Island, IA-IL",74.41666
+195,44580,"Sterling, IL","Davenport, Iowa Area","Davenport, Iowa Area",0,0,Driving Distance,221.0,"Dixon-Sterling, IL",19340.0,"Davenport-Moline-Rock Island, IA-IL",48.617947
+196,19780,"Des Moines-West Des Moines, IA","Des Moines, Iowa Area","Des Moines, Iowa Area",1,1,Main Match,218.0,"Des Moines-Ames-West Des Moines, IA",,,
+197,11180,"Ames, IA","Des Moines, Iowa Area","Des Moines, Iowa Area",1,0,CSA Match,218.0,"Des Moines-Ames-West Des Moines, IA",,,
+198,14340,"Boone, IA","Des Moines, Iowa Area","Des Moines, Iowa Area",0,0,CSA Match,218.0,"Des Moines-Ames-West Des Moines, IA",,,
+199,35500,"Newton, IA","Des Moines, Iowa Area","Des Moines, Iowa Area",0,0,CSA Match,218.0,"Des Moines-Ames-West Des Moines, IA",,,
+200,22700,"Fort Dodge, IA","Des Moines, Iowa Area","Des Moines, Iowa Area",0,0,Driving Distance,,,19780.0,"Des Moines-West Des Moines, IA",74.94917
+201,20220,"Dubuque, IA","Dubuque, Iowa Area","Dubuque, Iowa Area",1,1,Main Match,,,,,
+202,38420,"Platteville, WI","Dubuque, Iowa Area","Dubuque, Iowa Area",0,0,Driving Distance,,,20220.0,"Dubuque, IA",47.108635
+203,26980,"Iowa City, IA","Iowa City, Iowa Area","Iowa City, Iowa Area",1,1,Main Match,168.0,"Cedar Rapids-Iowa City, IA",,,
+204,21840,"Fairfield, IA","Iowa City, Iowa Area","Iowa City, Iowa Area",0,0,Driving Distance,,,26980.0,"Iowa City, IA",43.87875
+205,22800,"Fort Madison-Keokuk, IA-IL-MO","Iowa City, Iowa Area","Iowa City, Iowa Area",0,0,Driving Distance,,,26980.0,"Iowa City, IA",84.89795
+206,36820,"Oskaloosa, IA","Iowa City, Iowa Area","Iowa City, Iowa Area",0,0,Driving Distance,,,26980.0,"Iowa City, IA",63.780647
+207,36900,"Ottumwa, IA","Iowa City, Iowa Area","Iowa City, Iowa Area",0,0,Driving Distance,,,26980.0,"Iowa City, IA",80.4247
+208,43580,"Sioux City, IA-NE-SD","Sioux City, Iowa Area","Sioux City, Iowa Area",1,1,Main Match,512.0,"Sioux City-Vermillion, IA-SD-NE",,,
+209,46820,"Vermillion, SD","Sioux City, Iowa Area","Sioux City, Iowa Area",0,0,CSA Match,512.0,"Sioux City-Vermillion, IA-SD-NE",,,
+210,35740,"Norfolk, NE","Sioux City, Iowa Area","Sioux City, Iowa Area",0,0,Driving Distance,,,43580.0,"Sioux City, IA-NE-SD",101.883125
+211,43980,"Spencer, IA","Sioux City, Iowa Area","Sioux City, Iowa Area",0,0,Driving Distance,,,43580.0,"Sioux City, IA-NE-SD",88.80078
+212,44020,"Spirit Lake, IA","Sioux City, Iowa Area","Sioux City, Iowa Area",0,0,Driving Distance,,,43580.0,"Sioux City, IA-NE-SD",105.54797
+213,44740,"Storm Lake, IA","Sioux City, Iowa Area","Sioux City, Iowa Area",0,0,Driving Distance,,,43580.0,"Sioux City, IA-NE-SD",73.49019
+214,47940,"Waterloo-Cedar Falls, IA","Waterloo, Iowa Area","Waterloo, Iowa Area",1,1,Main Match,,,,,
+215,32260,"Marshalltown, IA","Waterloo, Iowa Area","Waterloo, Iowa Area",0,0,Driving Distance,,,47940.0,"Waterloo-Cedar Falls, IA",62.769676
+216,32380,"Mason City, IA","Waterloo, Iowa Area","Waterloo, Iowa Area",0,0,Driving Distance,,,47940.0,"Waterloo-Cedar Falls, IA",86.45696
+217,14260,"Boise City, ID","Boise, Idaho Area","Boise, Idaho Area",1,1,Main Match,147.0,"Boise City-Mountain Home-Ontario, ID-OR",,,
+218,34300,"Mountain Home, ID","Boise, Idaho Area","Boise, Idaho Area",0,0,CSA Match,147.0,"Boise City-Mountain Home-Ontario, ID-OR",,,
+219,36620,"Ontario, OR-ID","Boise, Idaho Area","Boise, Idaho Area",0,0,CSA Match,147.0,"Boise City-Mountain Home-Ontario, ID-OR",,,
+220,25200,"Hailey, ID","Boise, Idaho Area","Boise, Idaho Area",0,0,Driving Distance,,,14260.0,"Boise City, ID",114.09929
+221,46300,"Twin Falls, ID","Boise, Idaho Area","Boise, Idaho Area",0,0,Driving Distance,,,14260.0,"Boise City, ID",125.96499
+222,49080,"Winnemucca, NV","Boise, Idaho Area","Boise, Idaho Area",0,0,Driving Distance,,,14260.0,"Boise City, ID",272.54895
+223,38540,"Pocatello, ID","Pocatello, Idaho Area","Pocatello, Idaho Area",1,1,Main Match,,,,,
+224,26820,"Idaho Falls, ID","Pocatello, Idaho Area","Pocatello, Idaho Area",1,0,Driving Distance,292.0,"Idaho Falls-Rexburg-Blackfoot, ID",38540.0,"Pocatello, ID",103.501175
+225,30860,"Logan, UT-ID","Pocatello, Idaho Area","Pocatello, Idaho Area",1,0,Driving Distance,,,38540.0,"Pocatello, ID",63.576214
+226,13940,"Blackfoot, ID","Pocatello, Idaho Area","Pocatello, Idaho Area",0,0,Driving Distance,292.0,"Idaho Falls-Rexburg-Blackfoot, ID",38540.0,"Pocatello, ID",48.517284
+227,15420,"Burley, ID","Pocatello, Idaho Area","Pocatello, Idaho Area",0,0,Driving Distance,,,38540.0,"Pocatello, ID",106.514206
+228,27220,"Jackson, WY-ID","Pocatello, Idaho Area","Pocatello, Idaho Area",0,0,Driving Distance,,,38540.0,"Pocatello, ID",184.72122
+229,39940,"Rexburg, ID","Pocatello, Idaho Area","Pocatello, Idaho Area",0,0,Driving Distance,292.0,"Idaho Falls-Rexburg-Blackfoot, ID",38540.0,"Pocatello, ID",134.30255
+230,14010,"Bloomington, IL","Bloomington/Normal, Illinois Area","Bloomington/Normal, Illinois Area",1,1,Main Match,145.0,"Bloomington-Pontiac, IL",,,
+231,38700,"Pontiac, IL","Bloomington/Normal, Illinois Area","Bloomington/Normal, Illinois Area",0,0,CSA Match,145.0,"Bloomington-Pontiac, IL",,,
+232,16980,"Chicago-Naperville-Elgin, IL-IN-WI",Greater Chicago Area,Greater Chicago Area,1,1,Main Match,176.0,"Chicago-Naperville, IL-IN-WI",,,
+233,28100,"Kankakee, IL",Greater Chicago Area,Greater Chicago Area,1,0,CSA Match,176.0,"Chicago-Naperville, IL-IN-WI",,,
+234,33140,"Michigan City-La Porte, IN",Greater Chicago Area,Greater Chicago Area,1,0,CSA Match,176.0,"Chicago-Naperville, IL-IN-WI",,,
+235,36860,"Ottawa-Peru, IL",Greater Chicago Area,Greater Chicago Area,0,0,CSA Match,176.0,"Chicago-Naperville, IL-IN-WI",,,
+236,16580,"Champaign-Urbana, IL","Urbana-Champaign, Illinois Area","Urbana-Champaign, Illinois Area",1,1,Main Match,,,,,
+237,19180,"Danville, IL","Urbana-Champaign, Illinois Area","Urbana-Champaign, Illinois Area",1,0,Driving Distance,,,16580.0,"Champaign-Urbana, IL",43.45808
+238,19500,"Decatur, IL","Decatur, Illinois Area","Decatur, Illinois Area",1,1,Main Match,,,,,
+239,16660,"Charleston-Mattoon, IL","Decatur, Illinois Area","Decatur, Illinois Area",0,0,Driving Distance,,,19500.0,"Decatur, IL",60.858337
+240,20820,"Effingham, IL","Decatur, Illinois Area","Decatur, Illinois Area",0,0,Driving Distance,,,19500.0,"Decatur, IL",72.25056
+241,37900,"Peoria, IL","Peoria, Illinois Area","Peoria, Illinois Area",1,1,Main Match,426.0,"Peoria-Canton, IL",,,
+242,15900,"Canton, IL","Peoria, Illinois Area","Peoria, Illinois Area",0,0,CSA Match,426.0,"Peoria-Canton, IL",,,
+243,40420,"Rockford, IL","Rockford, Illinois Area","Rockford, Illinois Area",1,1,Main Match,466.0,"Rockford-Freeport-Rochelle, IL",,,
+244,23300,"Freeport, IL","Rockford, Illinois Area","Rockford, Illinois Area",0,0,CSA Match,466.0,"Rockford-Freeport-Rochelle, IL",,,
+245,40300,"Rochelle, IL","Rockford, Illinois Area","Rockford, Illinois Area",0,0,CSA Match,466.0,"Rockford-Freeport-Rochelle, IL",,,
+246,19940,"Dixon, IL","Rockford, Illinois Area","Rockford, Illinois Area",0,0,Driving Distance,221.0,"Dixon-Sterling, IL",40420.0,"Rockford, IL",61.6481
+247,44100,"Springfield, IL","Springfield, Illinois Area","Springfield, Illinois Area",1,1,Main Match,522.0,"Springfield-Jacksonville-Lincoln, IL",,,
+248,27300,"Jacksonville, IL","Springfield, Illinois Area","Springfield, Illinois Area",0,0,CSA Match,522.0,"Springfield-Jacksonville-Lincoln, IL",,,
+249,30660,"Lincoln, IL","Springfield, Illinois Area","Springfield, Illinois Area",0,0,CSA Match,522.0,"Springfield-Jacksonville-Lincoln, IL",,,
+250,45380,"Taylorville, IL","Springfield, Illinois Area","Springfield, Illinois Area",0,0,CSA Match,522.0,"Springfield-Jacksonville-Lincoln, IL",,,
+251,39500,"Quincy, IL-MO","Springfield, Illinois Area","Springfield, Illinois Area",0,0,Driving Distance,448.0,"Quincy-Hannibal, IL-MO",44100.0,"Springfield, IL",121.310295
+252,14020,"Bloomington, IN","Bloomington, Indiana Area","Bloomington, Indiana Area",1,1,Main Match,144.0,"Bloomington-Bedford, IN",,,
+253,13260,"Bedford, IN","Bloomington, Indiana Area","Bloomington, Indiana Area",0,0,CSA Match,144.0,"Bloomington-Bedford, IN",,,
+254,21140,"Elkhart-Goshen, IN","Elkhart, Indiana Area","Elkhart, Indiana Area",1,1,Main Match,515.0,"South Bend-Elkhart-Mishawaka, IN-MI",,,
+255,47700,"Warsaw, IN","Elkhart, Indiana Area","Elkhart, Indiana Area",0,0,Driving Distance,,,21140.0,"Elkhart-Goshen, IN",27.337847
+256,21780,"Evansville, IN-KY","Evansville, Indiana Area","Evansville, Indiana Area",1,1,Main Match,,,,,
+257,16060,"Carbondale-Marion, IL","Evansville, Indiana Area","Evansville, Indiana Area",1,0,Driving Distance,,,21780.0,"Evansville, IN-KY",101.15799
+258,47780,"Washington, IN","Evansville, Indiana Area","Evansville, Indiana Area",0,0,Driving Distance,,,21780.0,"Evansville, IN-KY",73.91645
+259,23060,"Fort Wayne, IN","Fort Wayne, Indiana Area","Fort Wayne, Indiana Area",1,1,Main Match,258.0,"Fort Wayne-Huntington-Auburn, IN",,,
+260,11420,"Angola, IN","Fort Wayne, Indiana Area","Fort Wayne, Indiana Area",0,0,CSA Match,258.0,"Fort Wayne-Huntington-Auburn, IN",,,
+261,12140,"Auburn, IN","Fort Wayne, Indiana Area","Fort Wayne, Indiana Area",0,0,CSA Match,258.0,"Fort Wayne-Huntington-Auburn, IN",,,
+262,19540,"Decatur, IN","Fort Wayne, Indiana Area","Fort Wayne, Indiana Area",0,0,CSA Match,258.0,"Fort Wayne-Huntington-Auburn, IN",,,
+263,26540,"Huntington, IN","Fort Wayne, Indiana Area","Fort Wayne, Indiana Area",0,0,CSA Match,258.0,"Fort Wayne-Huntington-Auburn, IN",,,
+264,28340,"Kendallville, IN","Fort Wayne, Indiana Area","Fort Wayne, Indiana Area",0,0,CSA Match,258.0,"Fort Wayne-Huntington-Auburn, IN",,,
+265,47340,"Wabash, IN","Fort Wayne, Indiana Area","Fort Wayne, Indiana Area",0,0,Driving Distance,,,23060.0,"Fort Wayne, IN",37.814785
+266,26900,"Indianapolis-Carmel-Anderson, IN","Indianapolis, Indiana Area","Indianapolis, Indiana Area",1,1,Main Match,294.0,"Indianapolis-Carmel-Muncie, IN",,,
+267,18020,"Columbus, IN","Indianapolis, Indiana Area","Indianapolis, Indiana Area",1,0,Largest MSA within CSA,294.0,"Indianapolis-Carmel-Muncie, IN",,,
+268,18820,"Crawfordsville, IN","Indianapolis, Indiana Area","Indianapolis, Indiana Area",0,0,Largest MSA within CSA,294.0,"Indianapolis-Carmel-Muncie, IN",,,
+269,24700,"Greensburg, IN","Indianapolis, Indiana Area","Indianapolis, Indiana Area",0,0,Largest MSA within CSA,294.0,"Indianapolis-Carmel-Muncie, IN",,,
+270,35220,"New Castle, IN","Indianapolis, Indiana Area","Indianapolis, Indiana Area",0,0,Largest MSA within CSA,294.0,"Indianapolis-Carmel-Muncie, IN",,,
+271,35860,"North Vernon, IN","Indianapolis, Indiana Area","Indianapolis, Indiana Area",0,0,Largest MSA within CSA,294.0,"Indianapolis-Carmel-Muncie, IN",,,
+272,42980,"Seymour, IN","Indianapolis, Indiana Area","Indianapolis, Indiana Area",0,0,Largest MSA within CSA,294.0,"Indianapolis-Carmel-Muncie, IN",,,
+273,29020,"Kokomo, IN","Kokomo, Indiana Area","Kokomo, Indiana Area",1,1,Main Match,316.0,"Kokomo-Peru, IN",,,
+274,37940,"Peru, IN","Kokomo, Indiana Area","Kokomo, Indiana Area",0,0,CSA Match,316.0,"Kokomo-Peru, IN",,,
+275,30900,"Logansport, IN","Kokomo, Indiana Area","Kokomo, Indiana Area",0,0,Driving Distance,,,29020.0,"Kokomo, IN",25.81673
+276,31980,"Marion, IN","Kokomo, Indiana Area","Kokomo, Indiana Area",0,0,Driving Distance,,,29020.0,"Kokomo, IN",27.365808
+277,29200,"Lafayette-West Lafayette, IN","Lafayette, Indiana Area","Lafayette, Indiana Area",1,1,Main Match,320.0,"Lafayette-West Lafayette-Frankfort, IN",,,
+278,23140,"Frankfort, IN","Lafayette, Indiana Area","Lafayette, Indiana Area",0,0,CSA Match,320.0,"Lafayette-West Lafayette-Frankfort, IN",,,
+279,34620,"Muncie, IN","Muncie, Indiana Area","Muncie, Indiana Area",1,1,Main Match,294.0,"Indianapolis-Carmel-Muncie, IN",,,
+280,18220,"Connersville, IN","Muncie, Indiana Area","Muncie, Indiana Area",0,0,Driving Distance,458.0,"Richmond-Connersville, IN",34620.0,"Muncie, IN",52.963818
+281,39980,"Richmond, IN","Muncie, Indiana Area","Muncie, Indiana Area",0,0,Driving Distance,458.0,"Richmond-Connersville, IN",34620.0,"Muncie, IN",40.196503
+282,43780,"South Bend-Mishawaka, IN-MI","South Bend, Indiana Area","South Bend, Indiana Area",1,1,Main Match,515.0,"South Bend-Elkhart-Mishawaka, IN-MI",,,
+283,38500,"Plymouth, IN","South Bend, Indiana Area","South Bend, Indiana Area",0,0,Largest MSA within CSA,515.0,"South Bend-Elkhart-Mishawaka, IN-MI",,,
+284,45460,"Terre Haute, IN","Terre Haute, Indiana Area","Terre Haute, Indiana Area",1,1,Main Match,,,,,
+285,47180,"Vincennes, IN","Terre Haute, Indiana Area","Terre Haute, Indiana Area",0,0,Driving Distance,,,45460.0,"Terre Haute, IN",58.54249
+286,29940,"Lawrence, KS","Lawrence, Kansas Area","Lawrence, Kansas Area",1,1,Main Match,312.0,"Kansas City-Overland Park-Kansas City, MO-KS",,,
+287,45820,"Topeka, KS","Topeka, Kansas Area","Topeka, Kansas Area",1,1,Main Match,,,,,
+288,31740,"Manhattan, KS","Topeka, Kansas Area","Topeka, Kansas Area",1,0,Driving Distance,358.0,"Manhattan-Junction City, KS",45820.0,"Topeka, KS",64.97554
+289,21380,"Emporia, KS","Topeka, Kansas Area","Topeka, Kansas Area",0,0,Driving Distance,,,45820.0,"Topeka, KS",60.136303
+290,27920,"Junction City, KS","Topeka, Kansas Area","Topeka, Kansas Area",0,0,Driving Distance,358.0,"Manhattan-Junction City, KS",45820.0,"Topeka, KS",55.331863
+291,48620,"Wichita, KS","Wichita, Kansas Area","Wichita, Kansas Area",1,1,Main Match,556.0,"Wichita-Arkansas City-Winfield, KS",,,
+292,11680,"Arkansas City-Winfield, KS","Wichita, Kansas Area","Wichita, Kansas Area",0,0,CSA Match,556.0,"Wichita-Arkansas City-Winfield, KS",,,
+293,19980,"Dodge City, KS","Wichita, Kansas Area","Wichita, Kansas Area",0,0,Driving Distance,,,48620.0,"Wichita, KS",148.23618
+294,24460,"Great Bend, KS","Wichita, Kansas Area","Wichita, Kansas Area",0,0,Driving Distance,,,48620.0,"Wichita, KS",125.07954
+295,25700,"Hays, KS","Wichita, Kansas Area","Wichita, Kansas Area",0,0,Driving Distance,,,48620.0,"Wichita, KS",191.908
+296,26740,"Hutchinson, KS","Wichita, Kansas Area","Wichita, Kansas Area",0,0,Driving Distance,,,48620.0,"Wichita, KS",58.078945
+297,30580,"Liberal, KS","Wichita, Kansas Area","Wichita, Kansas Area",0,0,Driving Distance,,,48620.0,"Wichita, KS",207.16888
+298,32700,"McPherson, KS","Wichita, Kansas Area","Wichita, Kansas Area",0,0,Driving Distance,,,48620.0,"Wichita, KS",69.12319
+299,41460,"Salina, KS","Wichita, Kansas Area","Wichita, Kansas Area",0,0,Driving Distance,,,48620.0,"Wichita, KS",105.61571
+300,30460,"Lexington-Fayette, KY","Lexington, Kentucky Area","Lexington, Kentucky Area",1,1,Main Match,336.0,"Lexington-Fayette--Richmond--Frankfort, KY",,,
+301,23180,"Frankfort, KY","Lexington, Kentucky Area","Lexington, Kentucky Area",0,0,CSA Match,336.0,"Lexington-Fayette--Richmond--Frankfort, KY",,,
+302,34460,"Mount Sterling, KY","Lexington, Kentucky Area","Lexington, Kentucky Area",0,0,CSA Match,336.0,"Lexington-Fayette--Richmond--Frankfort, KY",,,
+303,40080,"Richmond-Berea, KY","Lexington, Kentucky Area","Lexington, Kentucky Area",0,0,CSA Match,336.0,"Lexington-Fayette--Richmond--Frankfort, KY",,,
+304,19220,"Danville, KY","Lexington, Kentucky Area","Lexington, Kentucky Area",0,0,Driving Distance,,,30460.0,"Lexington-Fayette, KY",66.317085
+305,43700,"Somerset, KY","Lexington, Kentucky Area","Lexington, Kentucky Area",0,0,Driving Distance,,,30460.0,"Lexington-Fayette, KY",78.34559
+306,31140,"Louisville/Jefferson County, KY-IN","Louisville, Kentucky Area","Louisville, Kentucky Area",1,1,Main Match,350.0,"Louisville/Jefferson County--Elizabethtown--Madison, KY-IN",,,
+307,21060,"Elizabethtown-Fort Knox, KY","Louisville, Kentucky Area","Louisville, Kentucky Area",1,0,CSA Match,350.0,"Louisville/Jefferson County--Elizabethtown--Madison, KY-IN",,,
+308,12680,"Bardstown, KY","Louisville, Kentucky Area","Louisville, Kentucky Area",0,0,CSA Match,350.0,"Louisville/Jefferson County--Elizabethtown--Madison, KY-IN",,,
+309,31500,"Madison, IN","Louisville, Kentucky Area","Louisville, Kentucky Area",0,0,CSA Match,350.0,"Louisville/Jefferson County--Elizabethtown--Madison, KY-IN",,,
+310,36980,"Owensboro, KY","Owensboro, Kentucky Area","Owensboro, Kentucky Area",1,1,Main Match,,,,,
+311,27540,"Jasper, IN","Owensboro, Kentucky Area","Owensboro, Kentucky Area",0,0,Driving Distance,,,36980.0,"Owensboro, KY",54.33394
+312,31580,"Madisonville, KY","Owensboro, Kentucky Area","Owensboro, Kentucky Area",0,0,Driving Distance,,,36980.0,"Owensboro, KY",47.9885
+313,23980,"Glasgow, KY","Glasgow/Adair Combined, Kentucky Area","Glasgow/Adair Combined, Kentucky Area",0,1,Main Match,150.0,"Bowling Green-Glasgow, KY",,,
+314,15820,"Campbellsville, KY","Glasgow/Adair Combined, Kentucky Area","Glasgow/Adair Combined, Kentucky Area",0,0,Driving Distance,,,23980.0,"Glasgow, KY",61.12739
+315,18260,"Cookeville, TN","Glasgow/Adair Combined, Kentucky Area","Glasgow/Adair Combined, Kentucky Area",0,0,Driving Distance,,,23980.0,"Glasgow, KY",74.87896
+316,14540,"Bowling Green, KY","Bowling Green/Allen/Logan/Simpson Combined, Kentucky Area","Bowling Green/Allen/Logan/Simpson Combined, Kentucky Area",1,1,Main Match,150.0,"Bowling Green-Glasgow, KY",,,
+317,10780,"Alexandria, LA","Alexandria, Louisiana Area","Alexandria, Louisiana Area",1,1,Main Match,,,,,
+318,22860,"Fort Polk South, LA","Alexandria, Louisiana Area","Alexandria, Louisiana Area",0,0,Driving Distance,217.0,"DeRidder-Fort Polk South, LA",10780.0,"Alexandria, LA",49.62084
+319,35020,"Natchez, MS-LA","Alexandria, Louisiana Area","Alexandria, Louisiana Area",0,0,Driving Distance,,,10780.0,"Alexandria, LA",84.79356
+320,35060,"Natchitoches, LA","Alexandria, Louisiana Area","Alexandria, Louisiana Area",0,0,Driving Distance,,,10780.0,"Alexandria, LA",51.028866
+321,26380,"Houma-Thibodaux, LA","Houma, Louisiana","Houma, Louisiana",1,1,Main Match,,,,,
+322,29180,"Lafayette, LA","Lafayette, Louisiana Area","Lafayette, Louisiana Area",1,1,Main Match,318.0,"Lafayette-Opelousas-Morgan City, LA",,,
+323,34020,"Morgan City, LA","Lafayette, Louisiana Area","Lafayette, Louisiana Area",0,0,CSA Match,318.0,"Lafayette-Opelousas-Morgan City, LA",,,
+324,36660,"Opelousas, LA","Lafayette, Louisiana Area","Lafayette, Louisiana Area",0,0,CSA Match,318.0,"Lafayette-Opelousas-Morgan City, LA",,,
+325,29340,"Lake Charles, LA","Lake Charles, Louisiana Area","Lake Charles, Louisiana Area",1,1,Main Match,,,,,
+326,19760,"DeRidder, LA","Lake Charles, Louisiana Area","Lake Charles, Louisiana Area",0,0,Driving Distance,217.0,"DeRidder-Fort Polk South, LA",29340.0,"Lake Charles, LA",60.917366
+327,33740,"Monroe, LA","Monroe, Louisiana Area","Monroe, Louisiana Area",1,1,Main Match,384.0,"Monroe-Ruston-Bastrop, LA",,,
+328,12820,"Bastrop, LA","Monroe, Louisiana Area","Monroe, Louisiana Area",0,0,CSA Match,384.0,"Monroe-Ruston-Bastrop, LA",,,
+329,40820,"Ruston, LA","Monroe, Louisiana Area","Monroe, Louisiana Area",0,0,CSA Match,384.0,"Monroe-Ruston-Bastrop, LA",,,
+330,20980,"El Dorado, AR","Monroe, Louisiana Area","Monroe, Louisiana Area",0,0,Driving Distance,,,33740.0,"Monroe, LA",53.385105
+331,35380,"New Orleans-Metairie, LA",Greater New Orleans Area,Greater New Orleans Area,1,1,Main Match,406.0,"New Orleans-Metairie-Hammond, LA-MS",,,
+332,25220,"Hammond, LA",Greater New Orleans Area,Greater New Orleans Area,1,0,CSA Match,406.0,"New Orleans-Metairie-Hammond, LA-MS",,,
+333,14220,"Bogalusa, LA",Greater New Orleans Area,Greater New Orleans Area,0,0,CSA Match,406.0,"New Orleans-Metairie-Hammond, LA-MS",,,
+334,38100,"Picayune, MS",Greater New Orleans Area,Greater New Orleans Area,0,0,CSA Match,406.0,"New Orleans-Metairie-Hammond, LA-MS",,,
+335,12940,"Baton Rouge, LA","Baton Rouge, Louisiana Area","Baton Rouge, Louisiana Area",1,1,Main Match,,,,,
+336,32620,"McComb, MS","Baton Rouge, Louisiana Area","Baton Rouge, Louisiana Area",0,0,Driving Distance,,,12940.0,"Baton Rouge, LA",60.608547
+337,43340,"Shreveport-Bossier City, LA","Shreveport, Louisiana Area","Shreveport, Louisiana Area",1,1,Main Match,,,,,
+338,38340,"Pittsfield, MA","Pittsfield, Massachusetts Area","Pittsfield, Massachusetts Area",1,1,Main Match,,,,,
+339,14460,"Boston-Cambridge-Newton, MA-NH",Greater Boston Area,Greater Boston Area,1,1,Main Match,148.0,"Boston-Worcester-Providence, MA-RI-NH-CT",,,
+340,31700,"Manchester-Nashua, NH",Greater Boston Area,Greater Boston Area,1,0,Largest MSA within CSA,148.0,"Boston-Worcester-Providence, MA-RI-NH-CT",,,
+341,49340,"Worcester, MA-CT",Greater Boston Area,Greater Boston Area,1,0,Largest MSA within CSA,148.0,"Boston-Worcester-Providence, MA-RI-NH-CT",,,
+342,18180,"Concord, NH",Greater Boston Area,Greater Boston Area,0,0,Largest MSA within CSA,148.0,"Boston-Worcester-Providence, MA-RI-NH-CT",,,
+343,29060,"Laconia, NH",Greater Boston Area,Greater Boston Area,0,0,Largest MSA within CSA,148.0,"Boston-Worcester-Providence, MA-RI-NH-CT",,,
+344,12700,"Barnstable Town, MA","Barnstable/Yarmouth, Massachusetts Area","Barnstable/Yarmouth, Massachusetts Area",1,1,Main Match,148.0,"Boston-Worcester-Providence, MA-RI-NH-CT",,,
+345,47240,"Vineyard Haven, MA","Barnstable/Yarmouth, Massachusetts Area","Barnstable/Yarmouth, Massachusetts Area",0,0,Driving Distance,,,12700.0,"Barnstable Town, MA",62.465824
+346,44140,"Springfield, MA","Springfield, Massachusetts Area","Springfield, Massachusetts Area",1,1,Main Match,521.0,"Springfield-Greenfield Town, MA",,,
+347,24640,"Greenfield Town, MA","Springfield, Massachusetts Area","Springfield, Massachusetts Area",0,0,CSA Match,521.0,"Springfield-Greenfield Town, MA",,,
+348,17200,"Claremont-Lebanon, NH-VT","Springfield, Massachusetts Area","Springfield, Massachusetts Area",0,0,Driving Distance,,,44140.0,"Springfield, MA",126.012215
+349,28300,"Keene, NH","Springfield, Massachusetts Area","Springfield, Massachusetts Area",0,0,Driving Distance,,,44140.0,"Springfield, MA",70.88913
+350,19060,"Cumberland, MD-WV","Cumberland, Maryland Area","Cumberland, Maryland Area",1,1,Main Match,,,,,
+351,34060,"Morgantown, WV","Cumberland, Maryland Area","Cumberland, Maryland Area",1,0,Driving Distance,390.0,"Morgantown-Fairmont, WV",19060.0,"Cumberland, MD-WV",90.72517
+352,21180,"Elkins, WV","Cumberland, Maryland Area","Cumberland, Maryland Area",0,0,Driving Distance,,,19060.0,"Cumberland, MD-WV",111.74988
+353,12580,"Baltimore-Columbia-Towson, MD","Baltimore, Maryland Area","Baltimore, Maryland Area",1,1,Main Match,548.0,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",,,
+354,30340,"Lewiston-Auburn, ME","Lewiston/Auburn, Maine Area","Lewiston/Auburn, Maine Area",1,1,Main Match,438.0,"Portland-Lewiston-South Portland, ME",,,
+355,12300,"Augusta-Waterville, ME","Lewiston/Auburn, Maine Area","Lewiston/Auburn, Maine Area",0,0,Driving Distance,,,30340.0,"Lewiston-Auburn, ME",43.990597
+356,13620,"Berlin, NH-VT","Lewiston/Auburn, Maine Area","Lewiston/Auburn, Maine Area",0,0,Driving Distance,,,30340.0,"Lewiston-Auburn, ME",101.52087
+357,38860,"Portland-South Portland, ME","Portland, Maine Area","Portland, Maine Area",1,1,Main Match,438.0,"Portland-Lewiston-South Portland, ME",,,
+358,12620,"Bangor, ME","Bangor, Maine Area","Bangor, Maine Area",1,1,Main Match,,,,,
+359,24340,"Grand Rapids-Wyoming, MI","Greater Grand Rapids, Michigan Area","Greater Grand Rapids, Michigan Area",1,1,Main Match,266.0,"Grand Rapids-Wyoming-Muskegon, MI",,,
+360,34740,"Muskegon, MI","Greater Grand Rapids, Michigan Area","Greater Grand Rapids, Michigan Area",1,0,CSA Match,266.0,"Grand Rapids-Wyoming-Muskegon, MI",,,
+361,13660,"Big Rapids, MI","Greater Grand Rapids, Michigan Area","Greater Grand Rapids, Michigan Area",0,0,CSA Match,266.0,"Grand Rapids-Wyoming-Muskegon, MI",,,
+362,26090,"Holland, MI","Greater Grand Rapids, Michigan Area","Greater Grand Rapids, Michigan Area",0,0,CSA Match,266.0,"Grand Rapids-Wyoming-Muskegon, MI",,,
+363,26960,"Ionia, MI","Greater Grand Rapids, Michigan Area","Greater Grand Rapids, Michigan Area",0,0,CSA Match,266.0,"Grand Rapids-Wyoming-Muskegon, MI",,,
+364,15620,"Cadillac, MI","Greater Grand Rapids, Michigan Area","Greater Grand Rapids, Michigan Area",0,0,Driving Distance,,,24340.0,"Grand Rapids-Wyoming, MI",114.195595
+365,31220,"Ludington, MI","Greater Grand Rapids, Michigan Area","Greater Grand Rapids, Michigan Area",0,0,Driving Distance,,,24340.0,"Grand Rapids-Wyoming, MI",95.09962
+366,45900,"Traverse City, MI","Greater Grand Rapids, Michigan Area","Greater Grand Rapids, Michigan Area",0,0,Driving Distance,,,24340.0,"Grand Rapids-Wyoming, MI",169.20435
+367,19820,"Detroit-Warren-Dearborn, MI",Greater Detroit Area,Greater Detroit Area,1,1,Main Match,220.0,"Detroit-Warren-Ann Arbor, MI",,,
+368,11460,"Ann Arbor, MI",Greater Detroit Area,Greater Detroit Area,1,0,CSA Match,220.0,"Detroit-Warren-Ann Arbor, MI",,,
+369,22420,"Flint, MI",Greater Detroit Area,Greater Detroit Area,1,0,CSA Match,220.0,"Detroit-Warren-Ann Arbor, MI",,,
+370,33780,"Monroe, MI",Greater Detroit Area,Greater Detroit Area,1,0,CSA Match,220.0,"Detroit-Warren-Ann Arbor, MI",,,
+371,10300,"Adrian, MI",Greater Detroit Area,Greater Detroit Area,0,0,CSA Match,220.0,"Detroit-Warren-Ann Arbor, MI",,,
+372,27100,"Jackson, MI","Jackson, Michigan Area","Jackson, Michigan Area",1,1,Main Match,,,,,
+373,17740,"Coldwater, MI","Jackson, Michigan Area","Jackson, Michigan Area",0,0,Driving Distance,,,27100.0,"Jackson, MI",50.81698
+374,25880,"Hillsdale, MI","Jackson, Michigan Area","Jackson, Michigan Area",0,0,Driving Distance,,,27100.0,"Jackson, MI",34.384197
+375,28020,"Kalamazoo-Portage, MI","Kalamazoo, Michigan Area","Kalamazoo, Michigan Area",1,1,Main Match,310.0,"Kalamazoo-Battle Creek-Portage, MI",,,
+376,12980,"Battle Creek, MI","Kalamazoo, Michigan Area","Kalamazoo, Michigan Area",1,0,CSA Match,310.0,"Kalamazoo-Battle Creek-Portage, MI",,,
+377,44780,"Sturgis, MI","Kalamazoo, Michigan Area","Kalamazoo, Michigan Area",0,0,CSA Match,310.0,"Kalamazoo-Battle Creek-Portage, MI",,,
+378,29620,"Lansing-East Lansing, MI","Lansing, Michigan Area","Lansing, Michigan Area",1,1,Main Match,330.0,"Lansing-East Lansing-Owosso, MI",,,
+379,37020,"Owosso, MI","Lansing, Michigan Area","Lansing, Michigan Area",0,0,CSA Match,330.0,"Lansing-East Lansing-Owosso, MI",,,
+380,40980,"Saginaw, MI","Saginaw, Michigan Area","Saginaw, Michigan Area",1,1,Main Match,474.0,"Saginaw-Midland-Bay City, MI",,,
+381,13020,"Bay City, MI","Saginaw, Michigan Area","Saginaw, Michigan Area",1,0,CSA Match,474.0,"Saginaw-Midland-Bay City, MI",,,
+382,33220,"Midland, MI","Saginaw, Michigan Area","Saginaw, Michigan Area",1,0,CSA Match,474.0,"Saginaw-Midland-Bay City, MI",,,
+383,10940,"Alma, MI","Saginaw, Michigan Area","Saginaw, Michigan Area",0,0,Driving Distance,394.0,"Mount Pleasant-Alma, MI",40980.0,"Saginaw, MI",40.50843
+384,10980,"Alpena, MI","Saginaw, Michigan Area","Saginaw, Michigan Area",0,0,Driving Distance,,,40980.0,"Saginaw, MI",180.22125
+385,34380,"Mount Pleasant, MI","Saginaw, Michigan Area","Saginaw, Michigan Area",0,0,Driving Distance,394.0,"Mount Pleasant-Alma, MI",40980.0,"Saginaw, MI",72.74517
+386,42300,"Sault Ste. Marie, MI","Saginaw, Michigan Area","Saginaw, Michigan Area",0,0,Driving Distance,,,40980.0,"Saginaw, MI",252.87384
+387,35660,"Niles-Benton Harbor, MI","Benton Harbor, Michigan Area","Benton Harbor, Michigan Area",1,1,Main Match,515.0,"South Bend-Elkhart-Mishawaka, IN-MI",,,
+388,20260,"Duluth, MN-WI","Duluth, Minnesota Area","Duluth, Minnesota Area",1,1,Main Match,,,,,
+389,26340,"Houghton, MI","Duluth, Minnesota Area","Duluth, Minnesota Area",0,0,Driving Distance,,,20260.0,"Duluth, MN-WI",191.10432
+390,33460,"Minneapolis-St. Paul-Bloomington, MN-WI",Greater Minneapolis-St. Paul Area,Greater Minneapolis-St. Paul Area,1,1,Main Match,378.0,"Minneapolis-St. Paul, MN-WI",,,
+391,22060,"Faribault-Northfield, MN",Greater Minneapolis-St. Paul Area,Greater Minneapolis-St. Paul Area,0,0,Largest MSA within CSA,378.0,"Minneapolis-St. Paul, MN-WI",,,
+392,26780,"Hutchinson, MN",Greater Minneapolis-St. Paul Area,Greater Minneapolis-St. Paul Area,0,0,Largest MSA within CSA,378.0,"Minneapolis-St. Paul, MN-WI",,,
+393,39860,"Red Wing, MN",Greater Minneapolis-St. Paul Area,Greater Minneapolis-St. Paul Area,0,0,Largest MSA within CSA,378.0,"Minneapolis-St. Paul, MN-WI",,,
+394,31860,"Mankato-North Mankato, MN",Greater Minneapolis-St. Paul Area,Greater Minneapolis-St. Paul Area,1,0,Driving Distance,359.0,"Mankato-New Ulm-North Mankato, MN",33460.0,"Minneapolis-St. Paul-Bloomington, MN-WI",91.795166
+395,40340,"Rochester, MN","Rochester, Minnesota Area","Rochester, Minnesota Area",1,1,Main Match,462.0,"Rochester-Austin, MN",,,
+396,12380,"Austin, MN","Rochester, Minnesota Area","Rochester, Minnesota Area",0,0,CSA Match,462.0,"Rochester-Austin, MN",,,
+397,10660,"Albert Lea, MN","Rochester, Minnesota Area","Rochester, Minnesota Area",0,0,Driving Distance,,,40340.0,"Rochester, MN",72.3245
+398,36940,"Owatonna, MN","Rochester, Minnesota Area","Rochester, Minnesota Area",0,0,Driving Distance,,,40340.0,"Rochester, MN",62.25456
+399,49100,"Winona, MN","Rochester, Minnesota Area","Rochester, Minnesota Area",0,0,Driving Distance,,,40340.0,"Rochester, MN",31.788729
+400,41060,"St. Cloud, MN","St. Cloud, Minnesota Area","St. Cloud, Minnesota Area",1,1,Main Match,378.0,"Minneapolis-St. Paul, MN-WI",,,
+401,10820,"Alexandria, MN","St. Cloud, Minnesota Area","St. Cloud, Minnesota Area",0,0,Driving Distance,,,41060.0,"St. Cloud, MN",64.03479
+402,14660,"Brainerd, MN","St. Cloud, Minnesota Area","St. Cloud, Minnesota Area",0,0,Driving Distance,,,41060.0,"St. Cloud, MN",108.19936
+403,35580,"New Ulm, MN","St. Cloud, Minnesota Area","St. Cloud, Minnesota Area",0,0,Driving Distance,359.0,"Mankato-New Ulm-North Mankato, MN",41060.0,"St. Cloud, MN",104.04736
+404,48820,"Willmar, MN","St. Cloud, Minnesota Area","St. Cloud, Minnesota Area",0,0,Driving Distance,,,41060.0,"St. Cloud, MN",50.45534
+405,17860,"Columbia, MO","Columbia, Missouri Area","Columbia, Missouri Area",1,1,Main Match,190.0,"Columbia-Moberly-Mexico, MO",,,
+406,33020,"Mexico, MO","Columbia, Missouri Area","Columbia, Missouri Area",0,0,CSA Match,190.0,"Columbia-Moberly-Mexico, MO",,,
+407,33620,"Moberly, MO","Columbia, Missouri Area","Columbia, Missouri Area",0,0,CSA Match,190.0,"Columbia-Moberly-Mexico, MO",,,
+408,27620,"Jefferson City, MO","Columbia, Missouri Area","Columbia, Missouri Area",1,0,Driving Distance,,,17860.0,"Columbia, MO",39.894516
+409,25300,"Hannibal, MO","Columbia, Missouri Area","Columbia, Missouri Area",0,0,Driving Distance,448.0,"Quincy-Hannibal, IL-MO",17860.0,"Columbia, MO",85.67652
+410,28860,"Kirksville, MO","Columbia, Missouri Area","Columbia, Missouri Area",0,0,Driving Distance,,,17860.0,"Columbia, MO",96.3144
+411,32180,"Marshall, MO","Columbia, Missouri Area","Columbia, Missouri Area",0,0,Driving Distance,,,17860.0,"Columbia, MO",65.21477
+412,40620,"Rolla, MO","Columbia, Missouri Area","Columbia, Missouri Area",0,0,Driving Distance,,,17860.0,"Columbia, MO",102.86241
+413,27900,"Joplin, MO","Joplin, Missouri Area","Joplin, Missouri Area",1,1,Main Match,309.0,"Joplin-Miami, MO-OK",,,
+414,33060,"Miami, OK","Joplin, Missouri Area","Joplin, Missouri Area",0,0,CSA Match,309.0,"Joplin-Miami, MO-OK",,,
+415,37660,"Parsons, KS","Joplin, Missouri Area","Joplin, Missouri Area",0,0,Driving Distance,,,27900.0,"Joplin, MO",66.13067
+416,38260,"Pittsburg, KS","Joplin, Missouri Area","Joplin, Missouri Area",0,0,Driving Distance,,,27900.0,"Joplin, MO",57.383007
+417,28140,"Kansas City, MO-KS","Kansas City, Missouri Area","Kansas City, Missouri Area",1,1,Main Match,312.0,"Kansas City-Overland Park-Kansas City, MO-KS",,,
+418,11860,"Atchison, KS","Kansas City, Missouri Area","Kansas City, Missouri Area",0,0,Largest MSA within CSA,312.0,"Kansas City-Overland Park-Kansas City, MO-KS",,,
+419,36840,"Ottawa, KS","Kansas City, Missouri Area","Kansas City, Missouri Area",0,0,Largest MSA within CSA,312.0,"Kansas City-Overland Park-Kansas City, MO-KS",,,
+420,47660,"Warrensburg, MO","Kansas City, Missouri Area","Kansas City, Missouri Area",0,0,Largest MSA within CSA,312.0,"Kansas City-Overland Park-Kansas City, MO-KS",,,
+421,42740,"Sedalia, MO","Kansas City, Missouri Area","Kansas City, Missouri Area",0,0,Driving Distance,,,28140.0,"Kansas City, MO-KS",68.25203
+422,41140,"St. Joseph, MO-KS","St. Joseph, Missouri Area","St. Joseph, Missouri Area",1,1,Main Match,312.0,"Kansas City-Overland Park-Kansas City, MO-KS",,,
+423,32340,"Maryville, MO","St. Joseph, Missouri Area","St. Joseph, Missouri Area",0,0,Driving Distance,,,41140.0,"St. Joseph, MO-KS",42.67826
+424,41180,"St. Louis, MO-IL",Greater St. Louis Area,Greater St. Louis Area,1,1,Main Match,476.0,"St. Louis-St. Charles-Farmington, MO-IL",,,
+425,16460,"Centralia, IL",Greater St. Louis Area,Greater St. Louis Area,0,0,CSA Match,476.0,"St. Louis-St. Charles-Farmington, MO-IL",,,
+426,22100,"Farmington, MO",Greater St. Louis Area,Greater St. Louis Area,0,0,CSA Match,476.0,"St. Louis-St. Charles-Farmington, MO-IL",,,
+427,16020,"Cape Girardeau, MO-IL",Greater St. Louis Area,Greater St. Louis Area,1,0,Driving Distance,164.0,"Cape Girardeau-Sikeston, MO-IL",41180.0,"St. Louis, MO-IL",130.9285
+428,34500,"Mount Vernon, IL",Greater St. Louis Area,Greater St. Louis Area,0,0,Driving Distance,,,41180.0,"St. Louis, MO-IL",89.73346
+429,44180,"Springfield, MO","Springfield, Missouri Area","Springfield, Missouri Area",1,1,Main Match,520.0,"Springfield-Branson, MO",,,
+430,14700,"Branson, MO","Springfield, Missouri Area","Springfield, Missouri Area",0,0,CSA Match,520.0,"Springfield-Branson, MO",,,
+431,22780,"Fort Leonard Wood, MO","Springfield, Missouri Area","Springfield, Missouri Area",0,0,Driving Distance,,,44180.0,"Springfield, MO",76.87666
+432,30060,"Lebanon, MO","Springfield, Missouri Area","Springfield, Missouri Area",0,0,Driving Distance,,,44180.0,"Springfield, MO",52.37165
+433,48460,"West Plains, MO","Springfield, Missouri Area","Springfield, Missouri Area",0,0,Driving Distance,,,44180.0,"Springfield, MO",115.617294
+434,25620,"Hattiesburg, MS","Hattiesburg, Mississippi Area","Hattiesburg, Mississippi Area",1,1,Main Match,,,,,
+435,29860,"Laurel, MS","Hattiesburg, Mississippi Area","Hattiesburg, Mississippi Area",0,0,Driving Distance,,,25620.0,"Hattiesburg, MS",60.40163
+436,27140,"Jackson, MS","Jackson, Mississippi Area","Jackson, Mississippi Area",1,1,Main Match,298.0,"Jackson-Vicksburg-Brookhaven, MS",,,
+437,15020,"Brookhaven, MS","Jackson, Mississippi Area","Jackson, Mississippi Area",0,0,CSA Match,298.0,"Jackson-Vicksburg-Brookhaven, MS",,,
+438,46980,"Vicksburg, MS","Jackson, Mississippi Area","Jackson, Mississippi Area",0,0,CSA Match,298.0,"Jackson-Vicksburg-Brookhaven, MS",,,
+439,17380,"Cleveland, MS","Jackson, Mississippi Area","Jackson, Mississippi Area",0,0,Driving Distance,185.0,"Cleveland-Indianola, MS",27140.0,"Jackson, MS",126.855415
+440,24740,"Greenville, MS","Jackson, Mississippi Area","Jackson, Mississippi Area",0,0,Driving Distance,,,27140.0,"Jackson, MS",100.73359
+441,24900,"Greenwood, MS","Jackson, Mississippi Area","Jackson, Mississippi Area",0,0,Driving Distance,,,27140.0,"Jackson, MS",107.69046
+442,26940,"Indianola, MS","Jackson, Mississippi Area","Jackson, Mississippi Area",0,0,Driving Distance,185.0,"Cleveland-Indianola, MS",27140.0,"Jackson, MS",107.53512
+443,25060,"Gulfport-Biloxi-Pascagoula, MS","Biloxi, Mississippi Area","Biloxi, Mississippi Area",1,1,Main Match,,,,,
+444,24500,"Great Falls, MT","Great Falls, Montana Area","Great Falls, Montana Area",1,1,Main Match,,,,,
+445,25740,"Helena, MT","Great Falls, Montana Area","Great Falls, Montana Area",0,0,Driving Distance,,,24500.0,"Great Falls, MT",102.518166
+446,33540,"Missoula, MT","Missoula, Montana Area","Missoula, Montana Area",1,1,Main Match,,,,,
+447,15580,"Butte-Silver Bow, MT","Missoula, Montana Area","Missoula, Montana Area",0,0,Driving Distance,,,33540.0,"Missoula, MT",139.11383
+448,28060,"Kalispell, MT","Missoula, Montana Area","Missoula, Montana Area",0,0,Driving Distance,,,33540.0,"Missoula, MT",158.0992
+449,13740,"Billings, MT","Billings, Montana Area","Billings, Montana Area",1,1,Main Match,,,,,
+450,14580,"Bozeman, MT","Billings, Montana Area","Billings, Montana Area",0,0,Driving Distance,,,13740.0,"Billings, MT",158.48756
+451,43260,"Sheridan, WY","Billings, Montana Area","Billings, Montana Area",0,0,Driving Distance,,,13740.0,"Billings, MT",147.10094
+452,16740,"Charlotte-Concord-Gastonia, NC-SC","Charlotte, North Carolina Area","Charlotte, North Carolina Area",1,1,Main Match,172.0,"Charlotte-Concord, NC-SC",,,
+453,10620,"Albemarle, NC","Charlotte, North Carolina Area","Charlotte, North Carolina Area",0,0,CSA Match,172.0,"Charlotte-Concord, NC-SC",,,
+454,43140,"Shelby, NC","Charlotte, North Carolina Area","Charlotte, North Carolina Area",0,0,CSA Match,172.0,"Charlotte-Concord, NC-SC",,,
+455,22180,"Fayetteville, NC","Fayetteville, North Carolina Area","Fayetteville, North Carolina Area",1,1,Main Match,246.0,"Fayetteville-Lumberton-Laurinburg, NC",,,
+456,29900,"Laurinburg, NC","Fayetteville, North Carolina Area","Fayetteville, North Carolina Area",0,0,CSA Match,246.0,"Fayetteville-Lumberton-Laurinburg, NC",,,
+457,31300,"Lumberton, NC","Fayetteville, North Carolina Area","Fayetteville, North Carolina Area",0,0,CSA Match,246.0,"Fayetteville-Lumberton-Laurinburg, NC",,,
+458,38240,"Pinehurst-Southern Pines, NC","Fayetteville, North Carolina Area","Fayetteville, North Carolina Area",0,0,Driving Distance,,,22180.0,"Fayetteville, NC",49.827755
+459,40460,"Rockingham, NC","Fayetteville, North Carolina Area","Fayetteville, North Carolina Area",0,0,Driving Distance,,,22180.0,"Fayetteville, NC",58.423183
+460,24140,"Goldsboro, NC","Goldsboro, North Carolina Area","Goldsboro, North Carolina Area",1,1,Main Match,,,,,
+461,28820,"Kinston, NC","Goldsboro, North Carolina Area","Goldsboro, North Carolina Area",0,0,Driving Distance,,,24140.0,"Goldsboro, NC",30.58824
+462,24660,"Greensboro-High Point, NC","Greensboro/Winston-Salem, North Carolina Area","Greensboro/Winston-Salem, North Carolina Area",1,1,Main Match,268.0,"Greensboro--Winston-Salem--High Point, NC",,,
+463,49180,"Winston-Salem, NC","Greensboro/Winston-Salem, North Carolina Area","Greensboro/Winston-Salem, North Carolina Area",1,1,Main Match,268.0,"Greensboro--Winston-Salem--High Point, NC",,,
+464,15500,"Burlington, NC","Greensboro/Winston-Salem, North Carolina Area","Greensboro/Winston-Salem, North Carolina Area",1,0,CSA Match,268.0,"Greensboro--Winston-Salem--High Point, NC",,,
+465,34340,"Mount Airy, NC","Greensboro/Winston-Salem, North Carolina Area","Greensboro/Winston-Salem, North Carolina Area",0,0,CSA Match,268.0,"Greensboro--Winston-Salem--High Point, NC",,,
+466,24780,"Greenville, NC","Greenville, North Carolina Area","Greenville, North Carolina Area",1,1,Main Match,274.0,"Greenville-Washington, NC",,,
+467,47820,"Washington, NC","Greenville, North Carolina Area","Greenville, North Carolina Area",0,0,CSA Match,274.0,"Greenville-Washington, NC",,,
+468,35100,"New Bern, NC","Greenville, North Carolina Area","Greenville, North Carolina Area",1,0,Driving Distance,404.0,"New Bern-Morehead City, NC",24780.0,"Greenville, NC",44.297554
+469,25860,"Hickory-Lenoir-Morganton, NC","Hickory/Lenoir, North Carolina Area","Hickory/Lenoir, North Carolina Area",1,1,Main Match,280.0,"Hickory-Lenoir, NC",,,
+470,32000,"Marion, NC","Hickory/Lenoir, North Carolina Area","Hickory/Lenoir, North Carolina Area",0,0,CSA Match,280.0,"Hickory-Lenoir, NC",,,
+471,14380,"Boone, NC","Hickory/Lenoir, North Carolina Area","Hickory/Lenoir, North Carolina Area",0,0,Driving Distance,,,25860.0,"Hickory-Lenoir-Morganton, NC",40.061043
+472,22580,"Forest City, NC","Hickory/Lenoir, North Carolina Area","Hickory/Lenoir, North Carolina Area",0,0,Driving Distance,,,25860.0,"Hickory-Lenoir-Morganton, NC",48.0612
+473,35900,"North Wilkesboro, NC","Hickory/Lenoir, North Carolina Area","Hickory/Lenoir, North Carolina Area",0,0,Driving Distance,,,25860.0,"Hickory-Lenoir-Morganton, NC",43.632687
+474,27340,"Jacksonville, NC","Jacksonville, North Carolina Area","Jacksonville, North Carolina Area",1,1,Main Match,,,,,
+475,33980,"Morehead City, NC","Jacksonville, North Carolina Area","Jacksonville, North Carolina Area",0,0,Driving Distance,404.0,"New Bern-Morehead City, NC",27340.0,"Jacksonville, NC",80.07859
+476,11700,"Asheville, NC","Asheville, North Carolina Area","Asheville, North Carolina Area",1,1,Main Match,120.0,"Asheville-Brevard, NC",,,
+477,14820,"Brevard, NC","Asheville, North Carolina Area","Asheville, North Carolina Area",0,0,CSA Match,120.0,"Asheville-Brevard, NC",,,
+478,19000,"Cullowhee, NC","Asheville, North Carolina Area","Asheville, North Carolina Area",0,0,Driving Distance,,,11700.0,"Asheville, NC",52.1405
+479,39580,"Raleigh, NC","Raleigh-Durham, North Carolina Area","Raleigh-Durham, North Carolina Area",1,1,Main Match,450.0,"Raleigh-Durham-Chapel Hill, NC",,,
+480,20500,"Durham-Chapel Hill, NC","Raleigh-Durham, North Carolina Area","Raleigh-Durham, North Carolina Area",1,0,CSA Match,450.0,"Raleigh-Durham-Chapel Hill, NC",,,
+481,20380,"Dunn, NC","Raleigh-Durham, North Carolina Area","Raleigh-Durham, North Carolina Area",0,0,CSA Match,450.0,"Raleigh-Durham-Chapel Hill, NC",,,
+482,25780,"Henderson, NC","Raleigh-Durham, North Carolina Area","Raleigh-Durham, North Carolina Area",0,0,CSA Match,450.0,"Raleigh-Durham-Chapel Hill, NC",,,
+483,37080,"Oxford, NC","Raleigh-Durham, North Carolina Area","Raleigh-Durham, North Carolina Area",0,0,CSA Match,450.0,"Raleigh-Durham-Chapel Hill, NC",,,
+484,41820,"Sanford, NC","Raleigh-Durham, North Carolina Area","Raleigh-Durham, North Carolina Area",0,0,CSA Match,450.0,"Raleigh-Durham-Chapel Hill, NC",,,
+485,40580,"Rocky Mount, NC","Rocky Mount, North Carolina Area","Rocky Mount, North Carolina Area",1,1,Main Match,468.0,"Rocky Mount-Wilson-Roanoke Rapids, NC",,,
+486,40260,"Roanoke Rapids, NC","Rocky Mount, North Carolina Area","Rocky Mount, North Carolina Area",0,0,CSA Match,468.0,"Rocky Mount-Wilson-Roanoke Rapids, NC",,,
+487,48980,"Wilson, NC","Rocky Mount, North Carolina Area","Rocky Mount, North Carolina Area",0,0,CSA Match,468.0,"Rocky Mount-Wilson-Roanoke Rapids, NC",,,
+488,48900,"Wilmington, NC","Wilmington, North Carolina Area","Wilmington, North Carolina Area",1,1,Main Match,,,,,
+489,13900,"Bismarck, ND","Bismarck, North Dakota Area","Bismarck, North Dakota Area",1,1,Main Match,,,,,
+490,19860,"Dickinson, ND","Bismarck, North Dakota Area","Bismarck, North Dakota Area",0,0,Driving Distance,,,13900.0,"Bismarck, ND",100.16628
+491,33500,"Minot, ND","Bismarck, North Dakota Area","Bismarck, North Dakota Area",0,0,Driving Distance,,,13900.0,"Bismarck, ND",129.41733
+492,48780,"Williston, ND","Bismarck, North Dakota Area","Bismarck, North Dakota Area",0,0,Driving Distance,,,13900.0,"Bismarck, ND",223.04057
+493,22020,"Fargo, ND-MN","Fargo, North Dakota Area","Fargo, North Dakota Area",1,1,Main Match,244.0,"Fargo-Wahpeton, ND-MN",,,
+494,47420,"Wahpeton, ND-MN","Fargo, North Dakota Area","Fargo, North Dakota Area",0,0,CSA Match,244.0,"Fargo-Wahpeton, ND-MN",,,
+495,10100,"Aberdeen, SD","Fargo, North Dakota Area","Fargo, North Dakota Area",0,0,Driving Distance,,,22020.0,"Fargo, ND-MN",185.30408
+496,22260,"Fergus Falls, MN","Fargo, North Dakota Area","Fargo, North Dakota Area",0,0,Driving Distance,,,22020.0,"Fargo, ND-MN",90.49774
+497,27420,"Jamestown, ND","Fargo, North Dakota Area","Fargo, North Dakota Area",0,0,Driving Distance,,,22020.0,"Fargo, ND-MN",107.89862
+498,24220,"Grand Forks, ND-MN","Grand Forks, North Dakota Area","Grand Forks, North Dakota Area",1,1,Main Match,,,,,
+499,13420,"Bemidji, MN","Grand Forks, North Dakota Area","Grand Forks, North Dakota Area",0,0,Driving Distance,,,24220.0,"Grand Forks, ND-MN",135.53287
+500,30700,"Lincoln, NE","Lincoln, Nebraska Area","Lincoln, Nebraska Area",1,1,Main Match,339.0,"Lincoln-Beatrice, NE",,,
+501,13100,"Beatrice, NE","Lincoln, Nebraska Area","Lincoln, Nebraska Area",0,0,CSA Match,339.0,"Lincoln-Beatrice, NE",,,
+502,24260,"Grand Island, NE","Lincoln, Nebraska Area","Lincoln, Nebraska Area",1,0,Driving Distance,,,30700.0,"Lincoln, NE",99.118645
+503,18100,"Columbus, NE","Lincoln, Nebraska Area","Lincoln, Nebraska Area",0,0,Driving Distance,,,30700.0,"Lincoln, NE",84.80723
+504,25580,"Hastings, NE","Lincoln, Nebraska Area","Lincoln, Nebraska Area",0,0,Driving Distance,,,30700.0,"Lincoln, NE",105.124825
+505,28260,"Kearney, NE","Lincoln, Nebraska Area","Lincoln, Nebraska Area",0,0,Driving Distance,,,30700.0,"Lincoln, NE",120.00915
+506,30420,"Lexington, NE","Lincoln, Nebraska Area","Lincoln, Nebraska Area",0,0,Driving Distance,,,30700.0,"Lincoln, NE",161.27441
+507,35820,"North Platte, NE","Lincoln, Nebraska Area","Lincoln, Nebraska Area",0,0,Driving Distance,,,30700.0,"Lincoln, NE",222.74417
+508,36540,"Omaha-Council Bluffs, NE-IA",Greater Omaha Area,Greater Omaha Area,1,1,Main Match,420.0,"Omaha-Council Bluffs-Fremont, NE-IA",,,
+509,23340,"Fremont, NE",Greater Omaha Area,Greater Omaha Area,0,0,CSA Match,420.0,"Omaha-Council Bluffs-Fremont, NE-IA",,,
+510,10740,"Albuquerque, NM","Albuquerque, New Mexico Area","Albuquerque, New Mexico Area",1,1,Main Match,106.0,"Albuquerque-Santa Fe-Las Vegas, NM",,,
+511,21580,"Española, NM","Albuquerque, New Mexico Area","Albuquerque, New Mexico Area",0,0,Largest MSA within CSA,106.0,"Albuquerque-Santa Fe-Las Vegas, NM",,,
+512,24380,"Grants, NM","Albuquerque, New Mexico Area","Albuquerque, New Mexico Area",0,0,Largest MSA within CSA,106.0,"Albuquerque-Santa Fe-Las Vegas, NM",,,
+513,29780,"Las Vegas, NM","Albuquerque, New Mexico Area","Albuquerque, New Mexico Area",0,0,Largest MSA within CSA,106.0,"Albuquerque-Santa Fe-Las Vegas, NM",,,
+514,31060,"Los Alamos, NM","Albuquerque, New Mexico Area","Albuquerque, New Mexico Area",0,0,Largest MSA within CSA,106.0,"Albuquerque-Santa Fe-Las Vegas, NM",,,
+515,22140,"Farmington, NM","Albuquerque, New Mexico Area","Albuquerque, New Mexico Area",1,0,Driving Distance,,,10740.0,"Albuquerque, NM",216.10855
+516,23700,"Gallup, NM","Albuquerque, New Mexico Area","Albuquerque, New Mexico Area",0,0,Driving Distance,,,10740.0,"Albuquerque, NM",142.47731
+517,29740,"Las Cruces, NM","Las Cruces, New Mexico Area","Las Cruces, New Mexico Area",1,1,Main Match,238.0,"El Paso-Las Cruces, TX-NM",,,
+518,10460,"Alamogordo, NM","Las Cruces, New Mexico Area","Las Cruces, New Mexico Area",0,0,Driving Distance,,,29740.0,"Las Cruces, NM",125.310684
+519,19700,"Deming, NM","Las Cruces, New Mexico Area","Las Cruces, New Mexico Area",0,0,Driving Distance,,,29740.0,"Las Cruces, NM",68.248924
+520,43500,"Silver City, NM","Las Cruces, New Mexico Area","Las Cruces, New Mexico Area",0,0,Driving Distance,,,29740.0,"Las Cruces, NM",135.7255
+521,42140,"Santa Fe, NM","Santa Fe, New Mexico Area","Santa Fe, New Mexico Area",1,1,Main Match,106.0,"Albuquerque-Santa Fe-Las Vegas, NM",,,
+522,45340,"Taos, NM","Santa Fe, New Mexico Area","Santa Fe, New Mexico Area",0,0,Driving Distance,,,42140.0,"Santa Fe, NM",103.99206
+523,29820,"Las Vegas-Henderson-Paradise, NV","Las Vegas, Nevada Area","Las Vegas, Nevada Area",1,1,Main Match,332.0,"Las Vegas-Henderson, NV-AZ",,,
+524,29420,"Lake Havasu City-Kingman, AZ","Las Vegas, Nevada Area","Las Vegas, Nevada Area",1,0,CSA Match,332.0,"Las Vegas-Henderson, NV-AZ",,,
+525,37220,"Pahrump, NV","Las Vegas, Nevada Area","Las Vegas, Nevada Area",0,0,CSA Match,332.0,"Las Vegas-Henderson, NV-AZ",,,
+526,41100,"St. George, UT","Las Vegas, Nevada Area","Las Vegas, Nevada Area",1,0,Driving Distance,,,29820.0,"Las Vegas-Henderson-Paradise, NV",134.39452
+527,16260,"Cedar City, UT","Las Vegas, Nevada Area","Las Vegas, Nevada Area",0,0,Driving Distance,,,29820.0,"Las Vegas-Henderson-Paradise, NV",188.72037
+528,39900,"Reno, NV","Reno, Nevada Area","Reno, Nevada Area",1,1,Main Match,456.0,"Reno-Carson City-Fernley, NV",,,
+529,16180,"Carson City, NV","Reno, Nevada Area","Reno, Nevada Area",1,0,CSA Match,456.0,"Reno-Carson City-Fernley, NV",,,
+530,22280,"Fernley, NV","Reno, Nevada Area","Reno, Nevada Area",0,0,CSA Match,456.0,"Reno-Carson City-Fernley, NV",,,
+531,23820,"Gardnerville Ranchos, NV","Reno, Nevada Area","Reno, Nevada Area",0,0,CSA Match,456.0,"Reno-Carson City-Fernley, NV",,,
+532,21980,"Fallon, NV","Reno, Nevada Area","Reno, Nevada Area",0,0,Driving Distance,,,39900.0,"Reno, NV",155.47514
+533,45000,"Susanville, CA","Reno, Nevada Area","Reno, Nevada Area",0,0,Driving Distance,,,39900.0,"Reno, NV",97.60499
+534,15380,"Buffalo-Cheektowaga-Niagara Falls, NY","Buffalo/Niagara, New York Area","Buffalo/Niagara, New York Area",1,1,Main Match,160.0,"Buffalo-Cheektowaga, NY",,,
+535,36460,"Olean, NY","Buffalo/Niagara, New York Area","Buffalo/Niagara, New York Area",0,0,CSA Match,160.0,"Buffalo-Cheektowaga, NY",,,
+536,10580,"Albany-Schenectady-Troy, NY","Albany, New York Area","Albany, New York Area",1,1,Main Match,104.0,"Albany-Schenectady, NY",,,
+537,11220,"Amsterdam, NY","Albany, New York Area","Albany, New York Area",0,0,Largest MSA within CSA,104.0,"Albany-Schenectady, NY",,,
+538,24100,"Gloversville, NY","Albany, New York Area","Albany, New York Area",0,0,Largest MSA within CSA,104.0,"Albany-Schenectady, NY",,,
+539,26460,"Hudson, NY","Albany, New York Area","Albany, New York Area",0,0,Largest MSA within CSA,104.0,"Albany-Schenectady, NY",,,
+540,21300,"Elmira, NY","Elmira, New York Area","Elmira, New York Area",1,1,Main Match,236.0,"Elmira-Corning, NY",,,
+541,18500,"Corning, NY","Elmira, New York Area","Elmira, New York Area",0,0,CSA Match,236.0,"Elmira-Corning, NY",,,
+542,42380,"Sayre, PA","Elmira, New York Area","Elmira, New York Area",0,0,Driving Distance,,,21300.0,"Elmira, NY",38.570995
+543,24020,"Glens Falls, NY","Glens Falls, New York Area","Glens Falls, New York Area",1,1,Main Match,104.0,"Albany-Schenectady, NY",,,
+544,13540,"Bennington, VT","Glens Falls, New York Area","Glens Falls, New York Area",0,0,Driving Distance,,,24020.0,"Glens Falls, NY",57.522194
+545,40860,"Rutland, VT","Glens Falls, New York Area","Glens Falls, New York Area",0,0,Driving Distance,,,24020.0,"Glens Falls, NY",46.33192
+546,27460,"Jamestown-Dunkirk-Fredonia, NY","Jamestown, New York Area","Jamestown, New York Area",0,1,Main Match,,,,,
+547,14620,"Bradford, PA","Jamestown, New York Area","Jamestown, New York Area",0,0,Driving Distance,,,27460.0,"Jamestown-Dunkirk-Fredonia, NY",83.450775
+548,47620,"Warren, PA","Jamestown, New York Area","Jamestown, New York Area",0,0,Driving Distance,,,27460.0,"Jamestown-Dunkirk-Fredonia, NY",45.430935
+549,40380,"Rochester, NY","Rochester, New York Area","Rochester, New York Area",1,1,Main Match,464.0,"Rochester-Batavia-Seneca Falls, NY",,,
+550,12860,"Batavia, NY","Rochester, New York Area","Rochester, New York Area",0,0,CSA Match,464.0,"Rochester-Batavia-Seneca Falls, NY",,,
+551,42900,"Seneca Falls, NY","Rochester, New York Area","Rochester, New York Area",0,0,CSA Match,464.0,"Rochester-Batavia-Seneca Falls, NY",,,
+552,35620,"New York-Newark-Jersey City, NY-NJ-PA",Greater New York City Area,Greater New York City Area,1,1,Main Match,408.0,"New York-Newark, NY-NJ-CT-PA",,,
+553,14860,"Bridgeport-Stamford-Norwalk, CT",Greater New York City Area,Greater New York City Area,1,0,Largest MSA within CSA,408.0,"New York-Newark, NY-NJ-CT-PA",,,
+554,20700,"East Stroudsburg, PA",Greater New York City Area,Greater New York City Area,1,0,Largest MSA within CSA,408.0,"New York-Newark, NY-NJ-CT-PA",,,
+555,28740,"Kingston, NY",Greater New York City Area,Greater New York City Area,1,0,Largest MSA within CSA,408.0,"New York-Newark, NY-NJ-CT-PA",,,
+556,35300,"New Haven-Milford, CT",Greater New York City Area,Greater New York City Area,1,0,Largest MSA within CSA,408.0,"New York-Newark, NY-NJ-CT-PA",,,
+557,45940,"Trenton, NJ",Greater New York City Area,Greater New York City Area,1,0,Largest MSA within CSA,408.0,"New York-Newark, NY-NJ-CT-PA",,,
+558,45860,"Torrington, CT",Greater New York City Area,Greater New York City Area,0,0,Largest MSA within CSA,408.0,"New York-Newark, NY-NJ-CT-PA",,,
+559,45060,"Syracuse, NY","Syracuse, New York Area","Syracuse, New York Area",1,1,Main Match,532.0,"Syracuse-Auburn, NY",,,
+560,12180,"Auburn, NY","Syracuse, New York Area","Syracuse, New York Area",0,0,CSA Match,532.0,"Syracuse-Auburn, NY",,,
+561,48060,"Watertown-Fort Drum, NY","Syracuse, New York Area","Syracuse, New York Area",1,0,Driving Distance,,,45060.0,"Syracuse, NY",62.288113
+562,46540,"Utica-Rome, NY","Utica, New York Area","Utica, New York Area",1,1,Main Match,,,,,
+563,36300,"Ogdensburg-Massena, NY","Utica, New York Area","Utica, New York Area",0,0,Driving Distance,,,46540.0,"Utica-Rome, NY",100.98276
+564,36580,"Oneonta, NY","Utica, New York Area","Utica, New York Area",0,0,Driving Distance,,,46540.0,"Utica-Rome, NY",62.58202
+565,27060,"Ithaca, NY","Ithaca, New York Area","Ithaca, New York Area",1,1,Main Match,296.0,"Ithaca-Cortland, NY",,,
+566,18660,"Cortland, NY","Ithaca, New York Area","Ithaca, New York Area",0,0,CSA Match,296.0,"Ithaca-Cortland, NY",,,
+567,13780,"Binghamton, NY","Ithaca, New York Area","Ithaca, New York Area",1,0,Driving Distance,,,27060.0,"Ithaca, NY",43.840843
+568,15940,"Canton-Massillon, OH","Canton, Ohio Area","Canton, Ohio Area",1,1,Main Match,184.0,"Cleveland-Akron-Canton, OH",,,
+569,18140,"Columbus, OH","Columbus, Ohio Area","Columbus, Ohio Area",1,1,Main Match,198.0,"Columbus-Marion-Zanesville, OH",,,
+570,13340,"Bellefontaine, OH","Columbus, Ohio Area","Columbus, Ohio Area",0,0,CSA Match,198.0,"Columbus-Marion-Zanesville, OH",,,
+571,15740,"Cambridge, OH","Columbus, Ohio Area","Columbus, Ohio Area",0,0,CSA Match,198.0,"Columbus-Marion-Zanesville, OH",,,
+572,17060,"Chillicothe, OH","Columbus, Ohio Area","Columbus, Ohio Area",0,0,CSA Match,198.0,"Columbus-Marion-Zanesville, OH",,,
+573,32020,"Marion, OH","Columbus, Ohio Area","Columbus, Ohio Area",0,0,CSA Match,198.0,"Columbus-Marion-Zanesville, OH",,,
+574,34540,"Mount Vernon, OH","Columbus, Ohio Area","Columbus, Ohio Area",0,0,CSA Match,198.0,"Columbus-Marion-Zanesville, OH",,,
+575,47920,"Washington Court House, OH","Columbus, Ohio Area","Columbus, Ohio Area",0,0,CSA Match,198.0,"Columbus-Marion-Zanesville, OH",,,
+576,49780,"Zanesville, OH","Columbus, Ohio Area","Columbus, Ohio Area",0,0,CSA Match,198.0,"Columbus-Marion-Zanesville, OH",,,
+577,19380,"Dayton, OH","Dayton, Ohio Area","Dayton, Ohio Area",1,1,Main Match,212.0,"Dayton-Springfield-Sidney, OH",,,
+578,44220,"Springfield, OH","Dayton, Ohio Area","Dayton, Ohio Area",1,0,CSA Match,212.0,"Dayton-Springfield-Sidney, OH",,,
+579,24820,"Greenville, OH","Dayton, Ohio Area","Dayton, Ohio Area",0,0,CSA Match,212.0,"Dayton-Springfield-Sidney, OH",,,
+580,43380,"Sidney, OH","Dayton, Ohio Area","Dayton, Ohio Area",0,0,CSA Match,212.0,"Dayton-Springfield-Sidney, OH",,,
+581,46500,"Urbana, OH","Dayton, Ohio Area","Dayton, Ohio Area",0,0,CSA Match,212.0,"Dayton-Springfield-Sidney, OH",,,
+582,17140,"Cincinnati, OH-KY-IN","Cincinnati, Ohio Area","Cincinnati, Ohio Area",1,1,Main Match,178.0,"Cincinnati-Wilmington-Maysville, OH-KY-IN",,,
+583,32500,"Maysville, KY","Cincinnati, Ohio Area","Cincinnati, Ohio Area",0,0,CSA Match,178.0,"Cincinnati-Wilmington-Maysville, OH-KY-IN",,,
+584,48940,"Wilmington, OH","Cincinnati, Ohio Area","Cincinnati, Ohio Area",0,0,CSA Match,178.0,"Cincinnati-Wilmington-Maysville, OH-KY-IN",,,
+585,10420,"Akron, OH","Cleveland/Akron, Ohio Area","Cleveland/Akron, Ohio Area",1,1,Main Match,184.0,"Cleveland-Akron-Canton, OH",,,
+586,17460,"Cleveland-Elyria, OH","Cleveland/Akron, Ohio Area","Cleveland/Akron, Ohio Area",1,1,Main Match,184.0,"Cleveland-Akron-Canton, OH",,,
+587,11780,"Ashtabula, OH","Cleveland/Akron, Ohio Area","Cleveland/Akron, Ohio Area",0,0,Largest MSA within CSA,184.0,"Cleveland-Akron-Canton, OH",,,
+588,35420,"New Philadelphia-Dover, OH","Cleveland/Akron, Ohio Area","Cleveland/Akron, Ohio Area",0,0,Largest MSA within CSA,184.0,"Cleveland-Akron-Canton, OH",,,
+589,35940,"Norwalk, OH","Cleveland/Akron, Ohio Area","Cleveland/Akron, Ohio Area",0,0,Largest MSA within CSA,184.0,"Cleveland-Akron-Canton, OH",,,
+590,41780,"Sandusky, OH","Cleveland/Akron, Ohio Area","Cleveland/Akron, Ohio Area",0,0,Largest MSA within CSA,184.0,"Cleveland-Akron-Canton, OH",,,
+591,30620,"Lima, OH","Lima, Ohio Area","Lima, Ohio Area",1,1,Main Match,338.0,"Lima-Van Wert-Celina, OH",,,
+592,16380,"Celina, OH","Lima, Ohio Area","Lima, Ohio Area",0,0,CSA Match,338.0,"Lima-Van Wert-Celina, OH",,,
+593,46780,"Van Wert, OH","Lima, Ohio Area","Lima, Ohio Area",0,0,CSA Match,338.0,"Lima-Van Wert-Celina, OH",,,
+594,47540,"Wapakoneta, OH","Lima, Ohio Area","Lima, Ohio Area",0,0,CSA Match,338.0,"Lima-Van Wert-Celina, OH",,,
+595,22300,"Findlay, OH","Lima, Ohio Area","Lima, Ohio Area",0,0,Driving Distance,248.0,"Findlay-Tiffin, OH",30620.0,"Lima, OH",31.317108
+596,31900,"Mansfield, OH","Mansfield, Ohio Area","Mansfield, Ohio Area",1,1,Main Match,360.0,"Mansfield-Ashland-Bucyrus, OH",,,
+597,11740,"Ashland, OH","Mansfield, Ohio Area","Mansfield, Ohio Area",0,0,CSA Match,360.0,"Mansfield-Ashland-Bucyrus, OH",,,
+598,15340,"Bucyrus, OH","Mansfield, Ohio Area","Mansfield, Ohio Area",0,0,CSA Match,360.0,"Mansfield-Ashland-Bucyrus, OH",,,
+599,18740,"Coshocton, OH","Mansfield, Ohio Area","Mansfield, Ohio Area",0,0,Driving Distance,,,31900.0,"Mansfield, OH",63.944687
+600,45660,"Tiffin, OH","Mansfield, Ohio Area","Mansfield, Ohio Area",0,0,Driving Distance,248.0,"Findlay-Tiffin, OH",31900.0,"Mansfield, OH",56.74051
+601,49300,"Wooster, OH","Mansfield, Ohio Area","Mansfield, Ohio Area",0,0,Driving Distance,,,31900.0,"Mansfield, OH",39.369457
+602,48260,"Weirton-Steubenville, WV-OH","Steubenville, Ohio Area","Steubenville, Ohio Area",1,1,Main Match,430.0,"Pittsburgh-New Castle-Weirton, PA-OH-WV",,,
+603,45780,"Toledo, OH","Toledo, Ohio Area","Toledo, Ohio Area",1,1,Main Match,534.0,"Toledo-Port Clinton, OH",,,
+604,38840,"Port Clinton, OH","Toledo, Ohio Area","Toledo, Ohio Area",0,0,CSA Match,534.0,"Toledo-Port Clinton, OH",,,
+605,19580,"Defiance, OH","Toledo, Ohio Area","Toledo, Ohio Area",0,0,Driving Distance,,,45780.0,"Toledo, OH",49.082733
+606,23380,"Fremont, OH","Toledo, Ohio Area","Toledo, Ohio Area",0,0,Driving Distance,,,45780.0,"Toledo, OH",40.28287
+607,49660,"Youngstown-Warren-Boardman, OH-PA","Youngstown/Sharon Combined, OH-PA Area","Youngstown/Sharon Combined, OH-PA Area",1,1,Main Match,566.0,"Youngstown-Warren, OH-PA",,,
+608,41400,"Salem, OH","Youngstown/Sharon Combined, OH-PA Area","Youngstown/Sharon Combined, OH-PA Area",0,0,CSA Match,566.0,"Youngstown-Warren, OH-PA",,,
+609,36340,"Oil City, PA","Youngstown/Sharon Combined, OH-PA Area","Youngstown/Sharon Combined, OH-PA Area",0,0,Driving Distance,,,49660.0,"Youngstown-Warren-Boardman, OH-PA",58.2579
+610,21420,"Enid, OK","Enid, Oklahoma Area","Enid, Oklahoma Area",0,1,Main Match,,,,,
+611,38620,"Ponca City, OK","Enid, Oklahoma Area","Enid, Oklahoma Area",0,0,Driving Distance,,,21420.0,"Enid, OK",67.021095
+612,49260,"Woodward, OK","Enid, Oklahoma Area","Enid, Oklahoma Area",0,0,Driving Distance,,,21420.0,"Enid, OK",87.52138
+613,30020,"Lawton, OK","Lawton, Oklahoma Area","Lawton, Oklahoma Area",1,1,Main Match,,,,,
+614,11060,"Altus, OK","Lawton, Oklahoma Area","Lawton, Oklahoma Area",0,0,Driving Distance,,,30020.0,"Lawton, OK",69.29532
+615,20340,"Duncan, OK","Lawton, Oklahoma Area","Lawton, Oklahoma Area",0,0,Driving Distance,,,30020.0,"Lawton, OK",47.116093
+616,21120,"Elk City, OK","Lawton, Oklahoma Area","Lawton, Oklahoma Area",0,0,Driving Distance,,,30020.0,"Lawton, OK",118.63964
+617,36420,"Oklahoma City, OK","Oklahoma City, Oklahoma Area","Oklahoma City, Oklahoma Area",1,1,Main Match,416.0,"Oklahoma City-Shawnee, OK",,,
+618,43060,"Shawnee, OK","Oklahoma City, Oklahoma Area","Oklahoma City, Oklahoma Area",0,0,CSA Match,416.0,"Oklahoma City-Shawnee, OK",,,
+619,10220,"Ada, OK","Oklahoma City, Oklahoma Area","Oklahoma City, Oklahoma Area",0,0,Driving Distance,,,36420.0,"Oklahoma City, OK",88.61934
+620,48220,"Weatherford, OK","Oklahoma City, Oklahoma Area","Oklahoma City, Oklahoma Area",0,0,Driving Distance,,,36420.0,"Oklahoma City, OK",97.04016
+621,46140,"Tulsa, OK","Tulsa, Oklahoma Area","Tulsa, Oklahoma Area",1,1,Main Match,538.0,"Tulsa-Muskogee-Bartlesville, OK",,,
+622,12780,"Bartlesville, OK","Tulsa, Oklahoma Area","Tulsa, Oklahoma Area",0,0,CSA Match,538.0,"Tulsa-Muskogee-Bartlesville, OK",,,
+623,34780,"Muskogee, OK","Tulsa, Oklahoma Area","Tulsa, Oklahoma Area",0,0,CSA Match,538.0,"Tulsa-Muskogee-Bartlesville, OK",,,
+624,45140,"Tahlequah, OK","Tulsa, Oklahoma Area","Tulsa, Oklahoma Area",0,0,CSA Match,538.0,"Tulsa-Muskogee-Bartlesville, OK",,,
+625,17700,"Coffeyville, KS","Tulsa, Oklahoma Area","Tulsa, Oklahoma Area",0,0,Driving Distance,,,46140.0,"Tulsa, OK",84.5798
+626,44660,"Stillwater, OK","Tulsa, Oklahoma Area","Tulsa, Oklahoma Area",0,0,Driving Distance,,,46140.0,"Tulsa, OK",65.1284
+627,18700,"Corvallis, OR","Corvallis, Oregon Area","Corvallis, Oregon Area",1,1,Main Match,440.0,"Portland-Vancouver-Salem, OR-WA",,,
+628,35440,"Newport, OR","Corvallis, Oregon Area","Corvallis, Oregon Area",0,0,Driving Distance,,,18700.0,"Corvallis, OR",39.699406
+629,21660,"Eugene, OR","Eugene, Oregon Area","Eugene, Oregon Area",1,1,Main Match,,,,,
+630,18300,"Coos Bay, OR","Eugene, Oregon Area","Eugene, Oregon Area",0,0,Driving Distance,,,21660.0,"Eugene, OR",146.31862
+631,40700,"Roseburg, OR","Eugene, Oregon Area","Eugene, Oregon Area",0,0,Driving Distance,,,21660.0,"Eugene, OR",83.983284
+632,32780,"Medford, OR","Medford, Oregon Area","Medford, Oregon Area",1,1,Main Match,366.0,"Medford-Grants Pass, OR",,,
+633,24420,"Grants Pass, OR","Medford, Oregon Area","Medford, Oregon Area",1,0,CSA Match,366.0,"Medford-Grants Pass, OR",,,
+634,15060,"Brookings, OR","Medford, Oregon Area","Medford, Oregon Area",0,0,Driving Distance,,,32780.0,"Medford, OR",184.51059
+635,18860,"Crescent City, CA","Medford, Oregon Area","Medford, Oregon Area",0,0,Driving Distance,,,32780.0,"Medford, OR",111.02101
+636,28900,"Klamath Falls, OR","Medford, Oregon Area","Medford, Oregon Area",0,0,Driving Distance,,,32780.0,"Medford, OR",95.92977
+637,38900,"Portland-Vancouver-Hillsboro, OR-WA","Portland, Oregon Area","Portland, Oregon Area",1,1,Main Match,440.0,"Portland-Vancouver-Salem, OR-WA",,,
+638,10540,"Albany, OR","Portland, Oregon Area","Portland, Oregon Area",1,0,Largest MSA within CSA,440.0,"Portland-Vancouver-Salem, OR-WA",,,
+639,31020,"Longview, WA","Portland, Oregon Area","Portland, Oregon Area",1,0,Largest MSA within CSA,440.0,"Portland-Vancouver-Salem, OR-WA",,,
+640,41420,"Salem, OR","Portland, Oregon Area","Portland, Oregon Area",1,0,Largest MSA within CSA,440.0,"Portland-Vancouver-Salem, OR-WA",,,
+641,11820,"Astoria, OR","Portland, Oregon Area","Portland, Oregon Area",0,0,Driving Distance,,,38900.0,"Portland-Vancouver-Hillsboro, OR-WA",95.3637
+642,26220,"Hood River, OR","Portland, Oregon Area","Portland, Oregon Area",0,0,Driving Distance,,,38900.0,"Portland-Vancouver-Hillsboro, OR-WA",73.18137
+643,13460,"Bend-Redmond, OR","Bend, Oregon Area","Bend, Oregon Area",1,1,Main Match,140.0,"Bend-Redmond-Prineville, OR",,,
+644,39260,"Prineville, OR","Bend, Oregon Area","Bend, Oregon Area",0,0,CSA Match,140.0,"Bend-Redmond-Prineville, OR",,,
+645,45520,"The Dalles, OR","Bend, Oregon Area","Bend, Oregon Area",0,0,Driving Distance,,,13460.0,"Bend-Redmond, OR",110.12499
+646,21500,"Erie, PA","Erie, Pennsylvania Area","Erie, Pennsylvania Area",1,1,Main Match,240.0,"Erie-Meadville, PA",,,
+647,32740,"Meadville, PA","Erie, Pennsylvania Area","Erie, Pennsylvania Area",0,0,CSA Match,240.0,"Erie-Meadville, PA",,,
+648,10900,"Allentown-Bethlehem-Easton, PA-NJ","Allentown, Pennsylvania Area","Allentown, Pennsylvania Area",1,1,Main Match,408.0,"New York-Newark, NY-NJ-CT-PA",,,
+649,11020,"Altoona, PA","Altoona, Pennsylvania Area","Altoona, Pennsylvania Area",1,1,Main Match,,,,,
+650,26500,"Huntingdon, PA","Altoona, Pennsylvania Area","Altoona, Pennsylvania Area",0,0,Driving Distance,,,11020.0,"Altoona, PA",33.580765
+651,25420,"Harrisburg-Carlisle, PA","Harrisburg, Pennsylvania Area","Harrisburg, Pennsylvania Area",1,1,Main Match,276.0,"Harrisburg-York-Lebanon, PA",,,
+652,23900,"Gettysburg, PA","Harrisburg, Pennsylvania Area","Harrisburg, Pennsylvania Area",1,0,Largest MSA within CSA,276.0,"Harrisburg-York-Lebanon, PA",,,
+653,30140,"Lebanon, PA","Harrisburg, Pennsylvania Area","Harrisburg, Pennsylvania Area",1,0,Largest MSA within CSA,276.0,"Harrisburg-York-Lebanon, PA",,,
+654,42780,"Selinsgrove, PA","Harrisburg, Pennsylvania Area","Harrisburg, Pennsylvania Area",0,0,Driving Distance,146.0,"Bloomsburg-Berwick-Sunbury, PA",25420.0,"Harrisburg-Carlisle, PA",51.95968
+655,27780,"Johnstown, PA","Johnstown, Pennsylvania Area","Johnstown, Pennsylvania Area",1,1,Main Match,306.0,"Johnstown-Somerset, PA",,,
+656,43740,"Somerset, PA","Johnstown, Pennsylvania Area","Johnstown, Pennsylvania Area",0,0,CSA Match,306.0,"Johnstown-Somerset, PA",,,
+657,29540,"Lancaster, PA","Lancaster, Pennsylvania Area","Lancaster, Pennsylvania Area",1,1,Main Match,,,,,
+658,38300,"Pittsburgh, PA",Greater Pittsburgh Area,Greater Pittsburgh Area,1,1,Main Match,430.0,"Pittsburgh-New Castle-Weirton, PA-OH-WV",,,
+659,26860,"Indiana, PA",Greater Pittsburgh Area,Greater Pittsburgh Area,0,0,Largest MSA within CSA,430.0,"Pittsburgh-New Castle-Weirton, PA-OH-WV",,,
+660,35260,"New Castle, PA",Greater Pittsburgh Area,Greater Pittsburgh Area,0,0,Largest MSA within CSA,430.0,"Pittsburgh-New Castle-Weirton, PA-OH-WV",,,
+661,39740,"Reading, PA","Reading, Pennsylvania Area","Reading, Pennsylvania Area",1,1,Main Match,428.0,"Philadelphia-Reading-Camden, PA-NJ-DE-MD",,,
+662,39060,"Pottsville, PA","Reading, Pennsylvania Area","Reading, Pennsylvania Area",0,0,Driving Distance,,,39740.0,"Reading, PA",30.775272
+663,42540,"Scranton--Wilkes-Barre--Hazleton, PA","Scranton, Pennsylvania Area","Scranton, Pennsylvania Area",1,1,Main Match,,,,,
+664,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Greater Philadelphia Area,Greater Philadelphia Area,1,1,Main Match,428.0,"Philadelphia-Reading-Camden, PA-NJ-DE-MD",,,
+665,12100,"Atlantic City-Hammonton, NJ",Greater Philadelphia Area,Greater Philadelphia Area,1,0,Largest MSA within CSA,428.0,"Philadelphia-Reading-Camden, PA-NJ-DE-MD",,,
+666,36140,"Ocean City, NJ",Greater Philadelphia Area,Greater Philadelphia Area,1,0,Largest MSA within CSA,428.0,"Philadelphia-Reading-Camden, PA-NJ-DE-MD",,,
+667,47220,"Vineland-Bridgeton, NJ",Greater Philadelphia Area,Greater Philadelphia Area,1,0,Largest MSA within CSA,428.0,"Philadelphia-Reading-Camden, PA-NJ-DE-MD",,,
+668,44300,"State College, PA","State College, Pennsylvania Area","State College, Pennsylvania Area",1,1,Main Match,524.0,"State College-DuBois, PA",,,
+669,20180,"DuBois, PA","State College, Pennsylvania Area","State College, Pennsylvania Area",0,0,CSA Match,524.0,"State College-DuBois, PA",,,
+670,30380,"Lewistown, PA","State College, Pennsylvania Area","State College, Pennsylvania Area",0,0,Driving Distance,,,44300.0,"State College, PA",40.944633
+671,48700,"Williamsport, PA","Williamsport, Pennsylvania Area","Williamsport, Pennsylvania Area",1,1,Main Match,558.0,"Williamsport-Lock Haven, PA",,,
+672,30820,"Lock Haven, PA","Williamsport, Pennsylvania Area","Williamsport, Pennsylvania Area",0,0,CSA Match,558.0,"Williamsport-Lock Haven, PA",,,
+673,14100,"Bloomsburg-Berwick, PA","Williamsport, Pennsylvania Area","Williamsport, Pennsylvania Area",1,0,Driving Distance,146.0,"Bloomsburg-Berwick-Sunbury, PA",48700.0,"Williamsport, PA",52.034866
+674,30260,"Lewisburg, PA","Williamsport, Pennsylvania Area","Williamsport, Pennsylvania Area",0,0,Driving Distance,146.0,"Bloomsburg-Berwick-Sunbury, PA",48700.0,"Williamsport, PA",47.514393
+675,44980,"Sunbury, PA","Williamsport, Pennsylvania Area","Williamsport, Pennsylvania Area",0,0,Driving Distance,146.0,"Bloomsburg-Berwick-Sunbury, PA",48700.0,"Williamsport, PA",60.194714
+676,49620,"York-Hanover, PA","York, Pennsylvania Area","York, Pennsylvania Area",1,1,Main Match,276.0,"Harrisburg-York-Lebanon, PA",,,
+677,39300,"Providence-Warwick, RI-MA","Providence, Rhode Island Area","Providence, Rhode Island Area",1,1,Main Match,148.0,"Boston-Worcester-Providence, MA-RI-NH-CT",,,
+678,16700,"Charleston-North Charleston, SC","Charleston, South Carolina Area","Charleston, South Carolina Area",1,1,Main Match,,,,,
+679,17900,"Columbia, SC","Columbia, South Carolina Area","Columbia, South Carolina Area",1,1,Main Match,192.0,"Columbia-Orangeburg-Newberry, SC",,,
+680,35140,"Newberry, SC","Columbia, South Carolina Area","Columbia, South Carolina Area",0,0,CSA Match,192.0,"Columbia-Orangeburg-Newberry, SC",,,
+681,36700,"Orangeburg, SC","Columbia, South Carolina Area","Columbia, South Carolina Area",0,0,CSA Match,192.0,"Columbia-Orangeburg-Newberry, SC",,,
+682,22500,"Florence, SC","Florence, South Carolina Area","Florence, South Carolina Area",1,1,Main Match,,,,,
+683,13500,"Bennettsville, SC","Florence, South Carolina Area","Florence, South Carolina Area",0,0,Driving Distance,,,22500.0,"Florence, SC",51.473766
+684,24860,"Greenville-Anderson-Mauldin, SC","Greenville, South Carolina Area","Greenville, South Carolina Area",1,1,Main Match,273.0,"Greenville-Spartanburg-Anderson, SC",,,
+685,43900,"Spartanburg, SC","Greenville, South Carolina Area","Greenville, South Carolina Area",1,0,CSA Match,273.0,"Greenville-Spartanburg-Anderson, SC",,,
+686,23500,"Gaffney, SC","Greenville, South Carolina Area","Greenville, South Carolina Area",0,0,CSA Match,273.0,"Greenville-Spartanburg-Anderson, SC",,,
+687,24940,"Greenwood, SC","Greenville, South Carolina Area","Greenville, South Carolina Area",0,0,CSA Match,273.0,"Greenville-Spartanburg-Anderson, SC",,,
+688,42860,"Seneca, SC","Greenville, South Carolina Area","Greenville, South Carolina Area",0,0,CSA Match,273.0,"Greenville-Spartanburg-Anderson, SC",,,
+689,34820,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC","Myrtle Beach, South Carolina Area","Myrtle Beach, South Carolina Area",1,1,Main Match,396.0,"Myrtle Beach-Conway, SC-NC",,,
+690,23860,"Georgetown, SC","Myrtle Beach, South Carolina Area","Myrtle Beach, South Carolina Area",0,0,CSA Match,396.0,"Myrtle Beach-Conway, SC-NC",,,
+691,44940,"Sumter, SC","Sumter, South Carolina Area","Sumter, South Carolina Area",1,1,Main Match,,,,,
+692,39660,"Rapid City, SD","Rapid City, South Dakota Area","Rapid City, South Dakota Area",1,1,Main Match,452.0,"Rapid City-Spearfish, SD",,,
+693,43940,"Spearfish, SD","Rapid City, South Dakota Area","Rapid City, South Dakota Area",0,0,CSA Match,452.0,"Rapid City-Spearfish, SD",,,
+694,38180,"Pierre, SD","Rapid City, South Dakota Area","Rapid City, South Dakota Area",0,0,Driving Distance,,,39660.0,"Rapid City, SD",167.93675
+695,43620,"Sioux Falls, SD","Sioux Falls, South Dakota Area","Sioux Falls, South Dakota Area",1,1,Main Match,,,,,
+696,15100,"Brookings, SD","Sioux Falls, South Dakota Area","Sioux Falls, South Dakota Area",0,0,Driving Distance,,,43620.0,"Sioux Falls, SD",72.701675
+697,26700,"Huron, SD","Sioux Falls, South Dakota Area","Sioux Falls, South Dakota Area",0,0,Driving Distance,,,43620.0,"Sioux Falls, SD",122.96998
+698,32140,"Marshall, MN","Sioux Falls, South Dakota Area","Sioux Falls, South Dakota Area",0,0,Driving Distance,,,43620.0,"Sioux Falls, SD",104.05669
+699,33580,"Mitchell, SD","Sioux Falls, South Dakota Area","Sioux Falls, South Dakota Area",0,0,Driving Distance,,,43620.0,"Sioux Falls, SD",65.52235
+700,47980,"Watertown, SD","Sioux Falls, South Dakota Area","Sioux Falls, South Dakota Area",0,0,Driving Distance,,,43620.0,"Sioux Falls, SD",128.7593
+701,49380,"Worthington, MN","Sioux Falls, South Dakota Area","Sioux Falls, South Dakota Area",0,0,Driving Distance,,,43620.0,"Sioux Falls, SD",72.7576
+702,49460,"Yankton, SD","Sioux Falls, South Dakota Area","Sioux Falls, South Dakota Area",0,0,Driving Distance,,,43620.0,"Sioux Falls, SD",61.945114
+703,16860,"Chattanooga, TN-GA","Chattanooga, Tennessee Area","Chattanooga, Tennessee Area",1,1,Main Match,174.0,"Chattanooga-Cleveland-Dalton, TN-GA-AL",,,
+704,17420,"Cleveland, TN","Chattanooga, Tennessee Area","Chattanooga, Tennessee Area",1,0,CSA Match,174.0,"Chattanooga-Cleveland-Dalton, TN-GA-AL",,,
+705,19140,"Dalton, GA","Chattanooga, Tennessee Area","Chattanooga, Tennessee Area",1,0,CSA Match,174.0,"Chattanooga-Cleveland-Dalton, TN-GA-AL",,,
+706,11940,"Athens, TN","Chattanooga, Tennessee Area","Chattanooga, Tennessee Area",0,0,CSA Match,174.0,"Chattanooga-Cleveland-Dalton, TN-GA-AL",,,
+707,19420,"Dayton, TN","Chattanooga, Tennessee Area","Chattanooga, Tennessee Area",0,0,CSA Match,174.0,"Chattanooga-Cleveland-Dalton, TN-GA-AL",,,
+708,42460,"Scottsboro, AL","Chattanooga, Tennessee Area","Chattanooga, Tennessee Area",0,0,CSA Match,174.0,"Chattanooga-Cleveland-Dalton, TN-GA-AL",,,
+709,44900,"Summerville, GA","Chattanooga, Tennessee Area","Chattanooga, Tennessee Area",0,0,Driving Distance,470.0,"Rome-Summerville, GA",16860.0,"Chattanooga, TN-GA",55.68045
+710,27180,"Jackson, TN","Jackson, Tennessee Area","Jackson, Tennessee Area",1,1,Main Match,,,,,
+711,20540,"Dyersburg, TN","Jackson, Tennessee Area","Jackson, Tennessee Area",0,0,Driving Distance,,,27180.0,"Jackson, TN",49.32196
+712,32280,"Martin, TN","Jackson, Tennessee Area","Jackson, Tennessee Area",0,0,Driving Distance,362.0,"Martin-Union City, TN-KY",27180.0,"Jackson, TN",54.548313
+713,37540,"Paris, TN","Jackson, Tennessee Area","Jackson, Tennessee Area",0,0,Driving Distance,,,27180.0,"Jackson, TN",69.05049
+714,43460,"Sikeston, MO","Jackson, Tennessee Area","Jackson, Tennessee Area",0,0,Driving Distance,164.0,"Cape Girardeau-Sikeston, MO-IL",27180.0,"Jackson, TN",137.26587
+715,46460,"Union City, TN-KY","Jackson, Tennessee Area","Jackson, Tennessee Area",0,0,Driving Distance,362.0,"Martin-Union City, TN-KY",27180.0,"Jackson, TN",70.72633
+716,27740,"Johnson City, TN","Johnson City, Tennessee Area","Johnson City, Tennessee Area",1,1,Main Match,304.0,"Johnson City-Kingsport-Bristol, TN-VA",,,
+717,28700,"Kingsport-Bristol-Bristol, TN-VA","Johnson City, Tennessee Area","Johnson City, Tennessee Area",1,0,CSA Match,304.0,"Johnson City-Kingsport-Bristol, TN-VA",,,
+718,13720,"Big Stone Gap, VA","Johnson City, Tennessee Area","Johnson City, Tennessee Area",0,0,Driving Distance,,,27740.0,"Johnson City, TN",79.44914
+719,24620,"Greeneville, TN","Johnson City, Tennessee Area","Johnson City, Tennessee Area",0,0,Driving Distance,,,27740.0,"Johnson City, TN",37.03683
+720,28940,"Knoxville, TN","Knoxville, Tennessee Area","Knoxville, Tennessee Area",1,1,Main Match,314.0,"Knoxville-Morristown-Sevierville, TN",,,
+721,34100,"Morristown, TN","Knoxville, Tennessee Area","Knoxville, Tennessee Area",1,0,CSA Match,314.0,"Knoxville-Morristown-Sevierville, TN",,,
+722,35460,"Newport, TN","Knoxville, Tennessee Area","Knoxville, Tennessee Area",0,0,CSA Match,314.0,"Knoxville-Morristown-Sevierville, TN",,,
+723,42940,"Sevierville, TN","Knoxville, Tennessee Area","Knoxville, Tennessee Area",0,0,CSA Match,314.0,"Knoxville-Morristown-Sevierville, TN",,,
+724,18900,"Crossville, TN","Knoxville, Tennessee Area","Knoxville, Tennessee Area",0,0,Driving Distance,,,28940.0,"Knoxville, TN",68.47076
+725,30940,"London, KY","Knoxville, Tennessee Area","Knoxville, Tennessee Area",0,0,Driving Distance,,,28940.0,"Knoxville, TN",83.865845
+726,33180,"Middlesborough, KY","Knoxville, Tennessee Area","Knoxville, Tennessee Area",0,0,Driving Distance,,,28940.0,"Knoxville, TN",81.426346
+727,32820,"Memphis, TN-MS-AR",Greater Memphis Area,Greater Memphis Area,1,1,Main Match,368.0,"Memphis-Forrest City, TN-MS-AR",,,
+728,22620,"Forrest City, AR",Greater Memphis Area,Greater Memphis Area,0,0,CSA Match,368.0,"Memphis-Forrest City, TN-MS-AR",,,
+729,17260,"Clarksdale, MS",Greater Memphis Area,Greater Memphis Area,0,0,Driving Distance,,,32820.0,"Memphis, TN-MS-AR",88.385704
+730,24980,"Grenada, MS",Greater Memphis Area,Greater Memphis Area,0,0,Driving Distance,,,32820.0,"Memphis, TN-MS-AR",98.16547
+731,25760,"Helena-West Helena, AR",Greater Memphis Area,Greater Memphis Area,0,0,Driving Distance,,,32820.0,"Memphis, TN-MS-AR",97.069984
+732,37060,"Oxford, MS",Greater Memphis Area,Greater Memphis Area,0,0,Driving Distance,,,32820.0,"Memphis, TN-MS-AR",61.972454
+733,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN","Greater Nashville Area, TN","Greater Nashville Area, TN",1,1,Main Match,400.0,"Nashville-Davidson--Murfreesboro, TN",,,
+734,29980,"Lawrenceburg, TN","Greater Nashville Area, TN","Greater Nashville Area, TN",0,0,CSA Match,400.0,"Nashville-Davidson--Murfreesboro, TN",,,
+735,30280,"Lewisburg, TN","Greater Nashville Area, TN","Greater Nashville Area, TN",0,0,CSA Match,400.0,"Nashville-Davidson--Murfreesboro, TN",,,
+736,43180,"Shelbyville, TN","Greater Nashville Area, TN","Greater Nashville Area, TN",0,0,CSA Match,400.0,"Nashville-Davidson--Murfreesboro, TN",,,
+737,32660,"McMinnville, TN","Greater Nashville Area, TN","Greater Nashville Area, TN",0,0,Driving Distance,,,34980.0,"Nashville-Davidson--Murfreesboro--Franklin, TN",79.04463
+738,17300,"Clarksville, TN-KY","Clarksville/Todd Combined, TN-KY Area","Clarksville/Todd Combined, TN-KY Area",1,1,Main Match,,,,,
+739,32460,"Mayfield, KY","Clarksville/Todd Combined, TN-KY Area","Clarksville/Todd Combined, TN-KY Area",0,0,Driving Distance,424.0,"Paducah-Mayfield, KY-IL",17300.0,"Clarksville, TN-KY",87.829575
+740,34660,"Murray, KY","Clarksville/Todd Combined, TN-KY Area","Clarksville/Todd Combined, TN-KY Area",0,0,Driving Distance,,,17300.0,"Clarksville, TN-KY",54.999428
+741,37140,"Paducah, KY-IL","Clarksville/Todd Combined, TN-KY Area","Clarksville/Todd Combined, TN-KY Area",0,0,Driving Distance,424.0,"Paducah-Mayfield, KY-IL",17300.0,"Clarksville, TN-KY",85.17694
+742,15180,"Brownsville-Harlingen, TX","Brownsville, Texas Area","Brownsville, Texas Area",1,1,Main Match,154.0,"Brownsville-Harlingen-Raymondville, TX",,,
+743,39700,"Raymondville, TX","Brownsville, Texas Area","Brownsville, Texas Area",0,0,CSA Match,154.0,"Brownsville-Harlingen-Raymondville, TX",,,
+744,17780,"College Station-Bryan, TX","Bryan/College Station, Texas Area","Bryan/College Station, Texas Area",1,1,Main Match,,,,,
+745,18580,"Corpus Christi, TX","Corpus Christi, Texas Area","Corpus Christi, Texas Area",1,1,Main Match,204.0,"Corpus Christi-Kingsville-Alice, TX",,,
+746,10860,"Alice, TX","Corpus Christi, Texas Area","Corpus Christi, Texas Area",0,0,CSA Match,204.0,"Corpus Christi-Kingsville-Alice, TX",,,
+747,28780,"Kingsville, TX","Corpus Christi, Texas Area","Corpus Christi, Texas Area",0,0,CSA Match,204.0,"Corpus Christi-Kingsville-Alice, TX",,,
+748,21340,"El Paso, TX","El Paso, Texas Area","El Paso, Texas Area",1,1,Main Match,238.0,"El Paso-Las Cruces, TX-NM",,,
+749,16100,"Carlsbad-Artesia, NM","El Paso, Texas Area","El Paso, Texas Area",0,0,Driving Distance,,,21340.0,"El Paso, TX",135.55647
+750,19100,"Dallas-Fort Worth-Arlington, TX",Dallas/Fort Worth Area,Dallas/Fort Worth Area,1,1,Main Match,206.0,"Dallas-Fort Worth, TX-OK",,,
+751,11980,"Athens, TX",Dallas/Fort Worth Area,Dallas/Fort Worth Area,0,0,Largest MSA within CSA,206.0,"Dallas-Fort Worth, TX-OK",,,
+752,18620,"Corsicana, TX",Dallas/Fort Worth Area,Dallas/Fort Worth Area,0,0,Largest MSA within CSA,206.0,"Dallas-Fort Worth, TX-OK",,,
+753,20460,"Durant, OK",Dallas/Fort Worth Area,Dallas/Fort Worth Area,0,0,Largest MSA within CSA,206.0,"Dallas-Fort Worth, TX-OK",,,
+754,23620,"Gainesville, TX",Dallas/Fort Worth Area,Dallas/Fort Worth Area,0,0,Largest MSA within CSA,206.0,"Dallas-Fort Worth, TX-OK",,,
+755,33420,"Mineral Wells, TX",Dallas/Fort Worth Area,Dallas/Fort Worth Area,0,0,Largest MSA within CSA,206.0,"Dallas-Fort Worth, TX-OK",,,
+756,44860,"Sulphur Springs, TX",Dallas/Fort Worth Area,Dallas/Fort Worth Area,0,0,Largest MSA within CSA,206.0,"Dallas-Fort Worth, TX-OK",,,
+757,11100,"Amarillo, TX","Amarillo, Texas Area","Amarillo, Texas Area",1,1,Main Match,108.0,"Amarillo-Borger, TX",,,
+758,14420,"Borger, TX","Amarillo, Texas Area","Amarillo, Texas Area",0,0,CSA Match,108.0,"Amarillo-Borger, TX",,,
+759,17580,"Clovis, NM","Amarillo, Texas Area","Amarillo, Texas Area",0,0,Driving Distance,188.0,"Clovis-Portales, NM",11100.0,"Amarillo, TX",129.86844
+760,20300,"Dumas, TX","Amarillo, Texas Area","Amarillo, Texas Area",0,0,Driving Distance,,,11100.0,"Amarillo, TX",59.670277
+761,25100,"Guymon, OK","Amarillo, Texas Area","Amarillo, Texas Area",0,0,Driving Distance,,,11100.0,"Amarillo, TX",128.39455
+762,25820,"Hereford, TX","Amarillo, Texas Area","Amarillo, Texas Area",0,0,Driving Distance,,,11100.0,"Amarillo, TX",64.12799
+763,37420,"Pampa, TX","Amarillo, Texas Area","Amarillo, Texas Area",0,0,Driving Distance,,,11100.0,"Amarillo, TX",74.53658
+764,28660,"Killeen-Temple, TX","Killeen/Temple, Texas Area","Killeen/Temple, Texas Area",1,1,Main Match,,,,,
+765,10180,"Abilene, TX","Abilene, Texas Area","Abilene, Texas Area",1,1,Main Match,,,,,
+766,15220,"Brownwood, TX","Abilene, Texas Area","Abilene, Texas Area",0,0,Driving Distance,,,10180.0,"Abilene, TX",76.10616
+767,44500,"Stephenville, TX","Abilene, Texas Area","Abilene, Texas Area",0,0,Driving Distance,,,10180.0,"Abilene, TX",94.97224
+768,45020,"Sweetwater, TX","Abilene, Texas Area","Abilene, Texas Area",0,0,Driving Distance,,,10180.0,"Abilene, TX",56.26516
+769,29700,"Laredo, TX","Laredo, Texas Area","Laredo, Texas Area",1,1,Main Match,,,,,
+770,20580,"Eagle Pass, TX","Laredo, Texas Area","Laredo, Texas Area",0,0,Driving Distance,,,29700.0,"Laredo, TX",121.724754
+771,49820,"Zapata, TX","Laredo, Texas Area","Laredo, Texas Area",0,0,Driving Distance,,,29700.0,"Laredo, TX",85.21795
+772,26420,"Houston-The Woodlands-Sugar Land, TX","Houston, Texas Area","Houston, Texas Area",1,1,Main Match,288.0,"Houston-The Woodlands, TX",,,
+773,13060,"Bay City, TX","Houston, Texas Area","Houston, Texas Area",0,0,CSA Match,288.0,"Houston-The Woodlands, TX",,,
+774,14780,"Brenham, TX","Houston, Texas Area","Houston, Texas Area",0,0,CSA Match,288.0,"Houston-The Woodlands, TX",,,
+775,20900,"El Campo, TX","Houston, Texas Area","Houston, Texas Area",0,0,CSA Match,288.0,"Houston-The Woodlands, TX",,,
+776,26660,"Huntsville, TX","Houston, Texas Area","Houston, Texas Area",0,0,CSA Match,288.0,"Houston-The Woodlands, TX",,,
+777,30980,"Longview, TX","Longview, Texas Area","Longview, Texas Area",1,1,Main Match,346.0,"Longview-Marshall, TX",,,
+778,32220,"Marshall, TX","Longview, Texas Area","Longview, Texas Area",0,0,CSA Match,346.0,"Longview-Marshall, TX",,,
+779,31260,"Lufkin, TX","Longview, Texas Area","Longview, Texas Area",0,0,Driving Distance,,,30980.0,"Longview, TX",89.06983
+780,34860,"Nacogdoches, TX","Longview, Texas Area","Longview, Texas Area",0,0,Driving Distance,,,30980.0,"Longview, TX",58.77985
+781,31180,"Lubbock, TX","Lubbock, Texas Area","Lubbock, Texas Area",1,1,Main Match,352.0,"Lubbock-Levelland, TX",,,
+782,30220,"Levelland, TX","Lubbock, Texas Area","Lubbock, Texas Area",0,0,CSA Match,352.0,"Lubbock-Levelland, TX",,,
+783,29500,"Lamesa, TX","Lubbock, Texas Area","Lubbock, Texas Area",0,0,Driving Distance,,,31180.0,"Lubbock, TX",56.72684
+784,38380,"Plainview, TX","Lubbock, Texas Area","Lubbock, Texas Area",0,0,Driving Distance,,,31180.0,"Lubbock, TX",50.902107
+785,38780,"Portales, NM","Lubbock, Texas Area","Lubbock, Texas Area",0,0,Driving Distance,188.0,"Clovis-Portales, NM",31180.0,"Lubbock, TX",135.40051
+786,40740,"Roswell, NM","Lubbock, Texas Area","Lubbock, Texas Area",0,0,Driving Distance,,,31180.0,"Lubbock, TX",184.78212
+787,43660,"Snyder, TX","Lubbock, Texas Area","Lubbock, Texas Area",0,0,Driving Distance,,,31180.0,"Lubbock, TX",70.835075
+788,32580,"McAllen-Edinburg-Mission, TX","McAllen, Texas Area","McAllen, Texas Area",1,1,Main Match,365.0,"McAllen-Edinburg, TX",,,
+789,40100,"Rio Grande City, TX","McAllen, Texas Area","McAllen, Texas Area",0,0,CSA Match,365.0,"McAllen-Edinburg, TX",,,
+790,33260,"Midland, TX","Odessa/Midland, Texas Area","Odessa/Midland, Texas Area",1,1,Main Match,372.0,"Midland-Odessa, TX",,,
+791,36220,"Odessa, TX","Odessa/Midland, Texas Area","Odessa/Midland, Texas Area",1,1,Main Match,372.0,"Midland-Odessa, TX",,,
+792,11380,"Andrews, TX","Odessa/Midland, Texas Area","Odessa/Midland, Texas Area",0,0,Driving Distance,,,36220.0,"Odessa, TX",45.360096
+793,13700,"Big Spring, TX","Odessa/Midland, Texas Area","Odessa/Midland, Texas Area",0,0,Driving Distance,,,33260.0,"Midland, TX",52.46175
+794,26020,"Hobbs, NM","Odessa/Midland, Texas Area","Odessa/Midland, Texas Area",0,0,Driving Distance,,,36220.0,"Odessa, TX",109.02517
+795,37780,"Pecos, TX","Odessa/Midland, Texas Area","Odessa/Midland, Texas Area",0,0,Driving Distance,,,36220.0,"Odessa, TX",89.73035
+796,12420,"Austin-Round Rock, TX","Austin, Texas Area","Austin, Texas Area",1,1,Main Match,,,,,
+797,41660,"San Angelo, TX","San Angelo, Texas Area","San Angelo, Texas Area",1,1,Main Match,,,,,
+798,19620,"Del Rio, TX","San Angelo, Texas Area","San Angelo, Texas Area",0,0,Driving Distance,,,41660.0,"San Angelo, TX",131.84627
+799,41700,"San Antonio-New Braunfels, TX","San Antonio, Texas Area","San Antonio, Texas Area",1,1,Main Match,,,,,
+800,23240,"Fredericksburg, TX","San Antonio, Texas Area","San Antonio, Texas Area",0,0,Driving Distance,,,41700.0,"San Antonio-New Braunfels, TX",82.96859
+801,28500,"Kerrville, TX","San Antonio, Texas Area","San Antonio, Texas Area",0,0,Driving Distance,,,41700.0,"San Antonio-New Braunfels, TX",85.34347
+802,46620,"Uvalde, TX","San Antonio, Texas Area","San Antonio, Texas Area",0,0,Driving Distance,,,41700.0,"San Antonio-New Braunfels, TX",86.93729
+803,43300,"Sherman-Denison, TX","Sherman/Denison, Texas Area","Sherman/Denison, Texas Area",1,1,Main Match,206.0,"Dallas-Fort Worth, TX-OK",,,
+804,11620,"Ardmore, OK","Sherman/Denison, Texas Area","Sherman/Denison, Texas Area",0,0,Driving Distance,,,43300.0,"Sherman-Denison, TX",79.71571
+805,37580,"Paris, TX","Sherman/Denison, Texas Area","Sherman/Denison, Texas Area",0,0,Driving Distance,,,43300.0,"Sherman-Denison, TX",69.53641
+806,13140,"Beaumont-Port Arthur, TX","Beaumont/Port Arthur, Texas Area","Beaumont/Port Arthur, Texas Area",1,1,Main Match,,,,,
+807,45500,"Texarkana, TX-AR","Texarkana, Texas Area","Texarkana, Texas Area",1,1,Main Match,,,,,
+808,31620,"Magnolia, AR","Texarkana, Texas Area","Texarkana, Texas Area",0,0,Driving Distance,,,45500.0,"Texarkana, TX-AR",72.186554
+809,34420,"Mount Pleasant, TX","Texarkana, Texas Area","Texarkana, Texas Area",0,0,Driving Distance,,,45500.0,"Texarkana, TX-AR",51.61047
+810,46340,"Tyler, TX","Tyler, Texas Area","Tyler, Texas Area",1,1,Main Match,540.0,"Tyler-Jacksonville, TX",,,
+811,27380,"Jacksonville, TX","Tyler, Texas Area","Tyler, Texas Area",0,0,CSA Match,540.0,"Tyler-Jacksonville, TX",,,
+812,37300,"Palestine, TX","Tyler, Texas Area","Tyler, Texas Area",0,0,Driving Distance,,,46340.0,"Tyler, TX",51.896923
+813,47020,"Victoria, TX","Victoria, Texas Area","Victoria, Texas Area",1,1,Main Match,544.0,"Victoria-Port Lavaca, TX",,,
+814,38920,"Port Lavaca, TX","Victoria, Texas Area","Victoria, Texas Area",0,0,CSA Match,544.0,"Victoria-Port Lavaca, TX",,,
+815,13300,"Beeville, TX","Victoria, Texas Area","Victoria, Texas Area",0,0,Driving Distance,,,47020.0,"Victoria, TX",45.42907
+816,47380,"Waco, TX","Waco, Texas Area","Waco, Texas Area",1,1,Main Match,,,,,
+817,48660,"Wichita Falls, TX","Wichita Falls, Texas Area","Wichita Falls, Texas Area",1,1,Main Match,,,,,
+818,46900,"Vernon, TX","Wichita Falls, Texas Area","Wichita Falls, Texas Area",0,0,Driving Distance,,,48660.0,"Wichita Falls, TX",63.72286
+819,39340,"Provo-Orem, UT","Provo, Utah Area","Provo, Utah Area",1,1,Main Match,482.0,"Salt Lake City-Provo-Orem, UT",,,
+820,21740,"Evanston, WY","Provo, Utah Area","Provo, Utah Area",0,0,Driving Distance,,,39340.0,"Provo-Orem, UT",182.78131
+821,39220,"Price, UT","Provo, Utah Area","Provo, Utah Area",0,0,Driving Distance,,,39340.0,"Provo-Orem, UT",137.00302
+822,41620,"Salt Lake City, UT",Greater Salt Lake City Area,Greater Salt Lake City Area,1,1,Main Match,482.0,"Salt Lake City-Provo-Orem, UT",,,
+823,36260,"Ogden-Clearfield, UT",Greater Salt Lake City Area,Greater Salt Lake City Area,1,0,Largest MSA within CSA,482.0,"Salt Lake City-Provo-Orem, UT",,,
+824,25720,"Heber, UT",Greater Salt Lake City Area,Greater Salt Lake City Area,0,0,Largest MSA within CSA,482.0,"Salt Lake City-Provo-Orem, UT",,,
+825,44920,"Summit Park, UT",Greater Salt Lake City Area,Greater Salt Lake City Area,0,0,Largest MSA within CSA,482.0,"Salt Lake City-Provo-Orem, UT",,,
+826,21220,"Elko, NV",Greater Salt Lake City Area,Greater Salt Lake City Area,0,0,Driving Distance,,,41620.0,"Salt Lake City, UT",169.80397
+827,16820,"Charlottesville, VA","Charlottesville, Virginia Area","Charlottesville, Virginia Area",1,1,Main Match,,,,,
+828,25500,"Harrisonburg, VA","Charlottesville, Virginia Area","Charlottesville, Virginia Area",1,0,Driving Distance,277.0,"Harrisonburg-Staunton-Waynesboro, VA",16820.0,"Charlottesville, VA",78.49471
+829,44420,"Staunton-Waynesboro, VA","Charlottesville, Virginia Area","Charlottesville, Virginia Area",1,0,Driving Distance,277.0,"Harrisonburg-Staunton-Waynesboro, VA",16820.0,"Charlottesville, VA",56.55037
+830,19260,"Danville, VA","Danville, Virginia Area","Danville, Virginia Area",0,1,Main Match,,,,,
+831,32300,"Martinsville, VA","Danville, Virginia Area","Danville, Virginia Area",0,0,Driving Distance,,,19260.0,"Danville, VA",33.523598
+832,31340,"Lynchburg, VA","Lynchburg, Virginia Area","Lynchburg, Virginia Area",1,1,Main Match,,,,,
+833,47260,"Virginia Beach-Norfolk-Newport News, VA-NC","Norfolk, Virginia Area","Norfolk, Virginia Area",1,1,Main Match,545.0,"Virginia Beach-Norfolk, VA-NC",,,
+834,21020,"Elizabeth City, NC","Norfolk, Virginia Area","Norfolk, Virginia Area",0,0,CSA Match,545.0,"Virginia Beach-Norfolk, VA-NC",,,
+835,28620,"Kill Devil Hills, NC","Norfolk, Virginia Area","Norfolk, Virginia Area",0,0,CSA Match,545.0,"Virginia Beach-Norfolk, VA-NC",,,
+836,40060,"Richmond, VA","Richmond, Virginia Area","Richmond, Virginia Area",1,1,Main Match,,,,,
+837,40220,"Roanoke, VA","Roanoke, Virginia Area","Roanoke, Virginia Area",1,1,Main Match,,,,,
+838,13980,"Blacksburg-Christiansburg-Radford, VA","Roanoke, Virginia Area","Roanoke, Virginia Area",1,0,Driving Distance,,,40220.0,"Roanoke, VA",42.939236
+839,15540,"Burlington-South Burlington, VT","Burlington, Vermont Area","Burlington, Vermont Area",1,1,Main Match,,,,,
+840,12740,"Barre, VT","Burlington, Vermont Area","Burlington, Vermont Area",0,0,Driving Distance,,,15540.0,"Burlington-South Burlington, VT",57.363125
+841,31660,"Malone, NY","Burlington, Vermont Area","Burlington, Vermont Area",0,0,Driving Distance,,,15540.0,"Burlington-South Burlington, VT",107.500946
+842,38460,"Plattsburgh, NY","Burlington, Vermont Area","Burlington, Vermont Area",0,0,Driving Distance,,,15540.0,"Burlington-South Burlington, VT",66.948395
+843,28420,"Kennewick-Richland, WA","Richland/Kennewick/Pasco, Washington Area","Richland/Kennewick/Pasco, Washington Area",1,1,Main Match,,,,,
+844,30300,"Lewiston, ID-WA","Richland/Kennewick/Pasco, Washington Area","Richland/Kennewick/Pasco, Washington Area",1,0,Driving Distance,,,28420.0,"Kennewick-Richland, WA",157.4766
+845,47460,"Walla Walla, WA","Richland/Kennewick/Pasco, Washington Area","Richland/Kennewick/Pasco, Washington Area",1,0,Driving Distance,,,28420.0,"Kennewick-Richland, WA",66.14621
+846,25840,"Hermiston-Pendleton, OR","Richland/Kennewick/Pasco, Washington Area","Richland/Kennewick/Pasco, Washington Area",0,0,Driving Distance,,,28420.0,"Kennewick-Richland, WA",112.37374
+847,29260,"La Grande, OR","Richland/Kennewick/Pasco, Washington Area","Richland/Kennewick/Pasco, Washington Area",0,0,Driving Distance,,,28420.0,"Kennewick-Richland, WA",141.50113
+848,34180,"Moses Lake, WA","Richland/Kennewick/Pasco, Washington Area","Richland/Kennewick/Pasco, Washington Area",0,0,Driving Distance,393.0,"Moses Lake-Othello, WA",28420.0,"Kennewick-Richland, WA",92.497314
+849,36830,"Othello, WA","Richland/Kennewick/Pasco, Washington Area","Richland/Kennewick/Pasco, Washington Area",0,0,Driving Distance,393.0,"Moses Lake-Othello, WA",28420.0,"Kennewick-Richland, WA",76.04403
+850,44060,"Spokane-Spokane Valley, WA","Spokane, Washington Area","Spokane, Washington Area",1,1,Main Match,518.0,"Spokane-Spokane Valley-Coeur d'Alene, WA-ID",,,
+851,17660,"Coeur d'Alene, ID","Spokane, Washington Area","Spokane, Washington Area",1,0,CSA Match,518.0,"Spokane-Spokane Valley-Coeur d'Alene, WA-ID",,,
+852,34140,"Moscow, ID","Spokane, Washington Area","Spokane, Washington Area",0,0,Driving Distance,446.0,"Pullman-Moscow, WA-ID",44060.0,"Spokane-Spokane Valley, WA",141.24388
+853,39420,"Pullman, WA","Spokane, Washington Area","Spokane, Washington Area",0,0,Driving Distance,446.0,"Pullman-Moscow, WA-ID",44060.0,"Spokane-Spokane Valley, WA",113.58168
+854,41760,"Sandpoint, ID","Spokane, Washington Area","Spokane, Washington Area",0,0,Driving Distance,,,44060.0,"Spokane-Spokane Valley, WA",80.7155
+855,13380,"Bellingham, WA","Bellingham, Washington Area","Bellingham, Washington Area",1,1,Main Match,,,,,
+856,28540,"Ketchikan, AK","Bellingham, Washington Area","Bellingham, Washington Area",0,0,Driving Distance,,,13380.0,"Bellingham, WA",602.25256
+857,42660,"Seattle-Tacoma-Bellevue, WA",Greater Seattle Area,Greater Seattle Area,1,1,Main Match,500.0,"Seattle-Tacoma, WA",,,
+858,14740,"Bremerton-Silverdale, WA",Greater Seattle Area,Greater Seattle Area,1,0,CSA Match,500.0,"Seattle-Tacoma, WA",,,
+859,34580,"Mount Vernon-Anacortes, WA",Greater Seattle Area,Greater Seattle Area,1,0,CSA Match,500.0,"Seattle-Tacoma, WA",,,
+860,36500,"Olympia-Tumwater, WA",Greater Seattle Area,Greater Seattle Area,1,0,CSA Match,500.0,"Seattle-Tacoma, WA",,,
+861,16500,"Centralia, WA",Greater Seattle Area,Greater Seattle Area,0,0,CSA Match,500.0,"Seattle-Tacoma, WA",,,
+862,36020,"Oak Harbor, WA",Greater Seattle Area,Greater Seattle Area,0,0,CSA Match,500.0,"Seattle-Tacoma, WA",,,
+863,43220,"Shelton, WA",Greater Seattle Area,Greater Seattle Area,0,0,CSA Match,500.0,"Seattle-Tacoma, WA",,,
+864,48300,"Wenatchee, WA",Greater Seattle Area,Greater Seattle Area,1,0,Driving Distance,,,42660.0,"Seattle-Tacoma-Bellevue, WA",158.32663
+865,10140,"Aberdeen, WA",Greater Seattle Area,Greater Seattle Area,0,0,Driving Distance,,,42660.0,"Seattle-Tacoma-Bellevue, WA",141.99265
+866,38820,"Port Angeles, WA",Greater Seattle Area,Greater Seattle Area,0,0,Driving Distance,,,42660.0,"Seattle-Tacoma-Bellevue, WA",177.27098
+867,49420,"Yakima, WA","Yakima, Washington Area","Yakima, Washington Area",1,1,Main Match,,,,,
+868,21260,"Ellensburg, WA","Yakima, Washington Area","Yakima, Washington Area",0,0,Driving Distance,,,49420.0,"Yakima, WA",78.23995
+869,20740,"Eau Claire, WI","Eau Claire, Wisconsin Area","Eau Claire, Wisconsin Area",1,1,Main Match,232.0,"Eau Claire-Menomonie, WI",,,
+870,32860,"Menomonie, WI","Eau Claire, Wisconsin Area","Eau Claire, Wisconsin Area",0,0,CSA Match,232.0,"Eau Claire-Menomonie, WI",,,
+871,24580,"Green Bay, WI","Green Bay, Wisconsin Area","Green Bay, Wisconsin Area",1,1,Main Match,267.0,"Green Bay-Shawano, WI",,,
+872,43020,"Shawano, WI","Green Bay, Wisconsin Area","Green Bay, Wisconsin Area",0,0,CSA Match,267.0,"Green Bay-Shawano, WI",,,
+873,21540,"Escanaba, MI","Green Bay, Wisconsin Area","Green Bay, Wisconsin Area",0,0,Driving Distance,,,24580.0,"Green Bay, WI",157.88855
+874,27020,"Iron Mountain, MI-WI","Green Bay, Wisconsin Area","Green Bay, Wisconsin Area",0,0,Driving Distance,,,24580.0,"Green Bay, WI",129.76282
+875,31940,"Marinette, WI-MI","Green Bay, Wisconsin Area","Green Bay, Wisconsin Area",0,0,Driving Distance,,,24580.0,"Green Bay, WI",104.49848
+876,32100,"Marquette, MI","Green Bay, Wisconsin Area","Green Bay, Wisconsin Area",0,0,Driving Distance,,,24580.0,"Green Bay, WI",208.45512
+877,27500,"Janesville-Beloit, WI","Janesville/Beloit, Wisconsin Area","Janesville/Beloit, Wisconsin Area",1,1,Main Match,357.0,"Madison-Janesville-Beloit, WI",,,
+878,29100,"La Crosse-Onalaska, WI-MN","La Crosse, Wisconsin Area","La Crosse, Wisconsin Area",1,1,Main Match,,,,,
+879,36780,"Oshkosh-Neenah, WI","Oshkosh, Wisconsin Area","Oshkosh, Wisconsin Area",1,1,Main Match,118.0,"Appleton-Oshkosh-Neenah, WI",,,
+880,11540,"Appleton, WI","Oshkosh, Wisconsin Area","Oshkosh, Wisconsin Area",1,0,CSA Match,118.0,"Appleton-Oshkosh-Neenah, WI",,,
+881,22540,"Fond du Lac, WI","Oshkosh, Wisconsin Area","Oshkosh, Wisconsin Area",1,0,Driving Distance,,,36780.0,"Oshkosh-Neenah, WI",27.542278
+882,31540,"Madison, WI","Madison, Wisconsin Area","Madison, Wisconsin Area",1,1,Main Match,357.0,"Madison-Janesville-Beloit, WI",,,
+883,12660,"Baraboo, WI","Madison, Wisconsin Area","Madison, Wisconsin Area",0,0,Largest MSA within CSA,357.0,"Madison-Janesville-Beloit, WI",,,
+884,33340,"Milwaukee-Waukesha-West Allis, WI",Greater Milwaukee Area,Greater Milwaukee Area,1,1,Main Match,376.0,"Milwaukee-Racine-Waukesha, WI",,,
+885,39540,"Racine, WI",Greater Milwaukee Area,Greater Milwaukee Area,1,0,CSA Match,376.0,"Milwaukee-Racine-Waukesha, WI",,,
+886,13180,"Beaver Dam, WI",Greater Milwaukee Area,Greater Milwaukee Area,0,0,CSA Match,376.0,"Milwaukee-Racine-Waukesha, WI",,,
+887,48020,"Watertown-Fort Atkinson, WI",Greater Milwaukee Area,Greater Milwaukee Area,0,0,CSA Match,376.0,"Milwaukee-Racine-Waukesha, WI",,,
+888,48580,"Whitewater-Elkhorn, WI",Greater Milwaukee Area,Greater Milwaukee Area,0,0,CSA Match,376.0,"Milwaukee-Racine-Waukesha, WI",,,
+889,43100,"Sheboygan, WI","Sheboygan, Wisconsin Area","Sheboygan, Wisconsin Area",1,1,Main Match,,,,,
+890,31820,"Manitowoc, WI","Sheboygan, Wisconsin Area","Sheboygan, Wisconsin Area",0,0,Driving Distance,,,43100.0,"Sheboygan, WI",45.38122
+891,48140,"Wausau, WI","Wausau, Wisconsin Area","Wausau, Wisconsin Area",1,1,Main Match,554.0,"Wausau-Stevens Point-Wisconsin Rapids, WI",,,
+892,32980,"Merrill, WI","Wausau, Wisconsin Area","Wausau, Wisconsin Area",0,0,CSA Match,554.0,"Wausau-Stevens Point-Wisconsin Rapids, WI",,,
+893,44620,"Stevens Point, WI","Wausau, Wisconsin Area","Wausau, Wisconsin Area",0,0,CSA Match,554.0,"Wausau-Stevens Point-Wisconsin Rapids, WI",,,
+894,49220,"Wisconsin Rapids-Marshfield, WI","Wausau, Wisconsin Area","Wausau, Wisconsin Area",0,0,CSA Match,554.0,"Wausau-Stevens Point-Wisconsin Rapids, WI",,,
+895,16620,"Charleston, WV","Charleston, West Virginia Area","Charleston, West Virginia Area",1,1,Main Match,170.0,"Charleston-Huntington-Ashland, WV-OH-KY",,,
+896,13220,"Beckley, WV","Charleston, West Virginia Area","Charleston, West Virginia Area",1,0,Driving Distance,,,16620.0,"Charleston, WV",44.38765
+897,14140,"Bluefield, WV-VA","Charleston, West Virginia Area","Charleston, West Virginia Area",0,0,Driving Distance,,,16620.0,"Charleston, WV",104.9819
+898,26580,"Huntington-Ashland, WV-KY-OH","Huntington, West Virginia Area","Huntington, West Virginia Area",1,1,Main Match,170.0,"Charleston-Huntington-Ashland, WV-OH-KY",,,
+899,30880,"Logan, WV","Huntington, West Virginia Area","Huntington, West Virginia Area",0,0,Largest MSA within CSA,170.0,"Charleston-Huntington-Ashland, WV-OH-KY",,,
+900,39020,"Portsmouth, OH","Huntington, West Virginia Area","Huntington, West Virginia Area",0,0,Largest MSA within CSA,170.0,"Charleston-Huntington-Ashland, WV-OH-KY",,,
+901,27160,"Jackson, OH","Huntington, West Virginia Area","Huntington, West Virginia Area",0,0,Driving Distance,,,26580.0,"Huntington-Ashland, WV-KY-OH",64.66424
+902,38580,"Point Pleasant, WV-OH","Huntington, West Virginia Area","Huntington, West Virginia Area",0,0,Driving Distance,,,26580.0,"Huntington-Ashland, WV-KY-OH",42.338367
+903,37620,"Parkersburg-Vienna, WV","Parkersburg, West Virginia Area","Parkersburg, West Virginia Area",1,1,Main Match,425.0,"Parkersburg-Marietta-Vienna, WV-OH",,,
+904,31930,"Marietta, OH","Parkersburg, West Virginia Area","Parkersburg, West Virginia Area",0,0,CSA Match,425.0,"Parkersburg-Marietta-Vienna, WV-OH",,,
+905,11900,"Athens, OH","Parkersburg, West Virginia Area","Parkersburg, West Virginia Area",0,0,Driving Distance,,,37620.0,"Parkersburg-Vienna, WV",48.181744
+906,17220,"Clarksburg, WV","Parkersburg, West Virginia Area","Parkersburg, West Virginia Area",0,0,Driving Distance,,,37620.0,"Parkersburg-Vienna, WV",76.572815
+907,48540,"Wheeling, WV-OH","Wheeling, West Virginia Area","Wheeling, West Virginia Area",1,1,Main Match,,,,,
+908,21900,"Fairmont, WV","Wheeling, West Virginia Area","Wheeling, West Virginia Area",0,0,Driving Distance,390.0,"Morgantown-Fairmont, WV",48540.0,"Wheeling, WV-OH",69.37423
+909,16220,"Casper, WY","Casper, Wyoming Area","Casper, Wyoming Area",1,1,Main Match,,,,,
+910,23940,"Gillette, WY","Casper, Wyoming Area","Casper, Wyoming Area",0,0,Driving Distance,,,16220.0,"Casper, WY",150.76764
+911,40180,"Riverton, WY","Casper, Wyoming Area","Casper, Wyoming Area",0,0,Driving Distance,,,16220.0,"Casper, WY",122.54248
+912,40540,"Rock Springs, WY","Casper, Wyoming Area","Casper, Wyoming Area",0,0,Driving Distance,,,16220.0,"Casper, WY",236.86298
+913,16940,"Cheyenne, WY","Cheyenne, Wyoming Area","Cheyenne, Wyoming Area",1,1,Main Match,,,,,
+914,29660,"Laramie, WY","Cheyenne, Wyoming Area","Cheyenne, Wyoming Area",0,0,Driving Distance,,,16940.0,"Cheyenne, WY",99.01798
+915,42420,"Scottsbluff, NE","Cheyenne, Wyoming Area","Cheyenne, Wyoming Area",0,0,Driving Distance,,,16940.0,"Cheyenne, WY",106.120255
+916,44540,"Sterling, CO","Cheyenne, Wyoming Area","Cheyenne, Wyoming Area",0,0,Driving Distance,,,16940.0,"Cheyenne, WY",141.51543
