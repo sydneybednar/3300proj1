@@ -19,5 +19,17 @@
     <p>BLACK</p>
     <img src='palette.png' width=300 height=300 />
 
+    <svg width=800 height=500 style="border: 1px solid black">
+    </svg>
+
+    <script>
+    const requestData = async function() { 
+        const data = await d3.csv('TikTok_songs_2022.csv');
+        console.log(data);
+    }
+    requestData();
+
+    </script>
+
 </body>
 </html>
