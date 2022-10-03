@@ -1,4 +1,5 @@
 <html>
+<head>
     <meta charset="UTF-8">
 
     <style>
@@ -9,6 +10,8 @@
     }
 
     </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
 
 <body>
     <h1>Project 1</h1>
@@ -18,14 +21,64 @@
     <p style="color: #00f2ea">AQUA</p>
     <p>BLACK</p>
     <img src='palette.png' width=300 height=300 />
-
-    <svg width=800 height=500 style="border: 1px solid black">
+    <p>
+    <svg id="scatter" width=500 height=300>
     </svg>
+    </p>
 
     <script>
-    const requestData = async function() { 
+    const requestData = async function() {
         const data = await d3.csv('TikTok_songs_2022.csv');
         console.log(data);
+
+        const svg=d3.select("svg#scatter")
+        const width = svg.attr("width");
+        const height = svg.attr("height");
+        const margin = {top: 50, right: 10, bottom: 50, left: 50};
+        const chartWidth = width - margin.left - margin.right;
+        const chartHeight = height - margin.top - margin.bottom;
+
+        let annotations = svg.append("g").attr("id","annotations");
+        let chartArea = svg.append("g").attr("id","points")
+                        .attr("transform",`translate(${margin.left},${margin.top})`);
+
+        const popExtent = d3.extent(data, d => d['track_pop'])
+        const popScale = d3.scaleLinear()
+                            .domain(popExtent)
+                            .range([0, chartWidth])
+        const danceExtent = d3.extent(data, d => d['danceability'])
+        const danceScale = d3.scaleLinear()
+                            .domain(danceExtent)
+                            .range([chartHeight, 0])
+
+        let leftAxis = d3.axisLeft(danceScale)
+        let bottomAxis = d3.axisBottom(popScale)
+
+        annotations.append("g")
+                   .attr("class", "y axis")
+                   .attr("transform",`translate(${margin.left-10},${margin.top})`)
+                   .call(leftAxis)
+        annotations.append("g")
+                   .attr("class", "x axis")
+                   .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+                   .call(bottomAxis)
+
+        circles = chartArea.selectAll("circles").data(data)
+                            .join("circle")
+                            .attr("r", 4)
+                            .attr("cx", d => popScale(d['track_pop']))
+                            .attr("cy", d => danceScale(d['danceability']))
+                            .attr("fill", "#ff0050")
+                            .attr("opacity", .6)
+
+        chartArea.append("text")
+                .attr("x", (chartWidth / 2))
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .text("Danceability");
+
+
     }
     requestData();
 
