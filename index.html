@@ -22,7 +22,7 @@
     <p>BLACK</p>
     <img src='palette.png' width=300 height=300 />
     <p>
-    <svg id="scatter" width=500 height=300>
+    <svg id="scatter" width=500 height=1000>
     </svg>
     </p>
 
@@ -46,25 +46,29 @@
         const popScale = d3.scaleLinear()
                             .domain(popExtent)
                             .range([0, chartWidth])
-        const danceExtent = d3.extent(data, d => d['danceability'])
-        const danceScale = d3.scaleLinear()
-                            .domain(danceExtent)
-                            .range([chartHeight, 0])
 
-        let leftAxis = d3.axisLeft(danceScale)
         let bottomAxis = d3.axisBottom(popScale)
 
-        annotations.append("g")
-                   .attr("class", "y axis")
-                   .attr("transform",`translate(${margin.left-10},${margin.top})`)
-                   .call(leftAxis)
         annotations.append("g")
                    .attr("class", "x axis")
                    .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
                    .call(bottomAxis)
 
-        circles = chartArea.selectAll("circles").data(data)
+        // danceability
+        const danceExtent = d3.extent(data, d => d['danceability'])
+        const danceScale = d3.scaleLinear()
+                           .domain(danceExtent)
+                           .range([chartHeight/5, 0])
+        let danceAxis = d3.axisLeft(danceScale)
+
+        annotations.append("g")
+                  .attr("class", "y axis")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+                  .call(danceAxis)
+
+        circles = chartArea.selectAll("circles#dance").data(data)
                             .join("circle")
+                            .attr("class", "dance")
                             .attr("r", 4)
                             .attr("cx", d => popScale(d['track_pop']))
                             .attr("cy", d => danceScale(d['danceability']))
@@ -77,6 +81,26 @@
                 .attr("text-anchor", "middle")
                 .style("font-size", "16px")
                 .text("Danceability");
+
+
+        // tempo on same x axis
+        const loudExtent = d3.extent(data, d => d['loudness'])
+        const loudScale = d3.scaleLinear()
+                            .domain(loudExtent)
+                            .range([chartHeight/5, 0])
+
+        let loudAxis = d3.axisLeft(loudScale)
+        annotations.append("g")
+                   .attr("class", "y axis")
+                   .attr("transform",`translate(${margin.left-10},${margin.top+chartHeight/5+20})`)
+                   .call(loudAxis)
+
+        chartArea.append("text")
+               .attr("x", (chartWidth / 2))
+               .attr("y", (chartHeight*2/5)/2+20)
+               .attr("text-anchor", "middle")
+               .style("font-size", "16px")
+               .text("Loudness");
 
 
     }
