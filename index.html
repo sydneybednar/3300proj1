@@ -66,7 +66,7 @@
                   .attr("transform",`translate(${margin.left-10},${margin.top})`)
                   .call(danceAxis)
 
-        circles = chartArea.selectAll("circles#dance").data(data)
+        let danceCircles = chartArea.selectAll("circles.dance").data(data)
                             .join("circle")
                             .attr("class", "dance")
                             .attr("r", 4)
@@ -94,6 +94,15 @@
                    .attr("class", "y axis")
                    .attr("transform",`translate(${margin.left-10},${margin.top+chartHeight/5+20})`)
                    .call(loudAxis)
+
+       // let loudCircles = chartArea.selectAll("circles.loud").data(data)
+       //                     .join("circle")
+       //                     .attr("class", "loud")
+       //                     .attr("r", 4)
+       //                     .attr("cx", d => popScale(d['track_pop']))
+       //                     .attr("cy", d => loudScale(d['loudness']))
+       //                     .attr("fill", "black")
+       //                     .attr("opacity", .6)
 
         chartArea.append("text")
                .attr("x", (chartWidth / 2))
