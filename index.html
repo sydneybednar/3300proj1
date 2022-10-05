@@ -22,8 +22,22 @@
     <p>BLACK</p>
     <img src='palette.png' width=300 height=300 />
     <p>
-    <svg id="scatter" width=500 height=1000>
+    <svg id="dance" width=500 height=500>
     </svg>
+
+</br>
+    <svg id="loud" width=500 height=500>
+    </svg>
+
+</br>
+    <svg id="energy" width=500 height=500>
+    </svg>
+</br>
+    <svg id="key" width=500 height=500>
+    </svg>
+
+    <!-- <svg id="scatter" width=500 height=500>
+    </svg>  -->
     </p>
 
     <script>
@@ -31,15 +45,17 @@
         const data = await d3.csv('TikTok_songs_2022.csv');
         console.log(data);
 
-        const svg=d3.select("svg#scatter")
-        const width = svg.attr("width");
-        const height = svg.attr("height");
+        console.log(data.loudness);
+
+        const svg1=d3.select("svg#dance")
+        const width = svg1.attr("width");
+        const height = svg1.attr("height");
         const margin = {top: 50, right: 10, bottom: 50, left: 50};
         const chartWidth = width - margin.left - margin.right;
         const chartHeight = height - margin.top - margin.bottom;
 
-        let annotations = svg.append("g").attr("id","annotations");
-        let chartArea = svg.append("g").attr("id","points")
+        let annotations = svg1.append("g").attr("id","annotations");
+        let chartArea = svg1.append("g").attr("id","points")
                         .attr("transform",`translate(${margin.left},${margin.top})`);
 
         const popExtent = d3.extent(data, d => d['track_pop'])
@@ -58,7 +74,9 @@
         const danceExtent = d3.extent(data, d => d['danceability'])
         const danceScale = d3.scaleLinear()
                            .domain(danceExtent)
-                           .range([chartHeight/5, 0])
+                           .range([chartHeight, 0])
+
+        console.log(danceExtent)
         let danceAxis = d3.axisLeft(danceScale)
 
         annotations.append("g")
@@ -82,36 +100,147 @@
                 .style("font-size", "16px")
                 .text("Danceability");
 
+        // loudness
+        const svg2=d3.select("svg#loud")
+        const width2 = svg2.attr("width");
+        const height2 = svg2.attr("height");
+        const margin2 = {top: 50, right: 10, bottom: 50, left: 50};
+        const chartWidth2 = width2 - margin2.left - margin2.right;
+        const chartHeight2 = height2 - margin2.top - margin2.bottom;
 
-        // tempo on same x axis
-        const loudExtent = d3.extent(data, d => d['loudness'])
+        let annotations2 = svg2.append("g").attr("id","annotations2");
+        let chartArea2 = svg2.append("g").attr("id","points2")
+                        .attr("transform",`translate(${margin2.left},${margin2.top})`);
+
+
+        annotations2.append("g")
+                   .attr("class", "x axis")
+                   .attr("transform",`translate(${margin2.left},${chartHeight2+margin2.top+10})`)
+                   .call(bottomAxis)
+
+        // points
+        const loudExtent = d3.extent(data, d => d['loudness']);
         const loudScale = d3.scaleLinear()
-                            .domain(loudExtent)
-                            .range([chartHeight/5, 0])
+                           .domain(loudExtent)
+                           .range([chartHeight2, 0]);
+        let loudAxis = d3.axisLeft(loudScale);
 
-        let loudAxis = d3.axisLeft(loudScale)
-        annotations.append("g")
-                   .attr("class", "y axis")
-                   .attr("transform",`translate(${margin.left-10},${margin.top+chartHeight/5+20})`)
-                   .call(loudAxis)
+        console.log(loudExtent)
 
-       // let loudCircles = chartArea.selectAll("circles.loud").data(data)
-       //                     .join("circle")
-       //                     .attr("class", "loud")
-       //                     .attr("r", 4)
-       //                     .attr("cx", d => popScale(d['track_pop']))
-       //                     .attr("cy", d => loudScale(d['loudness']))
-       //                     .attr("fill", "black")
-       //                     .attr("opacity", .6)
+        annotations2.append("g")
+                  .attr("class", "y axis")
+                  .attr("transform",`translate(${margin2.left-10},${margin2.top})`)
+                  .call(loudAxis);
 
-        chartArea.append("text")
-               .attr("x", (chartWidth / 2))
-               .attr("y", (chartHeight*2/5)/2+20)
-               .attr("text-anchor", "middle")
-               .style("font-size", "16px")
-               .text("Loudness");
+        let loudCircles = chartArea2.selectAll("circles.loud").data(data)
+                            .join("circle")
+                            .attr("class", "loud")
+                            .attr("r", 4)
+                            .attr("cx", d => popScale(d['track_pop']))
+                            .attr("cy", d => danceScale(d['loudness']))
+                            .attr("fill", "#ff0050")
+                            .attr("opacity", .6);
+
+        console.log(loudCircles)
+
+        // chartArea2.append("text")
+        //         .attr("x", (chartWidth / 2))
+        //         .attr("y", 0 - (margin.top / 2))
+        //         .attr("text-anchor", "middle")
+        //         .style("font-size", "16px")
+        //         .text("Loudness");
 
 
+     // energy
+        const svg3 = d3.select("svg#energy")
+        const width3 = svg3.attr("width");
+        const height3 = svg3.attr("height");
+        const margin3 = {top: 50, right: 10, bottom: 50, left: 50};
+        const chartWidth3 = width3 - margin3.left - margin3.right;
+        const chartHeight3 = height3 - margin3.top - margin3.bottom;
+
+        let annotations3 = svg3.append("g").attr("id","annotations3");
+        let chartArea3 = svg3.append("g").attr("id","points3")
+                        .attr("transform",`translate(${margin.left},${margin.top})`);
+
+        annotations3.append("g")
+                   .attr("class", "x axis")
+                   .attr("transform",`translate(${margin.left},${chartHeight3+margin.top+10})`)
+                   .call(bottomAxis)
+
+        // points
+        const energyExtent = d3.extent(data, d => d['energy']);
+        const energyScale = d3.scaleLinear()
+                           .domain(energyExtent)
+                           .range([chartHeight3, 0]);
+        let energyAxis = d3.axisLeft(energyScale);
+
+        console.log(energyExtent)
+
+        annotations3.append("g")
+                  .attr("class", "y axis")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+                  .call(energyAxis);
+
+        let energyCircles = chartArea3.selectAll("circles.energy").data(data)
+                            .join("circle")
+                            .attr("class", "energy")
+                            .attr("r", 4)
+                            .attr("cx", d => popScale(d['track_pop']))
+                            .attr("cy", d => energyScale(d['energy']))
+                            .attr("fill", "black")
+                            .attr("opacity", .6);
+
+        // key
+        const svg4 = d3.select("svg#key")
+        const width4 = svg4.attr("width");
+        const height4 = svg4.attr("height");
+        const margin4 = {top: 50, right: 10, bottom: 50, left: 50};
+        const chartWidth4 = width4 - margin4.left - margin4.right;
+        const chartHeight4 = height4 - margin4.top - margin4.bottom;
+
+        console.log(chartHeight)
+        console.log(chartHeight2)
+        console.log(chartHeight3)
+        console.log(chartHeight4)
+
+        let annotations4 = svg4.append("g").attr("id","annotations4");
+        let chartArea4 = svg4.append("g").attr("id","points4")
+                        .attr("transform",`translate(${margin.left},${margin.top})`);
+
+      
+
+        console.log(chartArea)
+
+        annotations4.append("g")
+                   .attr("class", "x axis")
+                   .attr("transform",`translate(${margin4.left},${chartHeight4+margin4.top+10})`)
+                   .call(bottomAxis)
+
+        // points
+        const keyExtent = d3.extent(data, d => d['key']);
+        const keyScale = d3.scaleLinear()
+                           .domain(keyExtent)
+                           .range([chartHeight4, 0]);
+        let keyAxis = d3.axisLeft(keyScale);
+
+        console.log(keyExtent)
+
+        annotations4.append("g")
+                  .attr("class", "y axis")
+                  .attr("transform",`translate(${margin4.left-10},${margin4.top})`)
+                  .call(keyAxis);
+
+        let keyCircles = chartArea4.selectAll("circles.key").data(data)
+                            .join("circle")
+                            .attr("class", "key")
+                            .attr("r", 4)
+                            .attr("cx", d => popScale(d['track_pop']))
+                            .attr("cy", d => keyScale(d['key']))
+                            .attr("fill", "#00f2ea")
+                            .attr("opacity", .6);
+
+        console.log("height", chartArea4.attr("height"))
     }
     requestData();
 
