@@ -278,6 +278,7 @@
 
         
 
+        // Combined chart
         let combo = d3.select("svg#combo")
         const widthC = combo.attr("width");
         const heightC = combo.attr("height");
@@ -287,15 +288,26 @@
         let chartAreaC = combo.append("g").attr("id","pointsC")
                         .attr("transform",`translate(${margin.left+30},${margin.top})`);
 
-        bin = d3.bin()
+        const pop_bin = d3.bin()
+                          .value(d => d.track_pop)
+                          .thresholds([20, 40, 60, 80, 100]);
+
+        const bins = pop_bin(data);
 
         const labelScale = d3.scalePoint()
                              .domain(['danceability', 'valence', 'acousticness', 'energy'])
-                             .range([chartHeightC-50, 50])
+                             .range([chartHeightC-50, 50]);
 
         const popScaleC = d3.scaleLinear()
                             .domain(popExtent)
-                            .range([0, chartWidthC])
+                            .range([0, chartWidthC]);
+
+//         const popScaleC = d3.scaleBand()
+//                             .domain([[bins[0].x0, bins[0].x1], [bins[1].x0, bins[1].x1], [bins[2].x0, bins[2].x1], [bins[3].x0, bins[3].x1], [bins[4].x0, bins[4].x1]])
+//                             .range([0, chartWidthC]);
+
+        console.log(popScaleC.domain());
+
 
         let bottomAxisC = d3.axisBottom(popScaleC)
         let leftAxisC = d3.axisLeft(labelScale).ticks(4)
@@ -334,17 +346,14 @@
                             .attr("stroke-width", 2);
     
 
-        const pop_bin = d3.bin()
-                          .value(d => d.track_pop)
-                          .thresholds([20, 40, 60, 80, 100]);
-
-        const bins = pop_bin(data);
+        
 
         console.log("bins", bins);
-        console.log(bins[0], bins[bins.length]);
+        console.log(bins[0].x1, bins[bins.length-1].x1);
 
         // for each bin, take the avg of the 'danceability', 'valence', 'acousticness', 'energy', of all elements in the bin
-        // then we have values for each and then we sclae it 
+        // then we have values for each and then we scale it 
+
 
     }
     requestData();
