@@ -103,49 +103,7 @@
                 .style("font-size", "16px")
                 .text("Danceability");
 
-        // // loudness
-        // const svg2=d3.select("svg#energy")
-
-        // let annotations2 = svg2.append("g").attr("id","annotations2");
-        // let chartArea2 = svg2.append("g").attr("id","points2")
-        //                 .attr("transform",`translate(${margin.left},${margin.top})`);
-
-
-        // annotations2.append("g")
-        //            .attr("class", "x axis")
-        //            .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
-        //            .call(bottomAxis)
-
-        // // points
-        // const loudExtent = d3.extent(data, d => d['energy']);
-        // const loudScale = d3.scaleLinear()
-        //                    .domain(loudExtent)
-        //                    .range([chartHeight, 0]);
-        // let loudAxis = d3.axisLeft(energyScale);
-
-        // console.log('energy extent:', energyExtent)
-
-        // annotations2.append("g")
-        //           .attr("class", "y axis")
-        //           .attr("transform",`translate(${margin.left-10},${margin.top})`)
-        //           .call(energyAxis);
-
-        // let energyCircles = chartArea2.selectAll("circles.energy").data(data)
-        //                     .join("circle")
-        //                     .attr("class", "loud")
-        //                     .attr("r", 4)
-        //                     .attr("cx", d => popScale(d['track_pop']))
-        //                     .attr("cy", d => energyScale(d['energy']))
-        //                     .attr("fill", "#de8c9d")
-        //                     .attr("opacity", .6);
-
-        // // chartArea2.append("text")
-        // //         .attr("x", (chartWidth / 2))
-        // //         .attr("y", 0 - (margin.top / 2))
-        // //         .attr("text-anchor", "middle")
-        // //         .style("font-size", "16px")
-        // //         .text("Loudness");
-
+    
 
         // energy
         const svg3 = d3.select("svg#energy")
@@ -179,6 +137,15 @@
                             .attr("cy", d => energyScale(d['energy']))
                             .attr("fill", "black")
                             .attr("opacity", .6);
+
+            chartArea3.append("text")
+                .attr("x", (chartWidth / 2))
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .text("Energy");
+
+
 
         // valence
         const svg4 = d3.select("svg#valence")
@@ -214,6 +181,13 @@
                             .attr("cy", d => valenceScale(d['valence']))
                             .attr("fill", "#00f2ea")
                             .attr("opacity", .6);
+
+      chartArea4.append("text")
+        .attr("x", (chartWidth / 2))
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .text("Valence");
 
 
             // mode
@@ -251,6 +225,14 @@
                             .attr("fill", "#00f2ea")
                             .attr("opacity", .6);
 
+        chartArea5.append("text")
+        .attr("x", (chartWidth / 2))
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .text("Mode");
+
+
 
                 // acousticness
         const svg6 = d3.select("svg#acousticness")
@@ -286,6 +268,13 @@
                             .attr("cy", d => acousticnessScale(d['acousticness']))
                             .attr("fill", "#ff0050")
                             .attr("opacity", .6);
+
+        chartArea6.append("text")
+        .attr("x", (chartWidth / 2))
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .text("Acousticness");
 
     }
     requestData();
