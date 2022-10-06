@@ -332,12 +332,9 @@
                              .range([chartHeightC-50, 50]);
 
         const xlabelScale = d3.scalePoint()
-                             .domain(['0 - 20', '21 - 40', '41 - 60', '61 - 80', '81 - 100'])
-                             .range([0, chartWidthC-10]);
-
-        const popScaleC = d3.scalePoint()
-                            .domain(popBinsExtent)
-                            .range([50, chartWidthC]);
+                             .domain(data.bins.upperlimits)
+                             .range([50, chartWidthC-10])
+                             .padding(0.1);
 
 
         console.log(popBinsExtent);
@@ -364,26 +361,30 @@
 
         const radiusScale= d3.scaleSqrt()
                             .domain(danceExtent)
-                            .range([6, 40])
+                            .range([0, 40])
 
         let danceBubs = chartAreaC.append("g")
                             .selectAll("bubble")
                             .data(data.bins)
                             .enter()
                             .append("circle")
-                            .attr("cx", d => popScale(d.pop_range[1]))
+                            .attr("cx", d => xlabelScale(d.x1))
                             .attr("cy", d => chartHeightC-50)
                             .attr("r", d => radiusScale(d.avg_danceability))
                             .style("fill", "lightcyan")
                             .style("opacity", "0.7")
                             .attr("stroke", "black")
                             .attr("stroke-width", 2);
+                            
+            
     
-        console.log('dance', bins[0].avg_danceability)
+        console.log(danceExtent)
         
 
         console.log("bins", bins);
         console.log(bins[0].x1, bins[bins.length-1].x1);
+
+        console.log(chartWidthC)
 
         // for each bin, take the avg of the 'danceability', 'valence', 'acousticness', 'energy', of all elements in the bin
         // then we have values for each and then we scale it 
