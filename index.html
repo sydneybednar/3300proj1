@@ -294,22 +294,56 @@
 
         const bins = pop_bin(data);
 
+        data.bins = bins;
+        data.bins.upperlimits = new Array();
+
+        bins.forEach(array => {
+            var sum_danceability = 0;
+            var sum_valence = 0;
+            var sum_acousticness = 0;
+            var sum_energy = 0;
+
+            array.forEach(element =>{
+                sum_danceability += element.danceability;
+                sum_valence += element.valence;
+                sum_acousticness += element.acousticness;
+                sum_energy += element.energy;
+            })
+            
+            
+            array.avg_danceability = sum_danceability/array.length;
+            array.avg_valence = sum_valence/array.length;
+            array.avg_acousticness = sum_acousticness/array.length;
+            array.avg_energy = sum_energy/array.length;
+
+            array.pop_range  = [array.x0, array.x1];
+
+            data.bins.upperlimits.push(array.x1)
+
+            
+        });
+
+
+        const popBinsExtent = d3.extent(data.bins.upperlimits);
+        
+
         const labelScale = d3.scalePoint()
                              .domain(['danceability', 'valence', 'acousticness', 'energy'])
                              .range([chartHeightC-50, 50]);
 
-        const popScaleC = d3.scaleLinear()
-                            .domain(popExtent)
-                            .range([0, chartWidthC]);
+        const xlabelScale = d3.scalePoint()
+                             .domain(['0 - 20', '21 - 40', '41 - 60', '61 - 80', '81 - 100'])
+                             .range([0, chartWidthC-10]);
 
-//         const popScaleC = d3.scaleBand()
-//                             .domain([[bins[0].x0, bins[0].x1], [bins[1].x0, bins[1].x1], [bins[2].x0, bins[2].x1], [bins[3].x0, bins[3].x1], [bins[4].x0, bins[4].x1]])
-//                             .range([0, chartWidthC]);
-
-        console.log(popScaleC.domain());
+        const popScaleC = d3.scalePoint()
+                            .domain(popBinsExtent)
+                            .range([50, chartWidthC]);
 
 
-        let bottomAxisC = d3.axisBottom(popScaleC)
+        console.log(popBinsExtent);
+
+
+        let bottomAxisC = d3.axisBottom(xlabelScale)
         let leftAxisC = d3.axisLeft(labelScale).ticks(4)
 
 
@@ -334,18 +368,18 @@
 
         let danceBubs = chartAreaC.append("g")
                             .selectAll("bubble")
-                            .data(data)
+                            .data(data.bins)
                             .enter()
                             .append("circle")
-                            .attr("cx", d => popScaleC(d.track_pop))
+                            .attr("cx", d => popScale(d.pop_range[1]))
                             .attr("cy", d => chartHeightC-50)
-                            .attr("r", d => radiusScale(d.danceability))
+                            .attr("r", d => radiusScale(d.avg_danceability))
                             .style("fill", "lightcyan")
                             .style("opacity", "0.7")
                             .attr("stroke", "black")
                             .attr("stroke-width", 2);
     
-
+        console.log('dance', bins[0].avg_danceability)
         
 
         console.log("bins", bins);
@@ -353,12 +387,40 @@
 
         // for each bin, take the avg of the 'danceability', 'valence', 'acousticness', 'energy', of all elements in the bin
         // then we have values for each and then we scale it 
+        
+        
 
+        // console.log(bins[0].avg_danceability)
 
     }
     requestData();
 
     </script>
+    <!-- // var avg_danceability = sum_danceability/array.length;
+    // var avg_valence = sum_valence/array.length;
+    // var avg_acousticness = sum_acousticness/array.length;
+    // var avg_energy = sum_energy/array.length;
+    // const array1 = new Array(avg_danceability, avg_valence, avg_acousticness, avg_energy)
+            
+            // for (var i = 0; i < names.length; i += 1) {
+            //     var data = {};
+            //     for (var j = 0; j < array1.length; j += 1){
+            //         data[names[j]] = array1[i];
+                    
+            //     }
+            //     array.push(data);
+                
+            //     // console.log(data)
+            //     console.log(array)
+            //}
+
+            // console.log(array1);
+            
+            // console.log('array', bins.indexOf(array), 'avg dance: ', avg_danceability);
+            // console.log('array', bins.indexOf(array), 'avg valence: ',avg_valence);
+            // console.log('array', bins.indexOf(array), 'avg acoustic: ',avg_acousticness);
+            // console.log('array', bins.indexOf(array), 'avg energy: ',avg_energy); -->
+
 
 </body>
 </html>
