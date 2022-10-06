@@ -6,3 +6,61 @@ Ideas: Sydney
     - house prices; by state
 3. https://docs.google.com/spreadsheets/d/1kdEOmMxo-Shy2gGlUpPe_Low3s27ZXIw15hybMmtMDU/edit?hl=en_GB&hl=en_GB#gid=0
     - meanings of colors around the world
+
+CODE FOR OTHER GRAPH
+
+    ///////////////////////////////////
+    let combo = d3.select("svg#combo")
+    const widthC = combo.attr("width");
+    const heightC = combo.attr("height");
+    const chartWidthC = widthC - margin.left - margin.right-30;
+    const chartHeightC = heightC - margin.top - margin.bottom;
+    let annotationsC = combo.append("g").attr("id","annotationsC");
+    let chartAreaC = combo.append("g").attr("id","pointsC")
+                    .attr("transform",`translate(${margin.left+30},${margin.top})`);
+
+    bin = d3.bin()
+
+    const labelScale = d3.scalePoint()
+                         .domain(['danceability', 'valence', 'acousticness', 'energy'])
+                         .range([chartHeightC-50, 50])
+
+    const popScaleC = d3.scaleLinear()
+                        .domain(popExtent)
+                        .range([0, chartWidthC])
+
+    let bottomAxisC = d3.axisBottom(popScaleC)
+    let leftAxisC = d3.axisLeft(labelScale).ticks(4)
+
+
+    annotationsC.append("g")
+               .attr("class", "x axis")
+               .attr("transform",`translate(${margin.left+30},${chartHeightC+margin.top})`)
+               .call(bottomAxisC)
+
+    annotationsC.append("g")
+             .attr("class", "y axis")
+             .attr("transform",`translate(${margin.left+20},${margin.top})`)
+             .call(leftAxisC);
+
+
+    const danceScaleC = d3.scaleLinear()
+                          .domain(danceExtent)
+                          .range([0, chartWidthC])
+
+    const radiusScale= d3.scaleSqrt()
+                        .domain(danceExtent)
+                        .range([6, 40])
+
+    let danceBubs = chartAreaC.append("g")
+                        .selectAll("bubble")
+                        .data(data)
+                        .enter()
+                        .append("circle")
+                        .attr("cx", d => popScaleC(d.track_pop))
+                        .attr("cy", d => chartHeightC-50)
+                        .attr("r", d => radiusScale(d.danceability))
+                        .style("fill", "lightcyan")
+                        .style("opacity", "0.7")
+                        .attr("stroke", "black")
+                        .attr("stroke-width", 2);

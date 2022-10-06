@@ -41,7 +41,7 @@
 </svg>
 
     <svg id="combo" width=1000 height=800>
-    </svg>  
+    </svg>
     </p>
 
     <script>
@@ -103,7 +103,7 @@
                 .style("font-size", "16px")
                 .text("Danceability");
 
-    
+
 
         // energy
         const svg3 = d3.select("svg#energy")
@@ -276,7 +276,7 @@
         .style("font-size", "16px")
         .text("Acousticness");
 
-        
+
 
         // Combined chart
         let combo = d3.select("svg#combo")
@@ -309,8 +309,8 @@
                 sum_acousticness += element.acousticness;
                 sum_energy += element.energy;
             })
-            
-            
+
+
             array.avg_danceability = sum_danceability/array.length;
             array.avg_valence = sum_valence/array.length;
             array.avg_acousticness = sum_acousticness/array.length;
@@ -320,12 +320,12 @@
 
             data.bins.upperlimits.push(array.x1)
 
-            
+
         });
 
 
         const popBinsExtent = d3.extent(data.bins.upperlimits);
-        
+
 
         const labelScale = d3.scalePoint()
                              .domain(['danceability', 'valence', 'acousticness', 'energy'])
@@ -354,42 +354,88 @@
                  .attr("transform",`translate(${margin.left+20},${margin.top})`)
                  .call(leftAxisC);
 
-
-        const danceScaleC = d3.scaleLinear()
-                              .domain(danceExtent)
-                              .range([0, chartWidthC])
+        // danceability
+//         const danceScaleC = d3.scaleLinear()
+//                               .domain(danceExtent)
+//                               .range([0, chartWidthC])
 
         const radiusScale= d3.scaleSqrt()
-                            .domain(danceExtent)
-                            .range([0, 40])
+                            .domain([0,1])
+                            .range([0, 20])
 
         let danceBubs = chartAreaC.append("g")
                             .selectAll("bubble")
                             .data(data.bins)
-                            .enter()
-                            .append("circle")
+                            .join("circle")
                             .attr("cx", d => xlabelScale(d.x1))
-                            .attr("cy", d => chartHeightC-50)
+                            .attr("cy", d => labelScale('danceability'))
                             .attr("r", d => radiusScale(d.avg_danceability))
                             .style("fill", "lightcyan")
                             .style("opacity", "0.7")
                             .attr("stroke", "black")
                             .attr("stroke-width", 2);
-                            
-            
-    
-        console.log(danceExtent)
-        
 
-        console.log("bins", bins);
-        console.log(bins[0].x1, bins[bins.length-1].x1);
+        // valence
+//         const valenceScaleC = d3.scaleLinear()
+//                               .domain(valenceExtent)
+//                               .range([0, chartWidthC])
 
-        console.log(chartWidthC)
+        let valBubs = chartAreaC.append("g")
+                            .selectAll("bubble")
+                            .data(data.bins)
+                            .join("circle")
+                            .attr("cx", d => xlabelScale(d.x1))
+                            .attr("cy", d => labelScale('valence'))
+                            .attr("r", d => radiusScale(d.avg_valence))
+                            .style("fill", "pink")
+                            .style("opacity", "0.7")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 2);
+
+        // acousticness
+//         const acousticScaleC = d3.scaleLinear()
+//                               .domain(acousticnessExtent)
+//                               .range([0, chartWidthC])
+
+        let acousticnessBubs = chartAreaC.append("g")
+                            .selectAll("bubble")
+                            .data(data.bins)
+                            .join("circle")
+                            .attr("cx", d => xlabelScale(d.x1))
+                            .attr("cy", d => labelScale('acousticness'))
+                            .attr("r", d => radiusScale(d.avg_acousticness))
+                            .style("fill", "#00f2ea")
+                            .style("opacity", "0.7")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 2);
+
+        //energy
+        // const energyScaleC = d3.scaleLinear()
+        //                               .domain(energyExtent)
+        //                               .range([0, chartWidthC])
+
+        let colorScale = d3.scaleLinear().domain(energyExtent)
+                                         .range([d3.rgb("#000000"), d3.rgb("#00f2ea")])
+                                         .interpolate(d3.interpolateHcl);
+
+        let energyBubs = chartAreaC.append("g")
+                            .selectAll("bubble")
+                            .data(data.bins)
+                            .join("circle")
+                            .attr("cx", d => xlabelScale(d.x1))
+                            .attr("cy", d => labelScale('energy'))
+                            .attr("r", d => radiusScale(d.avg_energy))
+                            .style("fill", d => colorScale(d.avg_energy))
+                            .style("opacity", "0.7")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 2);
+
+
 
         // for each bin, take the avg of the 'danceability', 'valence', 'acousticness', 'energy', of all elements in the bin
-        // then we have values for each and then we scale it 
-        
-        
+        // then we have values for each and then we scale it
+
+
 
         // console.log(bins[0].avg_danceability)
 
@@ -402,21 +448,21 @@
     // var avg_acousticness = sum_acousticness/array.length;
     // var avg_energy = sum_energy/array.length;
     // const array1 = new Array(avg_danceability, avg_valence, avg_acousticness, avg_energy)
-            
+
             // for (var i = 0; i < names.length; i += 1) {
             //     var data = {};
             //     for (var j = 0; j < array1.length; j += 1){
             //         data[names[j]] = array1[i];
-                    
+
             //     }
             //     array.push(data);
-                
+
             //     // console.log(data)
             //     console.log(array)
             //}
 
             // console.log(array1);
-            
+
             // console.log('array', bins.indexOf(array), 'avg dance: ', avg_danceability);
             // console.log('array', bins.indexOf(array), 'avg valence: ',avg_valence);
             // console.log('array', bins.indexOf(array), 'avg acoustic: ',avg_acousticness);
