@@ -68,7 +68,7 @@
 </div>
 
 <div class="first">
-  <!-- <img src='title.png'/> -->
+  <img src='title2.png'/>
   <svg id="combo" width=1200 height=800>
     </svg>
 </div>
@@ -529,6 +529,7 @@
 
         var colorLegend = d3.legendColor()
                               .labelFormat(d3.format(".2f"))
+                              .labels(d3.legendHelpers.thresholdLabels)
                               .scale(colorScale)
                               .shapePadding(5)
                               .shapeWidth(20)
