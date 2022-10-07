@@ -24,6 +24,7 @@
 
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
 </head>
 
 <body>
@@ -347,7 +348,7 @@
         let combo = d3.select("svg#combo")
         const widthC = combo.attr("width");
         const heightC = combo.attr("height");
-        const chartWidthC = widthC - margin.left - margin.right-30;
+        const chartWidthC = widthC - margin.left - margin.right - 200;
         const chartHeightC = heightC - margin.top - margin.bottom;
         let annotationsC = combo.append("g").attr("id","annotationsC");
         let chartAreaC = combo.append("g").attr("id","pointsC")
@@ -421,7 +422,7 @@
 //         const danceScaleC = d3.scaleLinear()
 //                               .domain(danceExtent)
 //                               .range([0, chartWidthC])
-        var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+        var colorScale = d3.scaleSequential(d3.interpolateInferno)
                    .domain(danceExtent)
 
         const radiusScale= d3.scaleSqrt()
@@ -444,7 +445,7 @@
 //         const valenceScaleC = d3.scaleLinear()
 //                               .domain(valenceExtent)
 //                               .range([0, chartWidthC])
-        var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+        var colorScale = d3.scaleSequential(d3.interpolateInferno)
                    .domain(valenceExtent);
 
 
@@ -464,7 +465,7 @@
 //         const acousticScaleC = d3.scaleLinear()
 //                               .domain(acousticnessExtent)
 //                               .range([0, chartWidthC])
-        var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+        var colorScale = d3.scaleSequential(d3.interpolateInferno)
                            .domain(acousticnessExtent)
 
         let acousticnessBubs = chartAreaC.append("g")
@@ -488,8 +489,24 @@
         //                    .domain(energyExtent)
         //                    .range([d3.rgb("#de8c9d"), d3.rgb("#fe2858")]);
 
-        var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+        var colorScale = d3.scaleSequential(d3.interpolateInferno)
                           .domain(energyExtent);
+
+        var colorScale = d3.scaleSequential(d3.interpolateInferno)
+                          .domain([0,1]);
+
+        var colorLegend = d3.legendColor()
+                              .labelFormat(d3.format(".3f"))
+                              .scale(colorScale)
+                              .shapePadding(5)
+                              .shapeWidth(50)
+                              .shapeHeight(20)
+                              .labelOffset(12)
+                              .title("Value Legend");
+
+        chartAreaC.append("g")
+                  .attr("transform", `translate(${chartWidthC+60},${margin.top})`)
+                  .call(colorLegend);
 
         let energyBubs = chartAreaC.append("g")
                             .selectAll("bubble")
