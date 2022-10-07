@@ -32,9 +32,10 @@
         padding:50px;
     }
 
-    .y-axis{
+    .axis.combo{
         font-size: 13;
     }
+
 
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -66,9 +67,11 @@
     </div>
 </div>
 
-
+<div class="first">
+  <!-- <img src='title.png'/> -->
   <svg id="combo" width=1200 height=800>
     </svg>
+</div>
 
 </br>
 <svg id="artist_pop" width=500 height=500>
@@ -84,7 +87,7 @@
         const svg1=d3.select("svg#dance")
         const width = svg1.attr("width");
         const height = svg1.attr("height");
-        const margin = {top: 50, right: 10, bottom: 50, left: 50};
+        var margin = {top: 50, right: 10, bottom: 50, left: 50};
         const chartWidth = width - margin.left - margin.right;
         const chartHeight = height - margin.top - margin.bottom;
 
@@ -394,7 +397,8 @@
         let combo = d3.select("svg#combo")
         const widthC = combo.attr("width");
         const heightC = combo.attr("height");
-        const chartWidthC = widthC - margin.left - margin.right - 200;
+        var margin = {top: 50, right: 150, bottom: 50, left: 100};
+        const chartWidthC = widthC - margin.left - margin.right - 250;
         const chartHeightC = heightC - margin.top - margin.bottom - 50;
         let annotationsC = combo.append("g").attr("id","annotationsC");
         let chartAreaC = combo.append("g").attr("id","pointsC")
@@ -463,12 +467,12 @@
 
 
         annotationsC.append("g")
-                   .attr("class", "x axis")
+                   .attr("class", "x axis combo")
                    .attr("transform",`translate(${margin.left+30},${chartHeightC+margin.top})`)
                    .call(bottomAxisC)
 
         annotationsC.append("g")
-                 .attr("class", "y-axis")
+                 .attr("class", "y axis combo")
                  .attr("transform",`translate(${margin.left+40},${margin.top})`)
                  .call(leftAxisC);
 
@@ -532,8 +536,8 @@
                               .labelOffset(12)
                               .title("Value Legend");
 
-        chartAreaC.append("g")
-                  .attr("transform", `translate(${chartWidthC+60},${margin.top})`)
+        combo.append("g")
+                  .attr("transform", `translate(${chartWidthC+margin.right+50},${margin.top})`)
                   .call(colorLegend);
 
         let energyBubs = chartAreaC.append("g")
@@ -555,9 +559,9 @@
                 .style("font-size", "18px")
                 .text("Track Popularity");
 
-        chartAreaC.append("text")
+        combo.append("text")
                 .attr("x", -chartHeightC/2)
-                .attr("y", -margin.left)
+                .attr("y", 30)
                 .attr("text-anchor", "middle")
                 .attr("transform", "rotate(-90)" )
                 .style("font-size", "18px")
