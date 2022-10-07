@@ -14,7 +14,8 @@
     }
 
     .first {
-        background-color: rgb(188, 252, 250, 0.2);
+        background-color: rgb(170, 236, 251, .1);
+        border: 1px solid rgb(170, 236, 251);
         padding: 40px;
     }
 
@@ -36,6 +37,16 @@
         font-size: 13;
     }
 
+    .im-cover{
+        background-color: rgb(118, 179, 193, 0.5);
+        border: .5px solid rgb(118, 179, 193);
+    }
+
+    div img {
+        margin: auto;
+        display: block;
+    }
+
 
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -46,9 +57,10 @@
 <body>
     <h1>Project 1</h1>
     <h3>Sydney Bednar, Noorejehan Umar, Victoria Eshun</h3>
-
-<div class="first">
+<div class="im-cover">
     <img src='title.png'/>
+</div>
+<div class="first">
     <div class="top row">
         <svg id="dance" width=500 height=500>
         </svg>
@@ -65,10 +77,14 @@
         <!-- <svg id="mode" width=500 height=500>
         </svg> -->
     </div>
+
+</div>
+<div class="im-cover">
+<img src='title2.png'/>
 </div>
 
 <div class="first">
-  <img src='title2.png'/>
+
   <svg id="combo" width=1200 height=800>
     </svg>
 </div>
