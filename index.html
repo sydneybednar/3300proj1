@@ -22,12 +22,12 @@
         font-weight: bold;
 
     }
-    
+
     .artist-pop-text{
         writing-mode: vertical-lr;
 
     }
-    
+
     svg.combo{
         padding:50px;
     }
@@ -39,6 +39,7 @@
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <script src="https://unpkg.com/simple-statistics@7.7.6/dist/simple-statistics.min.js"></script>
 </head>
 
 <body>
@@ -135,7 +136,31 @@
                 .style("font-size", "16px")
                 .text("Danceability");
 
+        var linearRegression = ss.linearRegression(data.map(d => [d.track_pop, d.danceability]))
+        var linearRegressionLine = ss.linearRegressionLine(linearRegression)
 
+        let regressionPoints = function(){
+            const firstX = d3.min(data, d => d.track_pop);
+            const lastX = d3.max(data, d => d.track_pop);
+
+            const xCoordinates = [firstX, lastX];
+            return xCoordinates.map(d => ({
+                x: d,
+                y: linearRegressionLine(d)
+          }));
+        }
+
+        var lineGen = d3.line()
+                 .x(d => popScale(d.x))
+                 .y(d => danceScale(d.y))
+
+
+        chartArea.append('path')
+                 .datum(regressionPoints())
+                 .attr('class', 'line')
+                 .attr('stroke', '#397684')
+                 .attr('stroke-width', 3)
+                 .attr('d', lineGen);
 
         // energy
         const svg3 = d3.select("svg#energy")
@@ -149,7 +174,7 @@
                    .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
                    .call(bottomAxis)
 
-        // points
+
         const energyExtent = d3.extent(data, d => d['energy']);
         const energyScale = d3.scaleLinear()
                            .domain(energyExtent)
@@ -172,14 +197,28 @@
                             .attr("stroke-width", 0.5)
                             .attr("opacity", .6);
 
-            chartArea3.append("text")
-                .attr("class", "title")
-                .attr("x", (chartWidth / 2))
-                .attr("y", 0 - (margin.top / 2))
-                .attr("text-anchor", "middle")
-                .style("font-size", "16px")
-                .text("Energy");
+        chartArea3.append("text")
+            .attr("class", "title")
+            .attr("x", (chartWidth / 2))
+            .attr("y", 0 - (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            .text("Energy");
 
+        var linearRegression = ss.linearRegression(data.map(d => [d.track_pop, d.energy]))
+        var linearRegressionLine = ss.linearRegressionLine(linearRegression)
+
+        var lineGen = d3.line()
+                 .x(d => popScale(d.x))
+                 .y(d => energyScale(d.y))
+
+
+        chartArea3.append('path')
+                 .datum(regressionPoints())
+                 .attr('class', 'line')
+                 .attr('stroke', '#397684')
+                 .attr('stroke-width', 3)
+                 .attr('d', lineGen);
 
 
         // valence
@@ -194,7 +233,6 @@
                    .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
                    .call(bottomAxis)
 
-        // points
         const valenceExtent = d3.extent(data, d => d['valence']);
         const valenceScale = d3.scaleLinear()
                            .domain(valenceExtent)
@@ -218,16 +256,28 @@
                             .attr("stroke-width", 0.5)
                             .attr("opacity", .6);
 
-      chartArea4.append("text")
-        .attr("class", "title")
-        .attr("x", (chartWidth / 2))
-        .attr("y", 0 - (margin.top / 2))
-        .attr("text-anchor", "middle")
-        .style("font-size", "16px")
-        .text("Valence");
+        chartArea4.append("text")
+            .attr("class", "title")
+            .attr("x", (chartWidth / 2))
+            .attr("y", 0 - (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            .text("Valence");
+
+        var linearRegression = ss.linearRegression(data.map(d => [d.track_pop, d.valence]))
+        var linearRegressionLine = ss.linearRegressionLine(linearRegression)
+
+        var lineGen = d3.line()
+                 .x(d => popScale(d.x))
+                 .y(d => valenceScale(d.y))
 
 
-        
+        chartArea4.append('path')
+                 .datum(regressionPoints())
+                 .attr('class', 'line')
+                 .attr('stroke', '#397684')
+                 .attr('stroke-width', 3)
+                 .attr('d', lineGen);
 
          // acousticness
         const svg6 = d3.select("svg#acousticness")
@@ -241,7 +291,7 @@
                 .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
                 .call(bottomAxis)
 
-        // points
+
         const acousticnessExtent = d3.extent(data, d => d['acousticness']);
         const acousticnessScale = d3.scaleLinear()
                         .domain(acousticnessExtent)
@@ -266,12 +316,28 @@
                             .attr("opacity", .6);
 
         chartArea6.append("text")
-        .attr("class", "title")
-        .attr("x", (chartWidth / 2))
-        .attr("y", 0 - (margin.top / 2))
-        .attr("text-anchor", "middle")
-        .style("font-size", "16px")
-        .text("Acousticness");
+                    .attr("class", "title")
+                    .attr("x", (chartWidth / 2))
+                    .attr("y", 0 - (margin.top / 2))
+                    .attr("text-anchor", "middle")
+                    .style("font-size", "16px")
+                    .text("Acousticness");
+
+        var linearRegression = ss.linearRegression(data.map(d => [d.track_pop, d.acousticness]))
+        var linearRegressionLine = ss.linearRegressionLine(linearRegression)
+
+        var lineGen = d3.line()
+                 .x(d => popScale(d.x))
+                 .y(d => acousticnessScale(d.y))
+
+
+        chartArea6.append('path')
+                 .datum(regressionPoints())
+                 .attr('class', 'line')
+                 .attr('stroke', '#397684')
+                 .attr('stroke-width', 3)
+                 .attr('d', lineGen);
+
 
         // track popularity against artist popularity
         const svg7 = d3.select("svg#artist_pop")
@@ -285,7 +351,6 @@
                    .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
                    .call(bottomAxis)
 
-        // points
         const artist_popExtent = d3.extent(data, d => d['artist_pop']);
         const artist_popScale = d3.scaleLinear()
                            .domain(artist_popExtent)
@@ -408,11 +473,8 @@
                  .call(leftAxisC);
 
         // danceability
-//         const danceScaleC = d3.scaleLinear()
-//                               .domain(danceExtent)
-//                               .range([0, chartWidthC])
-        var colorScale = d3.scaleSequential(d3.interpolateInferno)
-                   .domain(danceExtent)
+        const colorScale = d3.scaleThreshold(d3.schemePuRd[9])
+                   .domain([0.1, .2, .3, .4, 0.5, .7, .8, .9, 1])
 
         const radiusScale= d3.scaleSqrt()
                             .domain([0,1])
@@ -431,12 +493,6 @@
                             .attr("stroke-width", .5);
 
         // valence
-//         const valenceScaleC = d3.scaleLinear()
-//                               .domain(valenceExtent)
-//                               .range([0, chartWidthC])
-        var colorScale = d3.scaleSequential(d3.interpolateInferno)
-                   .domain(valenceExtent);
-
 
         let valBubs = chartAreaC.append("g")
                             .selectAll("bubble")
@@ -451,11 +507,6 @@
                             .attr("stroke-width", .5);
 
         // acousticness
-//         const acousticScaleC = d3.scaleLinear()
-//                               .domain(acousticnessExtent)
-//                               .range([0, chartWidthC])
-        var colorScale = d3.scaleSequential(d3.interpolateInferno)
-                           .domain(acousticnessExtent)
 
         let acousticnessBubs = chartAreaC.append("g")
                             .selectAll("bubble")
@@ -470,19 +521,7 @@
                             .attr("stroke-width", .5);
 
         //energy
-        // const energyScaleC = d3.scaleLinear()
-        //                               .domain(energyExtent)
-        //                               .range([0, chartWidthC])
 
-        // var colorScale = d3.scaleSequential(d3.interpolateHcl)
-        //                    .domain(energyExtent)
-        //                    .range([d3.rgb("#de8c9d"), d3.rgb("#fe2858")]);
-
-        var colorScale = d3.scaleSequential(d3.interpolateInferno)
-                          .domain(energyExtent);
-
-        var colorScale = d3.scaleSequential(d3.interpolateInferno)
-                          .domain([0,1]);
 
         var colorLegend = d3.legendColor()
                               .labelFormat(d3.format(".2f"))
@@ -517,9 +556,10 @@
                 .text("Track Popularity");
 
         chartAreaC.append("text")
-                .attr("x", (margin.left-40))
-                .attr("y", (0))
+                .attr("x", -chartHeightC/2)
+                .attr("y", -margin.left)
                 .attr("text-anchor", "middle")
+                .attr("transform", "rotate(-90)" )
                 .style("font-size", "18px")
                 .text("Track Features");
 
@@ -551,8 +591,8 @@
             // console.log('array', bins.indexOf(array), 'avg dance: ', avg_danceability);
             // console.log('array', bins.indexOf(array), 'avg valence: ',avg_valence);
             // console.log('array', bins.indexOf(array), 'avg acoustic: ',avg_acousticness);
-            // console.log('array', bins.indexOf(array), 'avg energy: ',avg_energy); 
-        
+            // console.log('array', bins.indexOf(array), 'avg energy: ',avg_energy);
+
         //     // mode
         // const svg5 = d3.select("svg#mode")
         //
