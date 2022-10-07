@@ -20,6 +20,20 @@
 
     .title {
         font-weight: bold;
+
+    }
+    
+    .artist-pop-text{
+        writing-mode: vertical-lr;
+
+    }
+    
+    svg.combo{
+        padding:50px;
+    }
+
+    .y-axis{
+        font-size: 13;
     }
 
     </style>
@@ -52,7 +66,7 @@
 </div>
 
 
-  <svg id="combo" width=1000 height=800>
+  <svg id="combo" width=1200 height=800>
     </svg>
 
 </br>
@@ -213,48 +227,7 @@
         .text("Valence");
 
 
-        //     // mode
-        // const svg5 = d3.select("svg#mode")
-        //
-        // let annotations5 = svg5.append("g").attr("id","annotations5");
-        // let chartArea5 = svg5.append("g").attr("id","points5")
-        //                 .attr("transform",`translate(${margin.left},${margin.top})`);
-        //
-        // annotations5.append("g")
-        //         .attr("class", "x axis")
-        //         .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
-        //         .call(bottomAxis)
-        //
-        // // points
-        // const modeExtent = d3.extent(data, d => d['mode']);
-        // const modeScale = d3.scaleLinear()
-        //                 .domain(modeExtent)
-        //                 .range([chartHeight, 0]);
-        // let modeAxis = d3.axisLeft(modeScale);
-        //
-        //
-        // annotations5.append("g")
-        //         .attr("class", "y axis")
-        //         .attr("transform",`translate(${margin.left-10},${margin.top})`)
-        //         .call(modeAxis);
-        //
-        // let modeCircles = chartArea5.selectAll("circles.mode").data(data)
-        //                     .join("circle")
-        //                     .attr("class", "mode")
-        //                     .attr("r", 4)
-        //                     .attr("cx", d => popScale(d['track_pop']))
-        //                     .attr("cy", d => modeScale(d['mode']))
-        //                     .attr("fill", "#00f2ea")
-        //                     .attr("opacity", .6);
-        //
-        // chartArea5.append("text")
-        // .attr("x", (chartWidth / 2))
-        // .attr("y", 0 - (margin.top / 2))
-        // .attr("text-anchor", "middle")
-        // .style("font-size", "16px")
-        // .text("Mode");
-
-
+        
 
          // acousticness
         const svg6 = d3.select("svg#acousticness")
@@ -300,7 +273,7 @@
         .style("font-size", "16px")
         .text("Acousticness");
 
-        // artist popularity
+        // track popularity against artist popularity
         const svg7 = d3.select("svg#artist_pop")
 
         let annotations7 = svg7.append("g").attr("id","annotations7");
@@ -337,11 +310,19 @@
                             .attr("opacity", .6);
 
       chartArea7.append("text")
-        .attr("x", (chartWidth / 2))
-        .attr("y", 0 - (margin.top / 2))
+        .attr("class", "artist-pop-text")
+        .attr("x", (-margin.left+10))
+        .attr("y", chartHeight/2)
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
-        .text("artist_pop");
+        .text("Artist Popularity");
+
+      chartArea7.append("text")
+        .attr("x", (chartWidth / 2))
+        .attr("y", (chartHeight + 45))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .text("Track Popularity");
 
 
         // Combined chart
@@ -349,7 +330,7 @@
         const widthC = combo.attr("width");
         const heightC = combo.attr("height");
         const chartWidthC = widthC - margin.left - margin.right - 200;
-        const chartHeightC = heightC - margin.top - margin.bottom;
+        const chartHeightC = heightC - margin.top - margin.bottom - 50;
         let annotationsC = combo.append("g").attr("id","annotationsC");
         let chartAreaC = combo.append("g").attr("id","pointsC")
                         .attr("transform",`translate(${margin.left+30},${margin.top})`);
@@ -402,10 +383,18 @@
                              .range([50, chartWidthC-10])
                              .padding(0.1);
 
+        const xlabelScaleTicks = d3.scalePoint()
+                             .domain(['0 - 20', '21 - 40', '41 - 60', '61 - 80', '81 - 100'])
+                             .range([50, chartWidthC-10])
+                             .padding(0.1);
 
 
-        let bottomAxisC = d3.axisBottom(xlabelScale)
-        let leftAxisC = d3.axisLeft(labelScale).ticks(4)
+
+        let bottomAxisC = d3.axisBottom(xlabelScaleTicks)
+                            .tickValues(['0 - 20', '21 - 40', '41 - 60', '61 - 80', '81 - 100'])
+                            .ticks(5)
+        
+        let leftAxisC = d3.axisLeft(labelScale).ticks(4)
 
 
         annotationsC.append("g")
@@ -414,8 +403,8 @@
                    .call(bottomAxisC)
 
         annotationsC.append("g")
-                 .attr("class", "y axis")
-                 .attr("transform",`translate(${margin.left+20},${margin.top})`)
+                 .attr("class", "y-axis")
+                 .attr("transform",`translate(${margin.left+40},${margin.top})`)
                  .call(leftAxisC);
 
         // danceability
@@ -496,10 +485,10 @@
                           .domain([0,1]);
 
         var colorLegend = d3.legendColor()
-                              .labelFormat(d3.format(".3f"))
+                              .labelFormat(d3.format(".2f"))
                               .scale(colorScale)
                               .shapePadding(5)
-                              .shapeWidth(50)
+                              .shapeWidth(20)
                               .shapeHeight(20)
                               .labelOffset(12)
                               .title("Value Legend");
@@ -519,6 +508,20 @@
                             .style("opacity", 0.7)
                             .attr("stroke", "black")
                             .attr("stroke-width", .5);
+
+        chartAreaC.append("text")
+                .attr("x", (chartWidthC / 2 + 15))
+                .attr("y", (chartHeightC + margin.bottom))
+                .attr("text-anchor", "middle")
+                .style("font-size", "18px")
+                .text("Track Popularity");
+
+        chartAreaC.append("text")
+                .attr("x", (margin.left-40))
+                .attr("y", (0))
+                .attr("text-anchor", "middle")
+                .style("font-size", "18px")
+                .text("Track Features");
 
 
     }
@@ -548,7 +551,48 @@
             // console.log('array', bins.indexOf(array), 'avg dance: ', avg_danceability);
             // console.log('array', bins.indexOf(array), 'avg valence: ',avg_valence);
             // console.log('array', bins.indexOf(array), 'avg acoustic: ',avg_acousticness);
-            // console.log('array', bins.indexOf(array), 'avg energy: ',avg_energy); -->
+            // console.log('array', bins.indexOf(array), 'avg energy: ',avg_energy); 
+        
+        //     // mode
+        // const svg5 = d3.select("svg#mode")
+        //
+        // let annotations5 = svg5.append("g").attr("id","annotations5");
+        // let chartArea5 = svg5.append("g").attr("id","points5")
+        //                 .attr("transform",`translate(${margin.left},${margin.top})`);
+        //
+        // annotations5.append("g")
+        //         .attr("class", "x axis")
+        //         .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+        //         .call(bottomAxis)
+        //
+        // // points
+        // const modeExtent = d3.extent(data, d => d['mode']);
+        // const modeScale = d3.scaleLinear()
+        //                 .domain(modeExtent)
+        //                 .range([chartHeight, 0]);
+        // let modeAxis = d3.axisLeft(modeScale);
+        //
+        //
+        // annotations5.append("g")
+        //         .attr("class", "y axis")
+        //         .attr("transform",`translate(${margin.left-10},${margin.top})`)
+        //         .call(modeAxis);
+        //
+        // let modeCircles = chartArea5.selectAll("circles.mode").data(data)
+        //                     .join("circle")
+        //                     .attr("class", "mode")
+        //                     .attr("r", 4)
+        //                     .attr("cx", d => popScale(d['track_pop']))
+        //                     .attr("cy", d => modeScale(d['mode']))
+        //                     .attr("fill", "#00f2ea")
+        //                     .attr("opacity", .6);
+        //
+        // chartArea5.append("text")
+        // .attr("x", (chartWidth / 2))
+        // .attr("y", 0 - (margin.top / 2))
+        // .attr("text-anchor", "middle")
+        // .style("font-size", "16px")
+        // .text("Mode");-->
 
 
 </body>
