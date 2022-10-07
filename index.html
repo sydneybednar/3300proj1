@@ -9,6 +9,19 @@
       font-family: 'Futura', sans-serif;
     }
 
+    .axis {
+        font-family: 'Futura', sans-serif;
+    }
+
+    .first {
+        background-color: rgb(188, 252, 250, 0.2);
+        padding: 40px;
+    }
+
+    .title {
+        font-weight: bold;
+    }
+
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
@@ -16,29 +29,28 @@
 <body>
     <h1>Project 1</h1>
     <h3>Sydney Bednar, Noorejehan Umar, Victoria Eshun</h3>
-    <p>Color Palette</p>
-    <p style="color: #ff0050">PINK</p>
-    <p style="color: #00f2ea">AQUA</p>
-    <p>BLACK</p>
-    <img src='palette.png' width=300 height=300 />
-    <p>
-    <svg id="dance" width=500 height=500>
-    </svg>
 
-</br>
-    <svg id="valence" width=500 height=500>
-    </svg>
+<div class="first">
+    <img src='title.png'/>
+    <div class="top row">
+        <svg id="dance" width=500 height=500>
+        </svg>
 
-</br>
-    <svg id="energy" width=500 height=500>
-    </svg>
-</br>
-    <svg id="mode" width=500 height=500>
-    </svg>
+        <svg id="valence" width=500 height=500>
+        </svg>
+    </div>
 
-</br>
-<svg id="acousticness" width=500 height=500>
-</svg>
+    <div class="bottom row">
+        <svg id="energy" width=500 height=500>
+        </svg>
+        <svg id="acousticness" width=500 height=500>
+        </svg>
+        <!-- <svg id="mode" width=500 height=500>
+        </svg> -->
+    </div>
+</div>
+
+
   <svg id="combo" width=1000 height=800>
     </svg>
 
@@ -82,7 +94,6 @@
                            .domain(danceExtent)
                            .range([chartHeight, 0])
 
-        console.log(danceExtent)
         let danceAxis = d3.axisLeft(danceScale)
 
         annotations.append("g")
@@ -97,9 +108,12 @@
                             .attr("cx", d => popScale(d['track_pop']))
                             .attr("cy", d => danceScale(d['danceability']))
                             .attr("fill", "#ff0050")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 0.5)
                             .attr("opacity", .6)
 
         chartArea.append("text")
+                .attr("class", "title")
                 .attr("x", (chartWidth / 2))
                 .attr("y", 0 - (margin.top / 2))
                 .attr("text-anchor", "middle")
@@ -138,10 +152,13 @@
                             .attr("r", 4)
                             .attr("cx", d => popScale(d['track_pop']))
                             .attr("cy", d => energyScale(d['energy']))
-                            .attr("fill", "black")
+                            .attr("fill", "#ff0050")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 0.5)
                             .attr("opacity", .6);
 
             chartArea3.append("text")
+                .attr("class", "title")
                 .attr("x", (chartWidth / 2))
                 .attr("y", 0 - (margin.top / 2))
                 .attr("text-anchor", "middle")
@@ -169,7 +186,6 @@
                            .range([chartHeight, 0]);
         let valenceAxis = d3.axisLeft(valenceScale);
 
-        console.log(valenceExtent)
 
         annotations4.append("g")
                   .attr("class", "y axis")
@@ -182,10 +198,13 @@
                             .attr("r", 4)
                             .attr("cx", d => popScale(d['track_pop']))
                             .attr("cy", d => valenceScale(d['valence']))
-                            .attr("fill", "#00f2ea")
+                            .attr("fill", "#ff0050")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 0.5)
                             .attr("opacity", .6);
 
       chartArea4.append("text")
+        .attr("class", "title")
         .attr("x", (chartWidth / 2))
         .attr("y", 0 - (margin.top / 2))
         .attr("text-anchor", "middle")
@@ -193,47 +212,46 @@
         .text("Valence");
 
 
-            // mode
-        const svg5 = d3.select("svg#mode")
-
-        let annotations5 = svg5.append("g").attr("id","annotations5");
-        let chartArea5 = svg5.append("g").attr("id","points5")
-                        .attr("transform",`translate(${margin.left},${margin.top})`);
-
-        annotations5.append("g")
-                .attr("class", "x axis")
-                .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
-                .call(bottomAxis)
-
-        // points
-        const modeExtent = d3.extent(data, d => d['mode']);
-        const modeScale = d3.scaleLinear()
-                        .domain(modeExtent)
-                        .range([chartHeight, 0]);
-        let modeAxis = d3.axisLeft(modeScale);
-
-        console.log(modeExtent)
-
-        annotations5.append("g")
-                .attr("class", "y axis")
-                .attr("transform",`translate(${margin.left-10},${margin.top})`)
-                .call(modeAxis);
-
-        let modeCircles = chartArea5.selectAll("circles.mode").data(data)
-                            .join("circle")
-                            .attr("class", "mode")
-                            .attr("r", 4)
-                            .attr("cx", d => popScale(d['track_pop']))
-                            .attr("cy", d => modeScale(d['mode']))
-                            .attr("fill", "#00f2ea")
-                            .attr("opacity", .6);
-
-        chartArea5.append("text")
-        .attr("x", (chartWidth / 2))
-        .attr("y", 0 - (margin.top / 2))
-        .attr("text-anchor", "middle")
-        .style("font-size", "16px")
-        .text("Mode");
+        //     // mode
+        // const svg5 = d3.select("svg#mode")
+        //
+        // let annotations5 = svg5.append("g").attr("id","annotations5");
+        // let chartArea5 = svg5.append("g").attr("id","points5")
+        //                 .attr("transform",`translate(${margin.left},${margin.top})`);
+        //
+        // annotations5.append("g")
+        //         .attr("class", "x axis")
+        //         .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+        //         .call(bottomAxis)
+        //
+        // // points
+        // const modeExtent = d3.extent(data, d => d['mode']);
+        // const modeScale = d3.scaleLinear()
+        //                 .domain(modeExtent)
+        //                 .range([chartHeight, 0]);
+        // let modeAxis = d3.axisLeft(modeScale);
+        //
+        //
+        // annotations5.append("g")
+        //         .attr("class", "y axis")
+        //         .attr("transform",`translate(${margin.left-10},${margin.top})`)
+        //         .call(modeAxis);
+        //
+        // let modeCircles = chartArea5.selectAll("circles.mode").data(data)
+        //                     .join("circle")
+        //                     .attr("class", "mode")
+        //                     .attr("r", 4)
+        //                     .attr("cx", d => popScale(d['track_pop']))
+        //                     .attr("cy", d => modeScale(d['mode']))
+        //                     .attr("fill", "#00f2ea")
+        //                     .attr("opacity", .6);
+        //
+        // chartArea5.append("text")
+        // .attr("x", (chartWidth / 2))
+        // .attr("y", 0 - (margin.top / 2))
+        // .attr("text-anchor", "middle")
+        // .style("font-size", "16px")
+        // .text("Mode");
 
 
 
@@ -256,7 +274,6 @@
                         .range([chartHeight, 0]);
         let acousticnessAxis = d3.axisLeft(acousticnessScale);
 
-        console.log(acousticnessExtent)
 
         annotations6.append("g")
                 .attr("class", "y axis")
@@ -270,9 +287,12 @@
                             .attr("cx", d => popScale(d['track_pop']))
                             .attr("cy", d => acousticnessScale(d['acousticness']))
                             .attr("fill", "#ff0050")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 0.5)
                             .attr("opacity", .6);
 
         chartArea6.append("text")
+        .attr("class", "title")
         .attr("x", (chartWidth / 2))
         .attr("y", 0 - (margin.top / 2))
         .attr("text-anchor", "middle")
@@ -298,7 +318,6 @@
                            .range([chartHeight, 0]);
         let artist_popAxis = d3.axisLeft(artist_popScale);
 
-        console.log(artist_popExtent)
 
         annotations7.append("g")
                   .attr("class", "y axis")
@@ -312,6 +331,8 @@
                             .attr("cx", d => popScale(d['track_pop']))
                             .attr("cy", d => artist_popScale(d['artist_pop']))
                             .attr("fill", "#ff0050")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 0.5)
                             .attr("opacity", .6);
 
       chartArea7.append("text")
@@ -381,8 +402,6 @@
                              .padding(0.1);
 
 
-        console.log(popBinsExtent);
-
 
         let bottomAxisC = d3.axisBottom(xlabelScale)
         let leftAxisC = d3.axisLeft(labelScale).ticks(4)
@@ -402,6 +421,8 @@
 //         const danceScaleC = d3.scaleLinear()
 //                               .domain(danceExtent)
 //                               .range([0, chartWidthC])
+        var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+                   .domain(danceExtent)
 
         const radiusScale= d3.scaleSqrt()
                             .domain([0,1])
@@ -414,15 +435,18 @@
                             .attr("cx", d => xlabelScale(d.x1))
                             .attr("cy", d => labelScale('danceability'))
                             .attr("r", d => radiusScale(d.avg_danceability))
-                            .style("fill", "lightcyan")
+                            .style("fill", d => colorScale(d.avg_danceability))
                             .style("opacity", "0.7")
                             .attr("stroke", "black")
-                            .attr("stroke-width", 2);
+                            .attr("stroke-width", .5);
 
         // valence
 //         const valenceScaleC = d3.scaleLinear()
 //                               .domain(valenceExtent)
 //                               .range([0, chartWidthC])
+        var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+                   .domain(valenceExtent);
+
 
         let valBubs = chartAreaC.append("g")
                             .selectAll("bubble")
@@ -431,15 +455,17 @@
                             .attr("cx", d => xlabelScale(d.x1))
                             .attr("cy", d => labelScale('valence'))
                             .attr("r", d => radiusScale(d.avg_valence))
-                            .style("fill", "pink")
+                            .style("fill", d => colorScale(d.avg_valence))
                             .style("opacity", "0.7")
                             .attr("stroke", "black")
-                            .attr("stroke-width", 2);
+                            .attr("stroke-width", .5);
 
         // acousticness
 //         const acousticScaleC = d3.scaleLinear()
 //                               .domain(acousticnessExtent)
 //                               .range([0, chartWidthC])
+        var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+                           .domain(acousticnessExtent)
 
         let acousticnessBubs = chartAreaC.append("g")
                             .selectAll("bubble")
@@ -448,19 +474,22 @@
                             .attr("cx", d => xlabelScale(d.x1))
                             .attr("cy", d => labelScale('acousticness'))
                             .attr("r", d => radiusScale(d.avg_acousticness))
-                            .style("fill", "#00f2ea")
+                            .style("fill", d => colorScale(d.avg_acousticness))
                             .style("opacity", "0.7")
                             .attr("stroke", "black")
-                            .attr("stroke-width", 2);
+                            .attr("stroke-width", .5);
 
         //energy
         // const energyScaleC = d3.scaleLinear()
         //                               .domain(energyExtent)
         //                               .range([0, chartWidthC])
 
-        let colorScale = d3.scaleLinear().domain(energyExtent)
-                                         .range([d3.rgb("#000000"), d3.rgb("#00f2ea")])
-                                         .interpolate(d3.interpolateHcl);
+        // var colorScale = d3.scaleSequential(d3.interpolateHcl)
+        //                    .domain(energyExtent)
+        //                    .range([d3.rgb("#de8c9d"), d3.rgb("#fe2858")]);
+
+        var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+                          .domain(energyExtent);
 
         let energyBubs = chartAreaC.append("g")
                             .selectAll("bubble")
@@ -470,18 +499,10 @@
                             .attr("cy", d => labelScale('energy'))
                             .attr("r", d => radiusScale(d.avg_energy))
                             .style("fill", d => colorScale(d.avg_energy))
-                            .style("opacity", "0.7")
+                            .style("opacity", 0.7)
                             .attr("stroke", "black")
-                            .attr("stroke-width", 2);
+                            .attr("stroke-width", .5);
 
-
-
-        // for each bin, take the avg of the 'danceability', 'valence', 'acousticness', 'energy', of all elements in the bin
-        // then we have values for each and then we scale it
-
-
-
-        // console.log(bins[0].avg_danceability)
 
     }
     requestData();
