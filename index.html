@@ -39,9 +39,12 @@
 </br>
 <svg id="acousticness" width=500 height=500>
 </svg>
-
-    <svg id="combo" width=1000 height=800>
+  <svg id="combo" width=1000 height=800>
     </svg>
+
+</br>
+<svg id="artist_pop" width=500 height=500>
+</svg>
     </p>
 
     <script>
@@ -234,7 +237,7 @@
 
 
 
-                // acousticness
+         // acousticness
         const svg6 = d3.select("svg#acousticness")
 
         let annotations6 = svg6.append("g").attr("id","annotations6");
@@ -276,6 +279,47 @@
         .style("font-size", "16px")
         .text("Acousticness");
 
+        // artist popularity
+        const svg7 = d3.select("svg#artist_pop")
+
+        let annotations7 = svg7.append("g").attr("id","annotations7");
+        let chartArea7 = svg7.append("g").attr("id","points7")
+                        .attr("transform",`translate(${margin.left},${margin.top})`);
+
+        annotations7.append("g")
+                   .attr("class", "x axis")
+                   .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+                   .call(bottomAxis)
+
+        // points
+        const artist_popExtent = d3.extent(data, d => d['artist_pop']);
+        const artist_popScale = d3.scaleLinear()
+                           .domain(artist_popExtent)
+                           .range([chartHeight, 0]);
+        let artist_popAxis = d3.axisLeft(artist_popScale);
+
+        console.log(artist_popExtent)
+
+        annotations7.append("g")
+                  .attr("class", "y axis")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+                  .call(artist_popAxis);
+
+        let artist_popCircles = chartArea7.selectAll("circles.artist_pop").data(data)
+                            .join("circle")
+                            .attr("class", "artist_pop")
+                            .attr("r", 4)
+                            .attr("cx", d => popScale(d['track_pop']))
+                            .attr("cy", d => artist_popScale(d['artist_pop']))
+                            .attr("fill", "#ff0050")
+                            .attr("opacity", .6);
+
+      chartArea7.append("text")
+        .attr("x", (chartWidth / 2))
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .text("artist_pop");
 
 
         // Combined chart
