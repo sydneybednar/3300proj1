@@ -56,7 +56,9 @@
 
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!--Source: susielu color legend https://d3-legend.susielu.com/ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <!-- Source: simple statistics (used for lin reg) https://simplestatistics.org/ -->
     <script src="https://unpkg.com/simple-statistics@7.7.6/dist/simple-statistics.min.js"></script>
 </head>
 
@@ -178,6 +180,7 @@
                 .style("font-size", "16px")
                 .text("Danceability");
 
+        // lin reg code help: https://observablehq.com/@hydrosquall/simple-linear-regression-scatterplot-with-d3
         var linearRegression = ss.linearRegression(data.map(d => [d.track_pop, d.danceability]))
         var linearRegressionLine = ss.linearRegressionLine(linearRegression)
 
@@ -655,72 +658,5 @@
     requestData();
 
     </script>
-    <!-- // var avg_danceability = sum_danceability/array.length;
-    // var avg_valence = sum_valence/array.length;
-    // var avg_acousticness = sum_acousticness/array.length;
-    // var avg_energy = sum_energy/array.length;
-    // const array1 = new Array(avg_danceability, avg_valence, avg_acousticness, avg_energy)
-
-            // for (var i = 0; i < names.length; i += 1) {
-            //     var data = {};
-            //     for (var j = 0; j < array1.length; j += 1){
-            //         data[names[j]] = array1[i];
-
-            //     }
-            //     array.push(data);
-
-            //     // console.log(data)
-            //     console.log(array)
-            //}
-
-            // console.log(array1);
-
-            // console.log('array', bins.indexOf(array), 'avg dance: ', avg_danceability);
-            // console.log('array', bins.indexOf(array), 'avg valence: ',avg_valence);
-            // console.log('array', bins.indexOf(array), 'avg acoustic: ',avg_acousticness);
-            // console.log('array', bins.indexOf(array), 'avg energy: ',avg_energy);
-
-        //     // mode
-        // const svg5 = d3.select("svg#mode")
-        //
-        // let annotations5 = svg5.append("g").attr("id","annotations5");
-        // let chartArea5 = svg5.append("g").attr("id","points5")
-        //                 .attr("transform",`translate(${margin.left},${margin.top})`);
-        //
-        // annotations5.append("g")
-        //         .attr("class", "x axis")
-        //         .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
-        //         .call(bottomAxis)
-        //
-        // // points
-        // const modeExtent = d3.extent(data, d => d['mode']);
-        // const modeScale = d3.scaleLinear()
-        //                 .domain(modeExtent)
-        //                 .range([chartHeight, 0]);
-        // let modeAxis = d3.axisLeft(modeScale);
-        //
-        //
-        // annotations5.append("g")
-        //         .attr("class", "y axis")
-        //         .attr("transform",`translate(${margin.left-10},${margin.top})`)
-        //         .call(modeAxis);
-        //
-        // let modeCircles = chartArea5.selectAll("circles.mode").data(data)
-        //                     .join("circle")
-        //                     .attr("class", "mode")
-        //                     .attr("r", 4)
-        //                     .attr("cx", d => popScale(d['track_pop']))
-        //                     .attr("cy", d => modeScale(d['mode']))
-        //                     .attr("fill", "#00f2ea")
-        //                     .attr("opacity", .6);
-        //
-        // chartArea5.append("text")
-        // .attr("x", (chartWidth / 2))
-        // .attr("y", 0 - (margin.top / 2))
-        // .attr("text-anchor", "middle")
-        // .style("font-size", "16px")
-        // .text("Mode");-->
-
-
 </body>
 </html>
