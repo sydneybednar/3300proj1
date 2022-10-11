@@ -19,18 +19,13 @@
         padding: 40px;
     }
 
+    .first .row {
+        display: table;
+        margin: 0 auto;
+    }
+
     .title {
         font-weight: bold;
-
-    }
-
-    .artist-pop-text{
-        writing-mode: vertical-lr;
-
-    }
-
-    svg.combo{
-        padding:50px;
     }
 
     .axis.combo{
@@ -40,6 +35,7 @@
     .im-cover{
         background-color: rgb(118, 179, 193, 0.5);
         border: .5px solid rgb(118, 179, 193);
+        padding: 30px;
     }
 
     div img, #artist_pop {
@@ -49,9 +45,13 @@
     }
 
     .im-cover h2{
+        font-weight: lighter;
         text-align: center;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin: 20px;
+    }
+
+    #icon {
+        margin-bottom: 30px;
     }
 
     </style>
@@ -64,6 +64,8 @@
     <h1>Project 1</h1>
     <h3>Sydney Bednar, Noorejehan Umar, Victoria Eshun</h3>
 <div class="im-cover">
+    <!-- Source: https://www.stickpng.com/img/icons-logos-emojis/tech-companies/tiktok-icon -->
+    <img id="icon" src='tiktok-icon.png'/>
     <img src='title1.png'/>
     <h2>How do music features relate to track popularity? In this
     chart, we examine 4 features, danceability, valence, energy,
@@ -84,24 +86,29 @@
         </svg>
         <svg id="acousticness" width=500 height=500>
         </svg>
-        <!-- <svg id="mode" width=500 height=500>
-        </svg> -->
     </div>
 
 </div>
 <div class="im-cover">
-<img src='title2.png'/>
+    <img src='title2.png'/>
+    <h2>In the charts above, the regression lines have slopes close to
+    zero. Does this mean that all TikTok songs are the same regardless
+    of popularity? Below, we look at the features all together to see
+    what mixture of music features makes a true TikTok song...</h2>
 </div>
 
 <div class="first">
-
   <svg id="combo" width=1200 height=800>
     </svg>
 </div>
 
 </div>
 <div class="im-cover">
-<img src='title3.png'/>
+    <img src='title3.png'/>
+    <h2>We have the formula to creating a TikTok song, but we still want
+        to know what makes some tracks more popular than others. Does the
+        popularity of the artist matter? Let's see if artist popularity
+        and track popularity are correlated.</h2>
 </div>
 
 <div class="first">
@@ -393,7 +400,7 @@
         const svg7 = d3.select("svg#artist_pop")
         var width = svg7.attr("width");
         var height = svg7.attr("height");
-        var margin = {top: 50, right: 10, bottom: 70, left: 50};
+        var margin = {top: 50, right: 10, bottom: 70, left: 100};
         var chartWidth = width - margin.left - margin.right;
         var chartHeight = height - margin.top - margin.bottom;
 
@@ -436,17 +443,18 @@
                             .attr("stroke-width", 0.5)
                             .attr("opacity", .6);
 
-      chartArea7.append("text")
+      annotations7.append("text")
         .attr("class", "artist-pop-text")
-        .attr("x", (-margin.left+10))
-        .attr("y", chartHeight/2)
+        .attr("x", -chartHeight/2)
+        .attr("y", 50)
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
+        .attr("transform", "rotate(-90)" )
         .text("Artist Popularity");
 
       chartArea7.append("text")
         .attr("x", (chartWidth / 2))
-        .attr("y", (chartHeight + 45))
+        .attr("y", (chartHeight + 50))
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
         .text("Track Popularity");
